@@ -1,0 +1,1109 @@
+
+
+*******************************************************************************
+Wed Apr 13 17:31:58 2016
+
+
+FIT:    data read from "../data/Daten/00_nofilter.tab" u 1:2
+        format = x:z
+        #datapoints = 2046
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x) [0.005:0.015]
+	f(x)=Imax-dI*exp(-(x-x0)/T)
+fitted parameters initialized with current variable values
+
+
+
+*******************************************************************************
+Wed Apr 13 17:35:07 2016
+
+
+FIT:    data read from "../data/Daten/00_nofilter.tab" u 1:2
+        format = x:z
+        #datapoints = 2046
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x) [0.005:0.015]
+	f(x)=Imax-dI*exp(-(x-x0)/T)
+fitted parameters initialized with current variable values
+
+
+
+*******************************************************************************
+Wed Apr 13 17:38:36 2016
+
+
+FIT:    data read from "../data/Daten/00_nofilter.tab" u 1:2
+        format = x:z
+        x range restricted to [0.00500000 : 0.0150000]
+        #datapoints = 1001
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=Imax-dI*exp(-(x-x0)/T)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   Imax          dI            x0            T            
+   0 2.8837248108e+03  0.00e+00 2.38e+00  1.000000e+00  1.000000e+00  1.000000e+00  1.000000e+00
+ 992 9.5919953749e-01 -5.72e-02 2.38e-07  4.504777e-02  2.352318e-01  3.700144e-03  2.761987e-03
+
+After 992 iterations the fit converged.
+final sum of squares of residuals : 0.9592
+rel. change during last iteration : -5.72038e-007
+
+degrees of freedom    (FIT_NDF)                        : 997
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.0310175
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.000962086
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+Imax            = 0.0450478        +/- 0.002794     (6.203%)
+dI              = 0.235232         +/- 3.276e+010   (1.393e+013%)
+x0              = 0.00370014       +/- 3.844e+008   (1.039e+013%)
+T               = 0.00276199       +/- 0.0001987    (7.195%)
+
+correlation matrix of the fit parameters:
+                Imax   dI     x0     T      
+Imax            1.000 
+dI             -0.003  1.000 
+x0              0.003 -1.000  1.000 
+T               0.861 -0.020  0.020  1.000 
+
+
+*******************************************************************************
+Wed Apr 13 17:45:05 2016
+
+
+FIT:    data read from "../data/Daten/00_nofilter.tab" u 1:2
+        format = x:z
+        x range restricted to [0.00500000 : 0.0150000]
+        #datapoints = 1001
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=x>x0 ? Imax-dI*exp(-(x-x0)/T) : 0
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   Imax          dI            x0            T            
+   0 2.4168360000e+00  0.00e+00 0.00e+00  1.000000e+00  2.200000e-01  1.000000e+00  1.000000e+00
+BREAK: Singular matrix in Givens()
+
+*******************************************************************************
+Wed Apr 13 17:47:27 2016
+
+
+FIT:    data read from "../data/Daten/00_nofilter.tab" u 1:2
+        format = x:z
+        x range restricted to [0.00500000 : 0.0150000]
+        #datapoints = 1001
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)= x<x0 ? 0 : Imax-dI*exp(-(x-x0)/T)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   Imax          dI            x0            T            
+   0 2.4168360000e+00  0.00e+00 0.00e+00  1.000000e+00  2.200000e-01  1.000000e+00  1.000000e+00
+BREAK: Singular matrix in Givens()
+
+*******************************************************************************
+Wed Apr 13 18:03:30 2016
+
+
+FIT:    data read from "../data/Daten/00_nofilter.tab" u 1:2
+        format = x:z
+        x range restricted to [0.00540000 : 0.0150000]
+        #datapoints = 961
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)= Imax-dI*exp(-x/T)
+fitted parameters initialized with current variable values
+
+Warning: Initial value of parameter 'Imax' is zero.
+iter      chisq       delta/lim  lambda   Imax          dI            T            
+   0 1.7057955216e+00  0.00e+00 1.76e-02  1.000000e-30  2.200000e-01  2.700000e-03
+BREAK: Singular matrix in Invert_RtR
+
+*******************************************************************************
+Wed Apr 13 18:03:53 2016
+
+
+FIT:    data read from "../data/Daten/00_nofilter.tab" u 1:2
+        format = x:z
+        x range restricted to [0.00540000 : 0.0100000]
+        #datapoints = 461
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)= Imax-dI*exp(-x/T)
+fitted parameters initialized with current variable values
+
+Warning: Initial value of parameter 'Imax' is zero.
+iter      chisq       delta/lim  lambda   Imax          dI            T            
+   0 1.1071703953e+00  0.00e+00 2.44e-02  1.000000e-30  2.200000e-01  2.700000e-03
+BREAK: Singular matrix in Invert_RtR
+
+*******************************************************************************
+Wed Apr 13 18:05:06 2016
+
+
+FIT:    data read from "../data/Daten/00_nofilter.tab" u 1:2
+        format = x:z
+        x range restricted to [0.00540000 : 0.00800000]
+        #datapoints = 261
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)= Imax-dI*exp(-x/T)
+fitted parameters initialized with current variable values
+
+Warning: Initial value of parameter 'Imax' is zero.
+iter      chisq       delta/lim  lambda   Imax          dI            T            
+   0 9.6035730474e-01  0.00e+00 2.92e-02  1.000000e-30  2.200000e-01  2.700000e-03
+BREAK: Singular matrix in Invert_RtR
+
+*******************************************************************************
+Wed Apr 13 18:05:44 2016
+
+
+FIT:    data read from "../data/Daten/00_nofilter.tab" u 1:2
+        format = x:z
+        x range restricted to [0.00540000 : 0.00800000]
+        #datapoints = 261
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)= Imax-dI*exp(-x/T)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   Imax          dI            T            
+   0 2.0915129404e+00  0.00e+00 3.73e-02  4.000000e-02  2.200000e-01  2.700000e-03
+ 559 3.2787822995e-04 -4.49e-05 3.73e-04  2.746103e-02  3.738868e+01  1.049628e-03
+
+After 559 iterations the fit converged.
+final sum of squares of residuals : 0.000327878
+rel. change during last iteration : -4.49305e-010
+
+degrees of freedom    (FIT_NDF)                        : 258
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00112732
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.27085e-006
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+Imax            = 0.027461         +/- 0.0003542    (1.29%)
+dI              = 37.3887          +/- 0.8393       (2.245%)
+T               = 0.00104963       +/- 4.698e-006   (0.4476%)
+
+correlation matrix of the fit parameters:
+                Imax   dI     T      
+Imax            1.000 
+dI             -0.920  1.000 
+T               0.937 -0.998  1.000 
+
+
+*******************************************************************************
+Wed Apr 13 18:06:44 2016
+
+
+FIT:    data read from "../data/Daten/00_nofilter.tab" u 1:2
+        format = x:z
+        x range restricted to [0.00540000 : 0.00800000]
+        #datapoints = 261
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)= Imax-dI*exp(-x/T)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   Imax          dI            T            
+   0 2.9631097812e+00  0.00e+00 2.33e-02  4.000000e-02  2.200000e-02  2.700000e-03
+ 621 3.2787823193e-04 -4.64e-05 2.33e-09  2.746090e-02  3.738902e+01  1.049626e-03
+
+After 621 iterations the fit converged.
+final sum of squares of residuals : 0.000327878
+rel. change during last iteration : -4.64252e-010
+
+degrees of freedom    (FIT_NDF)                        : 258
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00112732
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.27085e-006
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+Imax            = 0.0274609        +/- 0.0003542    (1.29%)
+dI              = 37.389           +/- 0.8393       (2.245%)
+T               = 0.00104963       +/- 4.698e-006   (0.4476%)
+
+correlation matrix of the fit parameters:
+                Imax   dI     T      
+Imax            1.000 
+dI             -0.920  1.000 
+T               0.937 -0.998  1.000 
+
+
+*******************************************************************************
+Wed Apr 13 18:15:52 2016
+
+
+FIT:    data read from "../data/Daten/00_nofilter.tab" u 1:2
+        format = x:z
+        x range restricted to [0.00540000 : 0.0100000]
+        #datapoints = 461
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)= Imax-dI*exp(-(x-x0)/T)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   Imax          dI            T            
+   0 2.7908515089e-01  0.00e+00 6.71e-02  3.500000e-02  2.000000e-01  2.000000e-03
+   5 5.7019229124e-04 -1.77e-01 6.71e-07  2.711770e-02  2.175209e-01  1.048674e-03
+
+After 5 iterations the fit converged.
+final sum of squares of residuals : 0.000570192
+rel. change during last iteration : -1.76872e-006
+
+degrees of freedom    (FIT_NDF)                        : 458
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00111578
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.24496e-006
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+Imax            = 0.0271177        +/- 0.0001165    (0.4298%)
+dI              = 0.217521         +/- 0.0002177    (0.1001%)
+T               = 0.00104867       +/- 2.488e-006   (0.2372%)
+
+correlation matrix of the fit parameters:
+                Imax   dI     T      
+Imax            1.000 
+dI              0.113  1.000 
+T               0.802 -0.328  1.000 
+
+
+*******************************************************************************
+Wed Apr 13 18:16:44 2016
+
+
+FIT:    data read from "../data/Daten/00_nofilter.tab" u 1:2
+        format = x:z
+        x range restricted to [0.00540000 : 0.0150000]
+        #datapoints = 961
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)= Imax-dI*exp(-(x-x0)/T)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   Imax          dI            T            
+   0 2.9208528697e-01  0.00e+00 4.99e-02  3.500000e-02  2.000000e-01  2.000000e-03
+   4 4.9280184344e-03 -1.34e-01 4.99e-06  3.223103e-02  2.182669e-01  1.143386e-03
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 0.00492802
+rel. change during last iteration : -1.33758e-006
+
+degrees of freedom    (FIT_NDF)                        : 958
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00226805
+variance of residuals (reduced chisquare) = WSSR/ndf   : 5.14407e-006
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+Imax            = 0.032231         +/- 0.0001009    (0.313%)
+dI              = 0.218267         +/- 0.0004204    (0.1926%)
+T               = 0.00114339       +/- 3.767e-006   (0.3295%)
+
+correlation matrix of the fit parameters:
+                Imax   dI     T      
+Imax            1.000 
+dI              0.006  1.000 
+T               0.557 -0.581  1.000 
+
+
+*******************************************************************************
+Wed Apr 13 18:16:54 2016
+
+
+FIT:    data read from "../data/Daten/00_nofilter.tab" u 1:2
+        format = x:z
+        x range restricted to [0.00540000 : 0.0150000]
+        #datapoints = 961
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)= Imax-dI*exp(-(x-x0)/T)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   Imax          dI            T            
+   0 2.9208528697e-01  0.00e+00 4.99e-02  3.500000e-02  2.000000e-01  2.000000e-03
+   4 4.9280184344e-03 -1.34e-01 4.99e-06  3.223103e-02  2.182669e-01  1.143386e-03
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 0.00492802
+rel. change during last iteration : -1.33758e-006
+
+degrees of freedom    (FIT_NDF)                        : 958
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00226805
+variance of residuals (reduced chisquare) = WSSR/ndf   : 5.14407e-006
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+Imax            = 0.032231         +/- 0.0001009    (0.313%)
+dI              = 0.218267         +/- 0.0004204    (0.1926%)
+T               = 0.00114339       +/- 3.767e-006   (0.3295%)
+
+correlation matrix of the fit parameters:
+                Imax   dI     T      
+Imax            1.000 
+dI              0.006  1.000 
+T               0.557 -0.581  1.000 
+
+
+*******************************************************************************
+Wed Apr 13 18:17:13 2016
+
+
+FIT:    data read from "../data/Daten/00_nofilter.tab" u 1:2
+        format = x:z
+        x range restricted to [0.00540000 : 0.0150000]
+        #datapoints = 961
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)= Imax-dI*exp(-(x-x0)/T)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   Imax          dI            T            
+   0 2.9208528697e-01  0.00e+00 4.99e-02  3.500000e-02  2.000000e-01  2.000000e-03
+   4 4.9280184344e-03 -1.34e-01 4.99e-06  3.223103e-02  2.182669e-01  1.143386e-03
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 0.00492802
+rel. change during last iteration : -1.33758e-006
+
+degrees of freedom    (FIT_NDF)                        : 958
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00226805
+variance of residuals (reduced chisquare) = WSSR/ndf   : 5.14407e-006
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+Imax            = 0.032231         +/- 0.0001009    (0.313%)
+dI              = 0.218267         +/- 0.0004204    (0.1926%)
+T               = 0.00114339       +/- 3.767e-006   (0.3295%)
+
+correlation matrix of the fit parameters:
+                Imax   dI     T      
+Imax            1.000 
+dI              0.006  1.000 
+T               0.557 -0.581  1.000 
+
+
+*******************************************************************************
+Wed Apr 13 18:17:51 2016
+
+
+FIT:    data read from "../data/Daten/00_nofilter.tab" u 1:2
+        format = x:z
+        x range restricted to [0.00540000 : 0.0150000]
+        #datapoints = 961
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)= Imax-dI*exp(-(x-x0)/T)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   Imax          dI            T            
+   0 2.9208528697e-01  0.00e+00 4.99e-02  3.500000e-02  2.000000e-01  2.000000e-03
+   4 4.9280184344e-03 -1.34e-01 4.99e-06  3.223103e-02  2.182669e-01  1.143386e-03
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 0.00492802
+rel. change during last iteration : -1.33758e-006
+
+degrees of freedom    (FIT_NDF)                        : 958
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00226805
+variance of residuals (reduced chisquare) = WSSR/ndf   : 5.14407e-006
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+Imax            = 0.032231         +/- 0.0001009    (0.313%)
+dI              = 0.218267         +/- 0.0004204    (0.1926%)
+T               = 0.00114339       +/- 3.767e-006   (0.3295%)
+
+correlation matrix of the fit parameters:
+                Imax   dI     T      
+Imax            1.000 
+dI              0.006  1.000 
+T               0.557 -0.581  1.000 
+
+
+*******************************************************************************
+Wed Apr 13 18:18:41 2016
+
+
+FIT:    data read from "../data/Daten/00_nofilter.tab" u 1:2
+        format = x:z
+        x range restricted to [0.00540000 : 0.0150000]
+        #datapoints = 961
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)= Imax-dI*exp(-(x-x0)/T)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   Imax          dI            T            
+   0 2.9208528697e-01  0.00e+00 4.99e-02  3.500000e-02  2.000000e-01  2.000000e-03
+   4 4.9280184344e-03 -1.34e-01 4.99e-06  3.223103e-02  2.182669e-01  1.143386e-03
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 0.00492802
+rel. change during last iteration : -1.33758e-006
+
+degrees of freedom    (FIT_NDF)                        : 958
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00226805
+variance of residuals (reduced chisquare) = WSSR/ndf   : 5.14407e-006
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+Imax            = 0.032231         +/- 0.0001009    (0.313%)
+dI              = 0.218267         +/- 0.0004204    (0.1926%)
+T               = 0.00114339       +/- 3.767e-006   (0.3295%)
+
+correlation matrix of the fit parameters:
+                Imax   dI     T      
+Imax            1.000 
+dI              0.006  1.000 
+T               0.557 -0.581  1.000 
+
+
+*******************************************************************************
+Wed Apr 13 18:19:24 2016
+
+
+FIT:    data read from "../data/Daten/00_nofilter.tab" u 1:2
+        format = x:z
+        x range restricted to [0.00540000 : 0.0120000]
+        #datapoints = 661
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)= Imax-dI*exp(-(x-x0)/T)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   Imax          dI            T            
+   0 2.8943814194e-01  0.00e+00 5.83e-02  3.500000e-02  2.000000e-01  2.000000e-03
+   5 1.7395902241e-03  0.00e+00 5.83e+04  2.960984e-02  2.181614e-01  1.090783e-03
+
+After 5 iterations the fit converged.
+final sum of squares of residuals : 0.00173959
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 658
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00162596
+variance of residuals (reduced chisquare) = WSSR/ndf   : 2.64375e-006
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+Imax            = 0.0296098        +/- 0.0001053    (0.3556%)
+dI              = 0.218161         +/- 0.0003086    (0.1415%)
+T               = 0.00109078       +/- 2.991e-006   (0.2742%)
+
+correlation matrix of the fit parameters:
+                Imax   dI     T      
+Imax            1.000 
+dI              0.025  1.000 
+T               0.680 -0.499  1.000 
+
+
+*******************************************************************************
+Wed Apr 13 18:20:09 2016
+
+
+FIT:    data read from "../data/Daten/00_nofilter.tab" u 1:2
+        format = x:z
+        x range restricted to [0.00540000 : 0.0150000]
+        #datapoints = 961
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)= Imax-dI*exp(-(x-x0)/T)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   Imax          dI            T            
+   0 2.9208528697e-01  0.00e+00 4.99e-02  3.500000e-02  2.000000e-01  2.000000e-03
+   4 4.9280184344e-03 -1.34e-01 4.99e-06  3.223103e-02  2.182669e-01  1.143386e-03
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 0.00492802
+rel. change during last iteration : -1.33758e-006
+
+degrees of freedom    (FIT_NDF)                        : 958
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00226805
+variance of residuals (reduced chisquare) = WSSR/ndf   : 5.14407e-006
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+Imax            = 0.032231         +/- 0.0001009    (0.313%)
+dI              = 0.218267         +/- 0.0004204    (0.1926%)
+T               = 0.00114339       +/- 3.767e-006   (0.3295%)
+
+correlation matrix of the fit parameters:
+                Imax   dI     T      
+Imax            1.000 
+dI              0.006  1.000 
+T               0.557 -0.581  1.000 
+
+
+*******************************************************************************
+Wed Apr 13 18:20:31 2016
+
+
+FIT:    data read from "../data/Daten/00_nofilter.tab" u 1:2
+        format = x:z
+        x range restricted to [0.00540000 : 0.0140000]
+        #datapoints = 861
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)= Imax-dI*exp(-(x-x0)/T)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   Imax          dI            T            
+   0 2.9140682593e-01  0.00e+00 5.23e-02  3.500000e-02  2.000000e-01  2.000000e-03
+   4 3.6241475196e-03 -3.30e-01 5.23e-06  3.146270e-02  2.182887e-01  1.127130e-03
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 0.00362415
+rel. change during last iteration : -3.29501e-006
+
+degrees of freedom    (FIT_NDF)                        : 858
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00205522
+variance of residuals (reduced chisquare) = WSSR/ndf   : 4.22395e-006
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+Imax            = 0.0314627        +/- 0.0001011    (0.3212%)
+dI              = 0.218289         +/- 0.0003837    (0.1758%)
+T               = 0.00112713       +/- 3.49e-006    (0.3096%)
+
+correlation matrix of the fit parameters:
+                Imax   dI     T      
+Imax            1.000 
+dI              0.008  1.000 
+T               0.591 -0.563  1.000 
+
+
+*******************************************************************************
+Wed Apr 13 18:21:01 2016
+
+
+FIT:    data read from "../data/Daten/00_nofilter.tab" u 1:2
+        format = x:z
+        x range restricted to [0.00540000 : 0.0145000]
+        #datapoints = 911
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)= Imax-dI*exp(-(x-x0)/T)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   Imax          dI            T            
+   0 2.9178657702e-01  0.00e+00 5.11e-02  3.500000e-02  2.000000e-01  2.000000e-03
+   4 4.3113940462e-03 -2.03e-01 5.11e-06  3.187682e-02  2.182817e-01  1.135810e-03
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 0.00431139
+rel. change during last iteration : -2.03499e-006
+
+degrees of freedom    (FIT_NDF)                        : 908
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00217904
+variance of residuals (reduced chisquare) = WSSR/ndf   : 4.74823e-006
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+Imax            = 0.0318768        +/- 0.0001017    (0.319%)
+dI              = 0.218282         +/- 0.0004053    (0.1857%)
+T               = 0.00113581       +/- 3.657e-006   (0.322%)
+
+correlation matrix of the fit parameters:
+                Imax   dI     T      
+Imax            1.000 
+dI              0.007  1.000 
+T               0.573 -0.573  1.000 
+
+
+*******************************************************************************
+Wed Apr 13 18:35:26 2016
+
+
+FIT:    data read from "../data/Daten/16_066.tab" u 1:2
+        format = x:z
+        x range restricted to [0.00540000 : 0.0145000]
+        #datapoints = 911
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)= Imax-dI*exp(-(x-x0)/T)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   Imax          dI            T            
+   0 2.2984539228e+00  0.00e+00 5.11e-02  3.500000e-02  2.000000e-01  2.000000e-03
+   5 1.7510440668e-05 -3.12e-01 5.11e-07  9.157733e-04  2.635868e-03  3.062326e-03
+
+After 5 iterations the fit converged.
+final sum of squares of residuals : 1.75104e-005
+rel. change during last iteration : -3.11745e-006
+
+degrees of freedom    (FIT_NDF)                        : 908
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.000138869
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.92846e-008
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+Imax            = 0.000915773      +/- 1.747e-005   (1.908%)
+dI              = 0.00263587       +/- 1.809e-005   (0.6862%)
+T               = 0.00306233       +/- 6.517e-005   (2.128%)
+
+correlation matrix of the fit parameters:
+                Imax   dI     T      
+Imax            1.000 
+dI              0.455  1.000 
+T               0.908  0.145  1.000 
+
+
+*******************************************************************************
+Wed Apr 13 18:35:54 2016
+
+
+FIT:    data read from "../data/Daten/16_066.tab" u 1:2
+        format = x:z
+        x range restricted to [0.00540000 : 0.0145000]
+        #datapoints = 911
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)= Imax-dI*exp(-(x-x0)/T)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   Imax          dI            T            
+   0 2.2984539228e+00  0.00e+00 5.11e-02  3.500000e-02  2.000000e-01  2.000000e-03
+   5 1.7510440668e-05 -3.12e-01 5.11e-07  9.157733e-04  2.635868e-03  3.062326e-03
+
+After 5 iterations the fit converged.
+final sum of squares of residuals : 1.75104e-005
+rel. change during last iteration : -3.11745e-006
+
+degrees of freedom    (FIT_NDF)                        : 908
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.000138869
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.92846e-008
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+Imax            = 0.000915773      +/- 1.747e-005   (1.908%)
+dI              = 0.00263587       +/- 1.809e-005   (0.6862%)
+T               = 0.00306233       +/- 6.517e-005   (2.128%)
+
+correlation matrix of the fit parameters:
+                Imax   dI     T      
+Imax            1.000 
+dI              0.455  1.000 
+T               0.908  0.145  1.000 
+
+
+*******************************************************************************
+Wed Apr 13 18:36:33 2016
+
+
+FIT:    data read from "../data/Daten/16_066.tab" u 1:2
+        format = x:z
+        x range restricted to [0.00540000 : 0.0145000]
+        #datapoints = 911
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)= Imax-dI*exp(-(x-x0)/T)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   Imax          dI            T            
+   0 2.2984539228e+00  0.00e+00 5.11e-02  3.500000e-02  2.000000e-01  2.000000e-03
+   5 1.7510440668e-05 -3.12e-01 5.11e-07  9.157733e-04  2.635868e-03  3.062326e-03
+
+After 5 iterations the fit converged.
+final sum of squares of residuals : 1.75104e-005
+rel. change during last iteration : -3.11745e-006
+
+degrees of freedom    (FIT_NDF)                        : 908
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.000138869
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.92846e-008
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+Imax            = 0.000915773      +/- 1.747e-005   (1.908%)
+dI              = 0.00263587       +/- 1.809e-005   (0.6862%)
+T               = 0.00306233       +/- 6.517e-005   (2.128%)
+
+correlation matrix of the fit parameters:
+                Imax   dI     T      
+Imax            1.000 
+dI              0.455  1.000 
+T               0.908  0.145  1.000 
+
+
+*******************************************************************************
+Wed Apr 13 18:38:04 2016
+
+
+FIT:    data read from "../data/Daten/16_066.tab" u 1:2
+        format = x:z
+        x range restricted to [0.00531000 : 0.0145000]
+        #datapoints = 920
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)= Imax-dI*exp(-(x-x0)/T)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   Imax          dI            T            
+   0 2.5545616079e+00  0.00e+00 5.22e-02  3.500000e-02  2.000000e-01  2.000000e-03
+   5 2.0602484532e-05 -1.44e-01 5.22e-07  9.422218e-04  2.611742e-03  3.200960e-03
+
+After 5 iterations the fit converged.
+final sum of squares of residuals : 2.06025e-005
+rel. change during last iteration : -1.444e-006
+
+degrees of freedom    (FIT_NDF)                        : 917
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.000149891
+variance of residuals (reduced chisquare) = WSSR/ndf   : 2.24673e-008
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+Imax            = 0.000942222      +/- 1.981e-005   (2.102%)
+dI              = 0.00261174       +/- 1.954e-005   (0.748%)
+T               = 0.00320096       +/- 7.365e-005   (2.301%)
+
+correlation matrix of the fit parameters:
+                Imax   dI     T      
+Imax            1.000 
+dI              0.567  1.000 
+T               0.914  0.285  1.000 
+
+
+*******************************************************************************
+Wed Apr 13 18:39:09 2016
+
+
+FIT:    data read from "../data/Daten/16_066.tab" u 1:2
+        format = x:z
+        x range restricted to [0.00531000 : 0.0125000]
+        #datapoints = 720
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)= Imax-dI*exp(-(x-x0)/T)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   Imax          dI            T            
+   0 2.3663353652e+00  0.00e+00 5.78e-02  3.500000e-02  2.000000e-01  2.000000e-03
+   6 1.7842261912e-05 -1.40e-03 5.78e-08  1.006100e-03  2.663379e-03  3.364052e-03
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 1.78423e-005
+rel. change during last iteration : -1.39968e-008
+
+degrees of freedom    (FIT_NDF)                        : 717
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.000157749
+variance of residuals (reduced chisquare) = WSSR/ndf   : 2.48846e-008
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+Imax            = 0.0010061        +/- 3.865e-005   (3.841%)
+dI              = 0.00266338       +/- 3.272e-005   (1.229%)
+T               = 0.00336405       +/- 0.0001178    (3.502%)
+
+correlation matrix of the fit parameters:
+                Imax   dI     T      
+Imax            1.000 
+dI              0.853  1.000 
+T               0.955  0.704  1.000 
+
+
+*******************************************************************************
+Wed Apr 13 18:40:20 2016
+
+
+FIT:    data read from "../data/Daten/16_066.tab" u 1:2
+        format = x:z
+        x range restricted to [0.00531000 : 0.00800000]
+        #datapoints = 270
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)= Imax-dI*exp(-(x-x0)/T)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   Imax          dI            T            
+   0 2.2106653860e+00  0.00e+00 8.16e-02  3.500000e-02  2.000000e-01  2.000000e-03
+   6 8.3861848611e-06 -1.18e-03 8.16e-08  9.801385e-04  2.647322e-03  3.274147e-03
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 8.38618e-006
+rel. change during last iteration : -1.17982e-008
+
+degrees of freedom    (FIT_NDF)                        : 267
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.000177226
+variance of residuals (reduced chisquare) = WSSR/ndf   : 3.14089e-008
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+Imax            = 0.000980138      +/- 0.000433     (44.18%)
+dI              = 0.00264732       +/- 0.000416     (15.71%)
+T               = 0.00327415       +/- 0.0007685    (23.47%)
+
+correlation matrix of the fit parameters:
+                Imax   dI     T      
+Imax            1.000 
+dI              0.998  1.000 
+T               0.994  0.988  1.000 
+
+
+*******************************************************************************
+Wed Apr 13 18:40:57 2016
+
+
+FIT:    data read from "../data/Daten/16_066.tab" u 1:2
+        format = x:z
+        x range restricted to [0.00531000 : 0.00500000]
+BREAK: No data to fit
+
+*******************************************************************************
+Wed Apr 13 18:41:12 2016
+
+
+FIT:    data read from "../data/Daten/16_066.tab" u 1:2
+        format = x:z
+        x range restricted to [0.00531000 : 0.00600000]
+        #datapoints = 70
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)= Imax-dI*exp(-(x-x0)/T)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   Imax          dI            T            
+   0 1.4032762941e+00  0.00e+00 1.06e-01  3.500000e-02  2.000000e-01  2.000000e-03
+  13 4.5359814138e-06 -7.59e-03 1.06e-12  4.147736e+02  4.147753e+02  7.492484e+02
+
+After 13 iterations the fit converged.
+final sum of squares of residuals : 4.53598e-006
+rel. change during last iteration : -7.58547e-008
+
+degrees of freedom    (FIT_NDF)                        : 67
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.000260195
+variance of residuals (reduced chisquare) = WSSR/ndf   : 6.77012e-008
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+Imax            = 414.774          +/- 2.548e+008   (6.143e+007%)
+dI              = 414.775          +/- 2.548e+008   (6.143e+007%)
+T               = 749.248          +/- 4.607e+008   (6.149e+007%)
+
+correlation matrix of the fit parameters:
+                Imax   dI     T      
+Imax            1.000 
+dI              1.000  1.000 
+T               1.000  1.000  1.000 
+
+
+*******************************************************************************
+Wed Apr 13 18:41:33 2016
+
+
+FIT:    data read from "../data/Daten/16_066.tab" u 1:2
+        format = x:z
+        x range restricted to [0.00531000 : 0.00700000]
+        #datapoints = 170
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)= Imax-dI*exp(-(x-x0)/T)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   Imax          dI            T            
+   0 2.0772422392e+00  0.00e+00 9.12e-02  3.500000e-02  2.000000e-01  2.000000e-03
+   8 6.3091519483e-06 -2.83e-03 9.12e-10  6.088725e-03  7.741020e-03  1.093330e-02
+
+After 8 iterations the fit converged.
+final sum of squares of residuals : 6.30915e-006
+rel. change during last iteration : -2.8256e-008
+
+degrees of freedom    (FIT_NDF)                        : 167
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.000194369
+variance of residuals (reduced chisquare) = WSSR/ndf   : 3.77794e-008
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+Imax            = 0.00608872       +/- 0.01657      (272.2%)
+dI              = 0.00774102       +/- 0.01655      (213.8%)
+T               = 0.0109333        +/- 0.02508      (229.4%)
+
+correlation matrix of the fit parameters:
+                Imax   dI     T      
+Imax            1.000 
+dI              1.000  1.000 
+T               1.000  1.000  1.000 
+
+
+*******************************************************************************
+Wed Apr 13 18:42:27 2016
+
+
+FIT:    data read from "../data/Daten/16_066.tab" u 1:2
+        format = x:z
+        x range restricted to [0.00533000 : 0.0145000]
+        #datapoints = 918
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)= Imax-dI*exp(-(x-x0)/T)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   Imax          dI            T            
+   0 2.4947131478e+00  0.00e+00 5.19e-02  3.500000e-02  2.000000e-01  2.000000e-03
+   5 1.8066778880e-05 -2.34e-01 5.19e-07  9.236584e-04  2.628149e-03  3.103646e-03
+
+After 5 iterations the fit converged.
+final sum of squares of residuals : 1.80668e-005
+rel. change during last iteration : -2.33543e-006
+
+degrees of freedom    (FIT_NDF)                        : 915
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.000140517
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.97451e-008
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+Imax            = 0.000923658      +/- 1.777e-005   (1.924%)
+dI              = 0.00262815       +/- 1.809e-005   (0.6884%)
+T               = 0.00310365       +/- 6.556e-005   (2.112%)
+
+correlation matrix of the fit parameters:
+                Imax   dI     T      
+Imax            1.000 
+dI              0.519  1.000 
+T               0.909  0.222  1.000 
+
+
+*******************************************************************************
+Wed Apr 13 18:44:16 2016
+
+
+FIT:    data read from "../data/Daten/16_066.tab" u 1:2
+        format = x:z
+        x range restricted to [0.00550000 : 0.0145000]
+        #datapoints = 901
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)= Imax-dI*exp(-(x-x0)/T)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   Imax          dI            T            
+   0 2.0465137094e+00  0.00e+00 4.99e-02  3.500000e-02  2.000000e-01  2.000000e-03
+   5 1.6963554964e-05 -2.18e-01 4.99e-07  9.342653e-04  2.615796e-03  3.161374e-03
+
+After 5 iterations the fit converged.
+final sum of squares of residuals : 1.69636e-005
+rel. change during last iteration : -2.17712e-006
+
+degrees of freedom    (FIT_NDF)                        : 898
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.000137442
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.88904e-008
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+Imax            = 0.000934265      +/- 1.86e-005    (1.991%)
+dI              = 0.0026158        +/- 1.856e-005   (0.7096%)
+T               = 0.00316137       +/- 7.189e-005   (2.274%)
+
+correlation matrix of the fit parameters:
+                Imax   dI     T      
+Imax            1.000 
+dI              0.426  1.000 
+T               0.916  0.120  1.000 
+
+
+*******************************************************************************
+Wed Apr 13 18:46:00 2016
+
+
+FIT:    data read from "../data/Daten/00_nofilter.tab" u 1:2
+        format = x:z
+        x range restricted to [0.00540000 : 0.0145000]
+        #datapoints = 911
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)= Imax-dI*exp(-(x-x0)*a)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   Imax          dI            a            
+   0 2.9178657702e-01  0.00e+00 5.10e-02  3.500000e-02  2.000000e-01  5.000000e+02
+   5 4.3113938086e-03 -6.07e-03 5.10e-02  3.187655e-02  2.182830e-01  8.804450e+02
+
+After 5 iterations the fit converged.
+final sum of squares of residuals : 0.00431139
+rel. change during last iteration : -6.06542e-008
+
+degrees of freedom    (FIT_NDF)                        : 908
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00217904
+variance of residuals (reduced chisquare) = WSSR/ndf   : 4.74823e-006
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+Imax            = 0.0318766        +/- 0.0001016    (0.3189%)
+dI              = 0.218283         +/- 0.0004055    (0.1858%)
+a               = 880.445          +/- 2.836        (0.3221%)
+
+correlation matrix of the fit parameters:
+                Imax   dI     a      
+Imax            1.000 
+dI              0.007  1.000 
+a              -0.573  0.573  1.000 
+
+
+*******************************************************************************
+Wed Apr 13 18:46:00 2016
+
+
+FIT:    data read from "../data/Daten/16_066.tab" u 1:2
+        format = x:z
+        x range restricted to [0.00531000 : 0.0145000]
+        #datapoints = 920
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)= Imax-dI*exp(-(x-x0)*a)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   Imax          dI            a            
+   0 2.3561687310e+00  0.00e+00 4.46e-02  3.187655e-02  2.182830e-01  8.804450e+02
+  15 2.0602484531e-05 -5.03e-04 4.46e-07  9.422217e-04  2.611741e-03  3.124063e+02
+
+After 15 iterations the fit converged.
+final sum of squares of residuals : 2.06025e-005
+rel. change during last iteration : -5.02647e-009
+
+degrees of freedom    (FIT_NDF)                        : 917
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.000149891
+variance of residuals (reduced chisquare) = WSSR/ndf   : 2.24673e-008
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+Imax            = 0.000942222      +/- 1.977e-005   (2.099%)
+dI              = 0.00261174       +/- 1.952e-005   (0.7476%)
+a               = 312.406          +/- 7.182        (2.299%)
+
+correlation matrix of the fit parameters:
+                Imax   dI     a      
+Imax            1.000 
+dI              0.566  1.000 
+a              -0.914 -0.283  1.000 
