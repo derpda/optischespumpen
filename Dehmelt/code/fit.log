@@ -30240,3 +30240,4347 @@ correlation matrix of the fit parameters:
                 grad   Trelax 
 grad            1.000 
 Trelax          0.913  1.000 
+
+
+*******************************************************************************
+Mon Apr 18 12:55:37 2016
+
+
+FIT:    data read from '../data/Transmissionen/'.word(translist,Ntrans) u 1:2
+        format = x:z
+        #datapoints = 2046
+        residuals are weighted equally (unit weight)
+
+function used for fitting: NL(x)
+	NL(x)=nolaser
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   nolaser      
+   0 2.3129275520e+03  0.00e+00 1.00e+00  1.000000e+00
+   3 1.1650033236e-02 -1.13e-07 1.00e-03 -6.322972e-02
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 0.01165
+rel. change during last iteration : -1.13166e-012
+
+degrees of freedom    (FIT_NDF)                        : 2045
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.0023868
+variance of residuals (reduced chisquare) = WSSR/ndf   : 5.69684e-006
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+nolaser         = -0.0632297       +/- 5.277e-005   (0.08345%)
+
+
+*******************************************************************************
+Mon Apr 18 12:55:37 2016
+
+
+FIT:    data read from '../data/Transmissionen/'.word(translist,1) u 1:2
+        format = x:z
+        #datapoints = 2046
+        residuals are weighted equally (unit weight)
+
+function used for fitting: NF(x)
+	NF(x)=nofilter
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   nofilter     
+   0 3.2848710000e+02  0.00e+00 1.00e+00  1.000000e+00
+   3 1.4155669599e-02 -1.32e-08 1.00e-03  1.400679e+00
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 0.0141557
+rel. change during last iteration : -1.3235e-013
+
+degrees of freedom    (FIT_NDF)                        : 2045
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00263099
+variance of residuals (reduced chisquare) = WSSR/ndf   : 6.92209e-006
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+nofilter        = 1.40068          +/- 5.817e-005   (0.004153%)
+
+
+*******************************************************************************
+Mon Apr 18 12:55:37 2016
+
+
+FIT:    data read from '../data/Daten/'.data u 1:2:(1/sqrt(12)*word(binw,i)) yerror
+        format = x:z:s
+        x range restricted to [0.00550000 : 0.0120000]
+        #datapoints = 651
+function used for fitting: f(x)
+	f(x)=Imax-dI*exp(-a*(x-x0))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   Imax          dI            a            
+   0 3.0922933298e+05  0.00e+00 6.85e+01  2.000000e-02  3.000000e-01  1.200000e+03
+   5 5.1338673439e+03  0.00e+00 6.85e+05  2.956099e-02  3.157789e-01  9.194457e+02
+
+After 5 iterations the fit converged.
+final sum of squares of residuals : 5133.87
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 648
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 2.81472
+variance of residuals (reduced chisquare) = WSSR/ndf   : 7.92263
+p-value of the Chisq distribution (FIT_P)              : 0
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+Imax            = 0.029561         +/- 0.0001069    (0.3617%)
+dI              = 0.315779         +/- 0.000803     (0.2543%)
+a               = 919.446          +/- 2.78         (0.3024%)
+
+correlation matrix of the fit parameters:
+                Imax   dI     a      
+Imax            1.000 
+dI             -0.358  1.000 
+a              -0.684  0.848  1.000 
+
+
+*******************************************************************************
+Mon Apr 18 12:55:38 2016
+
+
+FIT:    data read from '../data/Transmissionen/'.trans u 1:2
+        format = x:z
+        #datapoints = 2046
+        residuals are weighted equally (unit weight)
+
+function used for fitting: I(x)
+	I(x)=intensity
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   intensity    
+   0 2.4669200000e+01  0.00e+00 1.00e+00  1.000000e+00
+   3 9.3053763441e-03 -1.51e-09 1.00e-03  1.109785e+00
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 0.00930538
+rel. change during last iteration : -1.51002e-014
+
+degrees of freedom    (FIT_NDF)                        : 2045
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00213314
+variance of residuals (reduced chisquare) = WSSR/ndf   : 4.55031e-006
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+intensity       = 1.10978          +/- 4.716e-005   (0.004249%)
+
+
+*******************************************************************************
+Mon Apr 18 12:55:38 2016
+
+
+FIT:    data read from '../data/Daten/'.data u 1:2:(1/sqrt(12)*word(binw,i)) yerror
+        format = x:z:s
+        x range restricted to [0.00550000 : 0.0120000]
+        #datapoints = 651
+function used for fitting: f(x)
+	f(x)=Imax-dI*exp(-a*(x-x0))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   Imax          dI            a            
+   0 3.0164823553e+05  0.00e+00 9.01e+01  2.956099e-02  3.157789e-01  9.194457e+02
+   4 3.9498280431e+03 -2.57e-01 9.01e-03  2.303058e-02  2.594792e-01  1.029571e+03
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 3949.83
+rel. change during last iteration : -2.56631e-006
+
+degrees of freedom    (FIT_NDF)                        : 648
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 2.46889
+variance of residuals (reduced chisquare) = WSSR/ndf   : 6.09541
+p-value of the Chisq distribution (FIT_P)              : 0
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+Imax            = 0.0230306        +/- 8.677e-005   (0.3767%)
+dI              = 0.259479         +/- 0.0008191    (0.3157%)
+a               = 1029.57          +/- 3.523        (0.3422%)
+
+correlation matrix of the fit parameters:
+                Imax   dI     a      
+Imax            1.000 
+dI             -0.348  1.000 
+a              -0.640  0.868  1.000 
+
+
+*******************************************************************************
+Mon Apr 18 12:55:38 2016
+
+
+FIT:    data read from '../data/Transmissionen/'.trans u 1:2
+        format = x:z
+        #datapoints = 2046
+        residuals are weighted equally (unit weight)
+
+function used for fitting: I(x)
+	I(x)=intensity
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   intensity    
+   0 3.7649658520e+02  0.00e+00 1.11e+00  1.109785e+00
+   3 1.2188527859e-02 -1.76e-08 1.11e-03  6.808211e-01
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 0.0121885
+rel. change during last iteration : -1.76197e-013
+
+degrees of freedom    (FIT_NDF)                        : 2045
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00244134
+variance of residuals (reduced chisquare) = WSSR/ndf   : 5.96016e-006
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+intensity       = 0.680821         +/- 5.397e-005   (0.007928%)
+
+
+*******************************************************************************
+Mon Apr 18 12:55:38 2016
+
+
+FIT:    data read from '../data/Daten/'.data u 1:2:(1/sqrt(12)*word(binw,i)) yerror
+        format = x:z:s
+        x range restricted to [0.00550000 : 0.0120000]
+        #datapoints = 651
+function used for fitting: f(x)
+	f(x)=Imax-dI*exp(-a*(x-x0))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   Imax          dI            a            
+   0 3.3655438495e+06  0.00e+00 1.70e+02  2.303058e-02  2.594792e-01  1.029571e+03
+   5 3.9842844659e+03 -1.14e-11 1.70e+05  1.282266e-02  1.189816e-01  8.048176e+02
+
+After 5 iterations the fit converged.
+final sum of squares of residuals : 3984.28
+rel. change during last iteration : -1.14135e-016
+
+degrees of freedom    (FIT_NDF)                        : 648
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 2.47963
+variance of residuals (reduced chisquare) = WSSR/ndf   : 6.14859
+p-value of the Chisq distribution (FIT_P)              : 0
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+Imax            = 0.0128227        +/- 4.207e-005   (0.3281%)
+dI              = 0.118982         +/- 0.0002395    (0.2013%)
+a               = 804.818          +/- 2.171        (0.2698%)
+
+correlation matrix of the fit parameters:
+                Imax   dI     a      
+Imax            1.000 
+dI             -0.366  1.000 
+a              -0.737  0.820  1.000 
+
+
+*******************************************************************************
+Mon Apr 18 12:55:38 2016
+
+
+FIT:    data read from '../data/Transmissionen/'.trans u 1:2
+        format = x:z
+        #datapoints = 2046
+        residuals are weighted equally (unit weight)
+
+function used for fitting: I(x)
+	I(x)=intensity
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   intensity    
+   0 6.6472455695e+01  0.00e+00 6.81e-01  6.808211e-01
+   3 3.2211112414e-02 -1.18e-09 6.81e-04  5.006178e-01
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 0.0322111
+rel. change during last iteration : -1.18481e-014
+
+degrees of freedom    (FIT_NDF)                        : 2045
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00396877
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.57512e-005
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+intensity       = 0.500618         +/- 8.774e-005   (0.01753%)
+
+
+*******************************************************************************
+Mon Apr 18 12:55:38 2016
+
+
+FIT:    data read from '../data/Daten/'.data u 1:2:(1/sqrt(12)*word(binw,i)) yerror
+        format = x:z:s
+        x range restricted to [0.00550000 : 0.0120000]
+        #datapoints = 651
+function used for fitting: f(x)
+	f(x)=Imax-dI*exp(-a*(x-x0))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   Imax          dI            a            
+   0 2.1895306841e+05  0.00e+00 9.41e+01  1.282266e-02  1.189816e-01  8.048176e+02
+   4 2.6926130464e+03 -7.96e-03 9.41e-03  1.103764e-02  8.863224e-02  7.293148e+02
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 2692.61
+rel. change during last iteration : -7.95532e-008
+
+degrees of freedom    (FIT_NDF)                        : 648
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 2.03845
+variance of residuals (reduced chisquare) = WSSR/ndf   : 4.15527
+p-value of the Chisq distribution (FIT_P)              : 0
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+Imax            = 0.0110376        +/- 3.804e-005   (0.3447%)
+dI              = 0.0886322        +/- 0.000175     (0.1975%)
+a               = 729.315          +/- 2.129        (0.2919%)
+
+correlation matrix of the fit parameters:
+                Imax   dI     a      
+Imax            1.000 
+dI             -0.366  1.000 
+a              -0.774  0.793  1.000 
+
+
+*******************************************************************************
+Mon Apr 18 12:55:38 2016
+
+
+FIT:    data read from '../data/Transmissionen/'.trans u 1:2
+        format = x:z
+        #datapoints = 2046
+        residuals are weighted equally (unit weight)
+
+function used for fitting: I(x)
+	I(x)=intensity
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   intensity    
+   0 5.4279478866e+00  0.00e+00 5.01e-01  5.006178e-01
+   3 4.8428543500e-03 -6.27e-10 5.01e-04  5.521017e-01
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 0.00484285
+rel. change during last iteration : -6.26855e-015
+
+degrees of freedom    (FIT_NDF)                        : 2045
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00153888
+variance of residuals (reduced chisquare) = WSSR/ndf   : 2.36814e-006
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+intensity       = 0.552102         +/- 3.402e-005   (0.006162%)
+
+
+*******************************************************************************
+Mon Apr 18 12:55:38 2016
+
+
+FIT:    data read from '../data/Daten/'.data u 1:2:(1/sqrt(12)*word(binw,i)) yerror
+        format = x:z:s
+        x range restricted to [0.00550000 : 0.0120000]
+        #datapoints = 651
+function used for fitting: f(x)
+	f(x)=Imax-dI*exp(-a*(x-x0))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   Imax          dI            a            
+   0 9.9441469436e+04  0.00e+00 7.58e+01  1.103764e-02  8.863224e-02  7.293148e+02
+   4 2.3925902494e+03 -6.51e-04 7.58e+01  9.339931e-03  7.707639e-02  7.874536e+02
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 2392.59
+rel. change during last iteration : -6.51399e-009
+
+degrees of freedom    (FIT_NDF)                        : 648
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 1.92153
+variance of residuals (reduced chisquare) = WSSR/ndf   : 3.69227
+p-value of the Chisq distribution (FIT_P)              : 0
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+Imax            = 0.00933993       +/- 3.326e-005   (0.3561%)
+dI              = 0.0770764        +/- 0.0001807    (0.2345%)
+a               = 787.454          +/- 2.527        (0.3209%)
+
+correlation matrix of the fit parameters:
+                Imax   dI     a      
+Imax            1.000 
+dI             -0.366  1.000 
+a              -0.745  0.814  1.000 
+
+
+*******************************************************************************
+Mon Apr 18 12:55:38 2016
+
+
+FIT:    data read from '../data/Transmissionen/'.trans u 1:2
+        format = x:z
+        #datapoints = 2046
+        residuals are weighted equally (unit weight)
+
+function used for fitting: I(x)
+	I(x)=intensity
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   intensity    
+   0 4.2396756082e+01  0.00e+00 5.52e-01  5.521017e-01
+   3 3.1499511241e-03 -7.65e-09 5.52e-04  4.081564e-01
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 0.00314995
+rel. change during last iteration : -7.65493e-014
+
+degrees of freedom    (FIT_NDF)                        : 2045
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.0012411
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.54032e-006
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+intensity       = 0.408156         +/- 2.744e-005   (0.006722%)
+
+
+*******************************************************************************
+Mon Apr 18 12:55:39 2016
+
+
+FIT:    data read from '../data/Daten/'.data u 1:2:(1/sqrt(12)*word(binw,i)) yerror
+        format = x:z:s
+        x range restricted to [0.00550000 : 0.0120000]
+        #datapoints = 651
+function used for fitting: f(x)
+	f(x)=Imax-dI*exp(-a*(x-x0))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   Imax          dI            a            
+   0 1.6260461116e+06  0.00e+00 1.25e+02  9.339931e-03  7.707639e-02  7.874536e+02
+   5 4.8472483824e+03  0.00e+00 1.25e+05  6.124417e-03  3.710718e-02  5.717780e+02
+
+After 5 iterations the fit converged.
+final sum of squares of residuals : 4847.25
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 648
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 2.73502
+variance of residuals (reduced chisquare) = WSSR/ndf   : 7.48032
+p-value of the Chisq distribution (FIT_P)              : 0
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+Imax            = 0.00612442       +/- 3.4e-005     (0.5551%)
+dI              = 0.0371072        +/- 8.887e-005   (0.2395%)
+a               = 571.778          +/- 2.699        (0.472%)
+
+correlation matrix of the fit parameters:
+                Imax   dI     a      
+Imax            1.000 
+dI             -0.321  1.000 
+a              -0.853  0.692  1.000 
+
+
+*******************************************************************************
+Mon Apr 18 12:55:39 2016
+
+
+FIT:    data read from '../data/Transmissionen/'.trans u 1:2
+        format = x:z
+        #datapoints = 2046
+        residuals are weighted equally (unit weight)
+
+function used for fitting: I(x)
+	I(x)=intensity
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   intensity    
+   0 1.2039687570e+01  0.00e+00 4.08e-01  4.081564e-01
+   3 3.1534326491e-02 -2.20e-10 4.08e-04  4.847664e-01
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 0.0315343
+rel. change during last iteration : -2.20043e-015
+
+degrees of freedom    (FIT_NDF)                        : 2045
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00392686
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.54202e-005
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+intensity       = 0.484766         +/- 8.681e-005   (0.01791%)
+
+
+*******************************************************************************
+Mon Apr 18 12:55:39 2016
+
+
+FIT:    data read from '../data/Daten/'.data u 1:2:(1/sqrt(12)*word(binw,i)) yerror
+        format = x:z:s
+        x range restricted to [0.00550000 : 0.0120000]
+        #datapoints = 651
+function used for fitting: f(x)
+	f(x)=Imax-dI*exp(-a*(x-x0))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   Imax          dI            a            
+   0 4.6434277181e+05  0.00e+00 7.61e+01  6.124417e-03  3.710718e-02  5.717780e+02
+   4 9.2299164570e+03 -7.80e-02 7.61e-03  6.343660e-03  5.966202e-02  7.722384e+02
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 9229.92
+rel. change during last iteration : -7.80429e-007
+
+degrees of freedom    (FIT_NDF)                        : 648
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 3.77408
+variance of residuals (reduced chisquare) = WSSR/ndf   : 14.2437
+p-value of the Chisq distribution (FIT_P)              : 0
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+Imax            = 0.00634366       +/- 3.327e-005   (0.5245%)
+dI              = 0.059662         +/- 0.0001734    (0.2906%)
+a               = 772.238          +/- 3.131        (0.4054%)
+
+correlation matrix of the fit parameters:
+                Imax   dI     a      
+Imax            1.000 
+dI             -0.366  1.000 
+a              -0.752  0.809  1.000 
+
+
+*******************************************************************************
+Mon Apr 18 12:55:39 2016
+
+
+FIT:    data read from '../data/Transmissionen/'.trans u 1:2
+        format = x:z
+        #datapoints = 2046
+        residuals are weighted equally (unit weight)
+
+function used for fitting: I(x)
+	I(x)=intensity
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   intensity    
+   0 1.7260513752e+01  0.00e+00 4.85e-01  4.847664e-01
+   3 1.3753681329e-02 -7.19e-10 4.85e-04  3.929541e-01
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 0.0137537
+rel. change during last iteration : -7.18929e-015
+
+degrees of freedom    (FIT_NDF)                        : 2045
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00259336
+variance of residuals (reduced chisquare) = WSSR/ndf   : 6.72552e-006
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+intensity       = 0.392954         +/- 5.733e-005   (0.01459%)
+
+
+*******************************************************************************
+Mon Apr 18 12:55:39 2016
+
+
+FIT:    data read from '../data/Daten/'.data u 1:2:(1/sqrt(12)*word(binw,i)) yerror
+        format = x:z:s
+        x range restricted to [0.00550000 : 0.0120000]
+        #datapoints = 651
+function used for fitting: f(x)
+	f(x)=Imax-dI*exp(-a*(x-x0))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   Imax          dI            a            
+   0 2.6139450272e+05  0.00e+00 9.67e+01  6.343660e-03  5.966202e-02  7.722384e+02
+   4 5.3411448244e+03 -1.16e-02 9.67e-03  5.687221e-03  4.473259e-02  7.130076e+02
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 5341.14
+rel. change during last iteration : -1.16082e-007
+
+degrees of freedom    (FIT_NDF)                        : 648
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 2.87098
+variance of residuals (reduced chisquare) = WSSR/ndf   : 8.24251
+p-value of the Chisq distribution (FIT_P)              : 0
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+Imax            = 0.00568722       +/- 2.743e-005   (0.4823%)
+dI              = 0.0447326        +/- 0.00012      (0.2683%)
+a               = 713.008          +/- 2.897        (0.4063%)
+
+correlation matrix of the fit parameters:
+                Imax   dI     a      
+Imax            1.000 
+dI             -0.364  1.000 
+a              -0.782  0.786  1.000 
+
+
+*******************************************************************************
+Mon Apr 18 12:55:39 2016
+
+
+FIT:    data read from '../data/Transmissionen/'.trans u 1:2
+        format = x:z
+        #datapoints = 2046
+        residuals are weighted equally (unit weight)
+
+function used for fitting: I(x)
+	I(x)=intensity
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   intensity    
+   0 1.0313369012e+02  0.00e+00 3.93e-01  3.929541e-01
+   3 7.1454780059e-03 -8.22e-09 3.93e-04  1.684457e-01
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 0.00714548
+rel. change during last iteration : -8.21784e-014
+
+degrees of freedom    (FIT_NDF)                        : 2045
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00186926
+variance of residuals (reduced chisquare) = WSSR/ndf   : 3.49412e-006
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+intensity       = 0.168446         +/- 4.133e-005   (0.02453%)
+
+
+*******************************************************************************
+Mon Apr 18 12:55:39 2016
+
+
+FIT:    data read from '../data/Daten/'.data u 1:2:(1/sqrt(12)*word(binw,i)) yerror
+        format = x:z:s
+        x range restricted to [0.00550000 : 0.0120000]
+        #datapoints = 651
+function used for fitting: f(x)
+	f(x)=Imax-dI*exp(-a*(x-x0))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   Imax          dI            a            
+   0 3.2095261154e+06  0.00e+00 1.56e+02  5.687221e-03  4.473259e-02  7.130076e+02
+   5 6.9214552496e+03 -8.71e-07 1.56e+03  3.660362e-03  1.928278e-02  5.060184e+02
+
+After 5 iterations the fit converged.
+final sum of squares of residuals : 6921.46
+rel. change during last iteration : -8.71276e-012
+
+degrees of freedom    (FIT_NDF)                        : 648
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 3.26822
+variance of residuals (reduced chisquare) = WSSR/ndf   : 10.6813
+p-value of the Chisq distribution (FIT_P)              : 0
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+Imax            = 0.00366036       +/- 2.407e-005   (0.6575%)
+dI              = 0.0192828        +/- 4.635e-005   (0.2404%)
+a               = 506.018          +/- 2.843        (0.5618%)
+
+correlation matrix of the fit parameters:
+                Imax   dI     a      
+Imax            1.000 
+dI             -0.256  1.000 
+a              -0.885  0.604  1.000 
+
+
+*******************************************************************************
+Mon Apr 18 12:55:39 2016
+
+
+FIT:    data read from '../data/Transmissionen/'.trans u 1:2
+        format = x:z
+        #datapoints = 2046
+        residuals are weighted equally (unit weight)
+
+function used for fitting: I(x)
+	I(x)=intensity
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   intensity    
+   0 1.7685058065e-01  0.00e+00 1.68e-01  1.684457e-01
+   2 9.6452942326e-03 -4.14e-01 1.68e-03  1.594057e-01
+
+After 2 iterations the fit converged.
+final sum of squares of residuals : 0.00964529
+rel. change during last iteration : -4.13713e-006
+
+degrees of freedom    (FIT_NDF)                        : 2045
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00217176
+variance of residuals (reduced chisquare) = WSSR/ndf   : 4.71653e-006
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+intensity       = 0.159406         +/- 4.801e-005   (0.03012%)
+
+
+*******************************************************************************
+Mon Apr 18 12:55:40 2016
+
+
+FIT:    data read from '../data/Daten/'.data u 1:2:(1/sqrt(12)*word(binw,i)) yerror
+        format = x:z:s
+        x range restricted to [0.00550000 : 0.0120000]
+        #datapoints = 651
+function used for fitting: f(x)
+	f(x)=Imax-dI*exp(-a*(x-x0))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   Imax          dI            a            
+   0 8.5117451899e+04  0.00e+00 8.63e+01  3.660362e-03  1.928278e-02  5.060184e+02
+   3 9.8797165617e+03 -1.87e-02 8.63e-02  2.839863e-03  1.625180e-02  5.075139e+02
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 9879.72
+rel. change during last iteration : -1.86694e-007
+
+degrees of freedom    (FIT_NDF)                        : 648
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 3.90467
+variance of residuals (reduced chisquare) = WSSR/ndf   : 15.2465
+p-value of the Chisq distribution (FIT_P)              : 0
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+Imax            = 0.00283986       +/- 2.863e-005   (1.008%)
+dI              = 0.0162518        +/- 5.555e-005   (0.3418%)
+a               = 507.514          +/- 4.037        (0.7955%)
+
+correlation matrix of the fit parameters:
+                Imax   dI     a      
+Imax            1.000 
+dI             -0.258  1.000 
+a              -0.885  0.606  1.000 
+
+
+*******************************************************************************
+Mon Apr 18 12:55:40 2016
+
+
+FIT:    data read from '../data/Transmissionen/'.trans u 1:2
+        format = x:z
+        #datapoints = 2046
+        residuals are weighted equally (unit weight)
+
+function used for fitting: I(x)
+	I(x)=intensity
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   intensity    
+   0 1.8181514519e+01  0.00e+00 1.59e-01  1.594057e-01
+   3 1.6475088954e-02 -6.11e-10 1.59e-04  6.518084e-02
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 0.0164751
+rel. change during last iteration : -6.10704e-015
+
+degrees of freedom    (FIT_NDF)                        : 2045
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00283836
+variance of residuals (reduced chisquare) = WSSR/ndf   : 8.05628e-006
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+intensity       = 0.0651808        +/- 6.275e-005   (0.09627%)
+
+
+*******************************************************************************
+Mon Apr 18 12:55:40 2016
+
+
+FIT:    data read from '../data/Daten/'.data u 1:2:(1/sqrt(12)*word(binw,i)) yerror
+        format = x:z:s
+        x range restricted to [0.00550000 : 0.0120000]
+        #datapoints = 651
+function used for fitting: f(x)
+	f(x)=Imax-dI*exp(-a*(x-x0))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   Imax          dI            a            
+   0 4.9471855219e+06  0.00e+00 1.79e+02  2.839863e-03  1.625180e-02  5.075139e+02
+   4 3.0764448464e+04 -1.34e-04 1.79e+02  1.422962e-03  6.264152e-03  4.051481e+02
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 30764.4
+rel. change during last iteration : -1.33956e-009
+
+degrees of freedom    (FIT_NDF)                        : 648
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 6.89028
+variance of residuals (reduced chisquare) = WSSR/ndf   : 47.476
+p-value of the Chisq distribution (FIT_P)              : 0
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+Imax            = 0.00142296       +/- 2.865e-005   (2.014%)
+dI              = 0.00626415       +/- 3.143e-005   (0.5018%)
+a               = 405.148          +/- 6.609        (1.631%)
+
+correlation matrix of the fit parameters:
+                Imax   dI     a      
+Imax            1.000 
+dI              0.007  1.000 
+a              -0.928  0.302  1.000 
+
+
+*******************************************************************************
+Mon Apr 18 12:55:40 2016
+
+
+FIT:    data read from '../data/Transmissionen/'.trans u 1:2
+        format = x:z
+        #datapoints = 2046
+        residuals are weighted equally (unit weight)
+
+function used for fitting: I(x)
+	I(x)=intensity
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   intensity    
+   0 4.5329955034e-01  0.00e+00 6.52e-02  6.518084e-02
+   3 2.5588739003e-03 -1.02e-10 6.52e-05  8.002346e-02
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 0.00255887
+rel. change during last iteration : -1.01689e-015
+
+degrees of freedom    (FIT_NDF)                        : 2045
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00111861
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.25128e-006
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+intensity       = 0.0800235        +/- 2.473e-005   (0.0309%)
+
+
+*******************************************************************************
+Mon Apr 18 12:55:40 2016
+
+
+FIT:    data read from '../data/Daten/'.data u 1:2:(1/sqrt(12)*word(binw,i)) yerror
+        format = x:z:s
+        x range restricted to [0.00550000 : 0.0120000]
+        #datapoints = 651
+function used for fitting: f(x)
+	f(x)=Imax-dI*exp(-a*(x-x0))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   Imax          dI            a            
+   0 6.4538764421e+04  0.00e+00 8.05e+01  1.422962e-03  6.264152e-03  4.051481e+02
+   3 2.1245014361e+04 -6.79e-02 8.05e-02  1.610683e-03  7.172667e-03  4.140560e+02
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 21245
+rel. change during last iteration : -6.79299e-007
+
+degrees of freedom    (FIT_NDF)                        : 648
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 5.72586
+variance of residuals (reduced chisquare) = WSSR/ndf   : 32.7855
+p-value of the Chisq distribution (FIT_P)              : 0
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+Imax            = 0.00161068       +/- 2.298e-005   (1.427%)
+dI              = 0.00717267       +/- 2.657e-005   (0.3704%)
+a               = 414.056          +/- 4.835        (1.168%)
+
+correlation matrix of the fit parameters:
+                Imax   dI     a      
+Imax            1.000 
+dI             -0.029  1.000 
+a              -0.925  0.343  1.000 
+
+
+*******************************************************************************
+Mon Apr 18 12:55:40 2016
+
+
+FIT:    data read from '../data/Transmissionen/'.trans u 1:2
+        format = x:z
+        #datapoints = 2046
+        residuals are weighted equally (unit weight)
+
+function used for fitting: I(x)
+	I(x)=intensity
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   intensity    
+   0 3.2440091026e+00  0.00e+00 8.00e-02  8.002346e-02
+   3 7.4238748778e-03 -2.45e-10 8.00e-05  4.025024e-02
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 0.00742387
+rel. change during last iteration : -2.45352e-015
+
+degrees of freedom    (FIT_NDF)                        : 2045
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00190532
+variance of residuals (reduced chisquare) = WSSR/ndf   : 3.63026e-006
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+intensity       = 0.0402502        +/- 4.212e-005   (0.1047%)
+
+
+*******************************************************************************
+Mon Apr 18 12:55:40 2016
+
+
+FIT:    data read from '../data/Daten/'.data u 1:2:(1/sqrt(12)*word(binw,i)) yerror
+        format = x:z:s
+        x range restricted to [0.00550000 : 0.0120000]
+        #datapoints = 651
+function used for fitting: f(x)
+	f(x)=Imax-dI*exp(-a*(x-x0))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   Imax          dI            a            
+   0 1.5572791591e+06  0.00e+00 1.82e+02  1.610683e-03  7.172667e-03  4.140560e+02
+   3 1.1687285503e+05 -8.64e-01 1.82e-01  9.060333e-04  4.576581e-03  4.210621e+02
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 116873
+rel. change during last iteration : -8.63763e-006
+
+degrees of freedom    (FIT_NDF)                        : 648
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 13.4298
+variance of residuals (reduced chisquare) = WSSR/ndf   : 180.359
+p-value of the Chisq distribution (FIT_P)              : 0
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+Imax            = 0.000906033      +/- 2.623e-005   (2.895%)
+dI              = 0.00457658       +/- 3.16e-005    (0.6904%)
+a               = 421.062          +/- 8.947        (2.125%)
+
+correlation matrix of the fit parameters:
+                Imax   dI     a      
+Imax            1.000 
+dI             -0.056  1.000 
+a              -0.922  0.372  1.000 
+
+
+*******************************************************************************
+Mon Apr 18 12:55:40 2016
+
+
+FIT:    data read from '../data/Transmissionen/'.trans u 1:2
+        format = x:z
+        #datapoints = 2046
+        residuals are weighted equally (unit weight)
+
+function used for fitting: I(x)
+	I(x)=intensity
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   intensity    
+   0 1.6912716325e-01  0.00e+00 4.03e-02  4.025024e-02
+   2 1.3851026393e-02 -2.68e-01 4.03e-04  4.896188e-02
+
+After 2 iterations the fit converged.
+final sum of squares of residuals : 0.013851
+rel. change during last iteration : -2.67539e-006
+
+degrees of freedom    (FIT_NDF)                        : 2045
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00260252
+variance of residuals (reduced chisquare) = WSSR/ndf   : 6.77312e-006
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+intensity       = 0.0489619        +/- 5.754e-005   (0.1175%)
+
+
+*******************************************************************************
+Mon Apr 18 12:55:40 2016
+
+
+FIT:    data read from '../data/Daten/'.data u 1:2:(1/sqrt(12)*word(binw,i)) yerror
+        format = x:z:s
+        x range restricted to [0.00550000 : 0.0120000]
+        #datapoints = 651
+function used for fitting: f(x)
+	f(x)=Imax-dI*exp(-a*(x-x0))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   Imax          dI            a            
+   0 9.7591656418e+04  0.00e+00 1.13e+02  9.060333e-04  4.576581e-03  4.210621e+02
+   3 5.5037191869e+04 -8.99e-05 1.13e-01  9.948343e-04  4.859504e-03  3.985680e+02
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 55037.2
+rel. change during last iteration : -8.98658e-010
+
+degrees of freedom    (FIT_NDF)                        : 648
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 9.21596
+variance of residuals (reduced chisquare) = WSSR/ndf   : 84.9339
+p-value of the Chisq distribution (FIT_P)              : 0
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+Imax            = 0.000994834      +/- 1.969e-005   (1.979%)
+dI              = 0.0048595        +/- 2.078e-005   (0.4276%)
+a               = 398.568          +/- 5.664        (1.421%)
+
+correlation matrix of the fit parameters:
+                Imax   dI     a      
+Imax            1.000 
+dI              0.036  1.000 
+a              -0.931  0.269  1.000 
+
+
+*******************************************************************************
+Mon Apr 18 12:55:41 2016
+
+
+FIT:    data read from '../data/Transmissionen/'.trans u 1:2
+        format = x:z
+        #datapoints = 2046
+        residuals are weighted equally (unit weight)
+
+function used for fitting: I(x)
+	I(x)=intensity
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   intensity    
+   0 1.4083092998e+00  0.00e+00 4.90e-02  4.896188e-02
+   3 1.5837466276e-02 -4.38e-11 4.90e-05  2.287390e-02
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 0.0158375
+rel. change during last iteration : -4.38132e-016
+
+degrees of freedom    (FIT_NDF)                        : 2045
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00278289
+variance of residuals (reduced chisquare) = WSSR/ndf   : 7.74448e-006
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+intensity       = 0.0228739        +/- 6.152e-005   (0.269%)
+
+
+*******************************************************************************
+Mon Apr 18 12:55:41 2016
+
+
+FIT:    data read from '../data/Daten/'.data u 1:2:(1/sqrt(12)*word(binw,i)) yerror
+        format = x:z:s
+        x range restricted to [0.00550000 : 0.0120000]
+        #datapoints = 651
+function used for fitting: f(x)
+	f(x)=Imax-dI*exp(-a*(x-x0))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   Imax          dI            a            
+   0 1.3777818820e+06  0.00e+00 1.24e+02  9.948343e-04  4.859504e-03  3.985680e+02
+   3 6.5763388287e+04 -1.47e-02 1.24e-01  5.693868e-04  2.603328e-03  3.906390e+02
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 65763.4
+rel. change during last iteration : -1.47269e-007
+
+degrees of freedom    (FIT_NDF)                        : 648
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 10.0741
+variance of residuals (reduced chisquare) = WSSR/ndf   : 101.487
+p-value of the Chisq distribution (FIT_P)              : 0
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+Imax            = 0.000569387      +/- 2.225e-005   (3.908%)
+dI              = 0.00260333       +/- 2.243e-005   (0.8614%)
+a               = 390.639          +/- 11.48        (2.939%)
+
+correlation matrix of the fit parameters:
+                Imax   dI     a      
+Imax            1.000 
+dI              0.074  1.000 
+a              -0.934  0.226  1.000 
+
+
+*******************************************************************************
+Mon Apr 18 12:55:41 2016
+
+
+FIT:    data read from '../data/Transmissionen/'.trans u 1:2
+        format = x:z
+        #datapoints = 2046
+        residuals are weighted equally (unit weight)
+
+function used for fitting: I(x)
+	I(x)=intensity
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   intensity    
+   0 3.2424351906e-01  0.00e+00 2.29e-02  2.287390e-02
+   2 3.0195237537e-02 -2.32e-01 2.29e-04  1.088563e-02
+
+After 2 iterations the fit converged.
+final sum of squares of residuals : 0.0301952
+rel. change during last iteration : -2.32404e-006
+
+degrees of freedom    (FIT_NDF)                        : 2045
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00384258
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.47654e-005
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+intensity       = 0.0108856        +/- 8.495e-005   (0.7804%)
+
+
+*******************************************************************************
+Mon Apr 18 12:55:41 2016
+
+
+FIT:    data read from '../data/Daten/'.data u 1:2:(1/sqrt(12)*word(binw,i)) yerror
+        format = x:z:s
+        x range restricted to [0.00550000 : 0.0120000]
+        #datapoints = 651
+function used for fitting: f(x)
+	f(x)=Imax-dI*exp(-a*(x-x0))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   Imax          dI            a            
+   0 2.2629042394e+05  0.00e+00 6.75e+01  5.693868e-04  2.603328e-03  3.906390e+02
+   4 9.2995115174e+04 -1.26e-04 6.75e-03  7.813183e-04  2.189056e-03  2.878801e+02
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 92995.1
+rel. change during last iteration : -1.26252e-009
+
+degrees of freedom    (FIT_NDF)                        : 648
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 11.9796
+variance of residuals (reduced chisquare) = WSSR/ndf   : 143.511
+p-value of the Chisq distribution (FIT_P)              : 0
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+Imax            = 0.000781318      +/- 4.515e-005   (5.778%)
+dI              = 0.00218906       +/- 3.13e-005    (1.43%)
+a               = 287.88           +/- 15.47        (5.375%)
+
+correlation matrix of the fit parameters:
+                Imax   dI     a      
+Imax            1.000 
+dI              0.715  1.000 
+a              -0.966 -0.542  1.000 
+
+
+*******************************************************************************
+Mon Apr 18 12:55:41 2016
+
+
+FIT:    data read from '../data/Transmissionen/'.trans u 1:2
+        format = x:z
+        #datapoints = 2046
+        residuals are weighted equally (unit weight)
+
+function used for fitting: I(x)
+	I(x)=intensity
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   intensity    
+   0 3.5705825066e-01  0.00e+00 1.09e-02  1.088563e-02
+   3 4.5437184751e-03 -5.73e-11 1.09e-05  2.401173e-02
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 0.00454372
+rel. change during last iteration : -5.72677e-016
+
+degrees of freedom    (FIT_NDF)                        : 2045
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00149059
+variance of residuals (reduced chisquare) = WSSR/ndf   : 2.22187e-006
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+intensity       = 0.0240117        +/- 3.295e-005   (0.1372%)
+
+
+*******************************************************************************
+Mon Apr 18 12:55:41 2016
+
+
+FIT:    data read from '../data/Daten/'.data u 1:2:(1/sqrt(12)*word(binw,i)) yerror
+        format = x:z:s
+        x range restricted to [0.00550000 : 0.0120000]
+        #datapoints = 651
+function used for fitting: f(x)
+	f(x)=Imax-dI*exp(-a*(x-x0))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   Imax          dI            a            
+   0 2.5108040911e+05  0.00e+00 7.14e+01  7.813183e-04  2.189056e-03  2.878801e+02
+   4 9.7343295859e+04 -1.31e-07 7.14e+01  8.805038e-04  2.937795e-03  3.300940e+02
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 97343.3
+rel. change during last iteration : -1.30819e-012
+
+degrees of freedom    (FIT_NDF)                        : 648
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 12.2565
+variance of residuals (reduced chisquare) = WSSR/ndf   : 150.221
+p-value of the Chisq distribution (FIT_P)              : 0
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+Imax            = 0.000880504      +/- 3.614e-005   (4.105%)
+dI              = 0.0029378        +/- 2.713e-005   (0.9235%)
+a               = 330.094          +/- 11.91        (3.609%)
+
+correlation matrix of the fit parameters:
+                Imax   dI     a      
+Imax            1.000 
+dI              0.447  1.000 
+a              -0.954 -0.206  1.000 
+
+
+*******************************************************************************
+Mon Apr 18 12:55:41 2016
+
+
+FIT:    data read from '../data/Transmissionen/'.trans u 1:2
+        format = x:z
+        #datapoints = 2046
+        residuals are weighted equally (unit weight)
+
+function used for fitting: I(x)
+	I(x)=intensity
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   intensity    
+   0 3.4043866276e+00  0.00e+00 2.40e-02  2.401173e-02
+   3 1.0664445748e-02 -1.79e-10 2.40e-05 -1.671554e-02
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 0.0106644
+rel. change during last iteration : -1.78931e-015
+
+degrees of freedom    (FIT_NDF)                        : 2045
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00228361
+variance of residuals (reduced chisquare) = WSSR/ndf   : 5.21489e-006
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+intensity       = -0.0167155       +/- 5.049e-005   (0.302%)
+
+
+*******************************************************************************
+Mon Apr 18 12:55:41 2016
+
+
+FIT:    data read from '../data/Daten/'.data u 1:2:(1/sqrt(12)*word(binw,i)) yerror
+        format = x:z:s
+        x range restricted to [0.00550000 : 0.0120000]
+        #datapoints = 651
+function used for fitting: f(x)
+	f(x)=Imax-dI*exp(-a*(x-x0))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   Imax          dI            a            
+   0 9.9891356422e+05  0.00e+00 8.72e+01  8.805038e-04  2.937795e-03  3.300940e+02
+   4 4.0294023548e+04 -1.61e-03 8.72e-03  4.742727e-04  1.043381e-03  2.679460e+02
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 40294
+rel. change during last iteration : -1.61484e-008
+
+degrees of freedom    (FIT_NDF)                        : 648
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 7.88556
+variance of residuals (reduced chisquare) = WSSR/ndf   : 62.1821
+p-value of the Chisq distribution (FIT_P)              : 0
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+Imax            = 0.000474273      +/- 3.39e-005    (7.147%)
+dI              = 0.00104338       +/- 2.363e-005   (2.264%)
+a               = 267.946          +/- 21.41        (7.991%)
+
+correlation matrix of the fit parameters:
+                Imax   dI     a      
+Imax            1.000 
+dI              0.810  1.000 
+a              -0.971 -0.671  1.000 
+
+
+*******************************************************************************
+Mon Apr 18 12:55:41 2016
+
+
+FIT:    data read from '../data/Transmissionen/'.trans u 1:2
+        format = x:z
+        #datapoints = 2046
+        residuals are weighted equally (unit weight)
+
+function used for fitting: I(x)
+	I(x)=intensity
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   intensity    
+   0 3.1692377713e-01  0.00e+00 1.67e-02 -1.671554e-02
+   2 3.2199194526e-02 -2.11e-01 1.67e-04 -2.851222e-02
+
+After 2 iterations the fit converged.
+final sum of squares of residuals : 0.0321992
+rel. change during last iteration : -2.1103e-006
+
+degrees of freedom    (FIT_NDF)                        : 2045
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00396804
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.57453e-005
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+intensity       = -0.0285122       +/- 8.772e-005   (0.3077%)
+
+
+*******************************************************************************
+Mon Apr 18 12:55:42 2016
+
+
+FIT:    data read from '../data/Daten/'.data u 1:2:(1/sqrt(12)*word(binw,i)) yerror
+        format = x:z:s
+        x range restricted to [0.00550000 : 0.0120000]
+        #datapoints = 651
+function used for fitting: f(x)
+	f(x)=Imax-dI*exp(-a*(x-x0))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   Imax          dI            a            
+   0 1.4286457927e+05  0.00e+00 3.77e+01  4.742727e-04  1.043381e-03  2.679460e+02
+   4 3.4065286185e+04 -4.47e-05 3.77e-03  2.288482e-04  3.477765e-04  2.839508e+02
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 34065.3
+rel. change during last iteration : -4.4707e-010
+
+degrees of freedom    (FIT_NDF)                        : 648
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 7.25051
+variance of residuals (reduced chisquare) = WSSR/ndf   : 52.5699
+p-value of the Chisq distribution (FIT_P)              : 0
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+Imax            = 0.000228848      +/- 2.802e-005   (12.24%)
+dI              = 0.000347777      +/- 1.941e-005   (5.58%)
+a               = 283.951          +/- 58.95        (20.76%)
+
+correlation matrix of the fit parameters:
+                Imax   dI     a      
+Imax            1.000 
+dI              0.736  1.000 
+a              -0.967 -0.569  1.000 
+
+
+*******************************************************************************
+Mon Apr 18 12:55:42 2016
+
+
+FIT:    data read from '../results/relaxation/fitresults.txt' u 2:3:4 yerror
+        format = x:z:s
+        x range restricted to [0.00000 : 0.900000]
+        #datapoints = 18
+function used for fitting: g(x)
+	g(x)=grad*x+1/Trelax
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   grad          Trelax       
+   0 2.6908720989e+05  0.00e+00 5.22e+01  1.000000e+00  3.700000e-03
+  10 2.9906363028e+03 -5.63e-06 5.22e-07  8.895420e+02  2.705808e-03
+
+After 10 iterations the fit converged.
+final sum of squares of residuals : 2990.64
+rel. change during last iteration : -5.63034e-011
+
+degrees of freedom    (FIT_NDF)                        : 16
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 13.6717
+variance of residuals (reduced chisquare) = WSSR/ndf   : 186.915
+p-value of the Chisq distribution (FIT_P)              : 0
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+grad            = 889.542          +/- 68.85        (7.74%)
+Trelax          = 0.00270581       +/- 0.0002006    (7.414%)
+
+correlation matrix of the fit parameters:
+                grad   Trelax 
+grad            1.000 
+Trelax          0.902  1.000 
+
+
+*******************************************************************************
+Mon Apr 18 12:55:45 2016
+
+
+FIT:    data read from '../data/Transmissionen/'.word(translist,Ntrans) u 1:2
+        format = x:z
+        #datapoints = 2046
+        residuals are weighted equally (unit weight)
+
+function used for fitting: NL(x)
+	NL(x)=nolaser
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   nolaser      
+   0 2.3129275520e+03  0.00e+00 1.00e+00  1.000000e+00
+   3 1.1650033236e-02 -1.13e-07 1.00e-03 -6.322972e-02
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 0.01165
+rel. change during last iteration : -1.13166e-012
+
+degrees of freedom    (FIT_NDF)                        : 2045
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.0023868
+variance of residuals (reduced chisquare) = WSSR/ndf   : 5.69684e-006
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+nolaser         = -0.0632297       +/- 5.277e-005   (0.08345%)
+
+
+*******************************************************************************
+Mon Apr 18 12:55:45 2016
+
+
+FIT:    data read from '../data/Transmissionen/'.word(translist,1) u 1:2
+        format = x:z
+        #datapoints = 2046
+        residuals are weighted equally (unit weight)
+
+function used for fitting: NF(x)
+	NF(x)=nofilter
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   nofilter     
+   0 3.2848710000e+02  0.00e+00 1.00e+00  1.000000e+00
+   3 1.4155669599e-02 -1.32e-08 1.00e-03  1.400679e+00
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 0.0141557
+rel. change during last iteration : -1.3235e-013
+
+degrees of freedom    (FIT_NDF)                        : 2045
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00263099
+variance of residuals (reduced chisquare) = WSSR/ndf   : 6.92209e-006
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+nofilter        = 1.40068          +/- 5.817e-005   (0.004153%)
+
+
+*******************************************************************************
+Mon Apr 18 12:55:45 2016
+
+
+FIT:    data read from '../data/ohnefoehn/'.data u 1:2:(1/sqrt(12)*word(binw,i)) yerror
+        format = x:z:s
+        x range restricted to [0.00270000 : 0.00800000]
+        #datapoints = 1061
+function used for fitting: f(x)
+	f(x)=Imax-dI*exp(-a*(x-x0))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   Imax          dI            a            
+   0 6.9491721798e+06  0.00e+00 9.10e+01  2.000000e-02  3.000000e-01  1.200000e+03
+   6 1.3670851232e+03 -2.00e-01 9.10e-05  4.986727e-03  1.014852e-01  2.283447e+03
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 1367.09
+rel. change during last iteration : -2.0027e-006
+
+degrees of freedom    (FIT_NDF)                        : 1058
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 1.13672
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.29214
+p-value of the Chisq distribution (FIT_P)              : 3.37102e-010
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+Imax            = 0.00498673       +/- 2.461e-005   (0.4936%)
+dI              = 0.101485         +/- 0.000342     (0.337%)
+a               = 2283.45          +/- 7.832        (0.343%)
+
+correlation matrix of the fit parameters:
+                Imax   dI     a      
+Imax            1.000 
+dI             -0.204  1.000 
+a              -0.444  0.867  1.000 
+
+
+*******************************************************************************
+Mon Apr 18 12:55:45 2016
+
+
+FIT:    data read from '../data/Transmissionen/'.trans u 1:2
+        format = x:z
+        #datapoints = 2046
+        residuals are weighted equally (unit weight)
+
+function used for fitting: I(x)
+	I(x)=intensity
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   intensity    
+   0 2.4669200000e+01  0.00e+00 1.00e+00  1.000000e+00
+   3 9.3053763441e-03 -1.51e-09 1.00e-03  1.109785e+00
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 0.00930538
+rel. change during last iteration : -1.51002e-014
+
+degrees of freedom    (FIT_NDF)                        : 2045
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00213314
+variance of residuals (reduced chisquare) = WSSR/ndf   : 4.55031e-006
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+intensity       = 1.10978          +/- 4.716e-005   (0.004249%)
+
+
+*******************************************************************************
+Mon Apr 18 12:55:45 2016
+
+
+FIT:    data read from '../data/ohnefoehn/'.data u 1:2:(1/sqrt(12)*word(binw,i)) yerror
+        format = x:z:s
+        x range restricted to [0.00270000 : 0.00800000]
+        #datapoints = 1061
+function used for fitting: f(x)
+	f(x)=Imax-dI*exp(-a*(x-x0))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   Imax          dI            a            
+   0 8.2715204196e+03  0.00e+00 1.99e+01  4.986727e-03  1.014852e-01  2.283447e+03
+   4 1.0529377303e+03 -6.55e-02 1.99e-03  4.706147e-03  8.080305e-02  1.988834e+03
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 1052.94
+rel. change during last iteration : -6.55366e-007
+
+degrees of freedom    (FIT_NDF)                        : 1058
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.997605
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.995215
+p-value of the Chisq distribution (FIT_P)              : 0.538131
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+Imax            = 0.00470615       +/- 2.243e-005   (0.4767%)
+dI              = 0.080803         +/- 0.0002518    (0.3117%)
+a               = 1988.83          +/- 6.774        (0.3406%)
+
+correlation matrix of the fit parameters:
+                Imax   dI     a      
+Imax            1.000 
+dI             -0.207  1.000 
+a              -0.483  0.848  1.000 
+
+
+*******************************************************************************
+Mon Apr 18 12:55:45 2016
+
+
+FIT:    data read from '../data/Transmissionen/'.trans u 1:2
+        format = x:z
+        #datapoints = 2046
+        residuals are weighted equally (unit weight)
+
+function used for fitting: I(x)
+	I(x)=intensity
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   intensity    
+   0 3.7649658520e+02  0.00e+00 1.11e+00  1.109785e+00
+   3 1.2188527859e-02 -1.76e-08 1.11e-03  6.808211e-01
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 0.0121885
+rel. change during last iteration : -1.76197e-013
+
+degrees of freedom    (FIT_NDF)                        : 2045
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00244134
+variance of residuals (reduced chisquare) = WSSR/ndf   : 5.96016e-006
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+intensity       = 0.680821         +/- 5.397e-005   (0.007928%)
+
+
+*******************************************************************************
+Mon Apr 18 12:55:45 2016
+
+
+FIT:    data read from '../data/ohnefoehn/'.data u 1:2:(1/sqrt(12)*word(binw,i)) yerror
+        format = x:z:s
+        x range restricted to [0.00270000 : 0.00800000]
+        #datapoints = 1061
+function used for fitting: f(x)
+	f(x)=Imax-dI*exp(-a*(x-x0))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   Imax          dI            a            
+   0 3.6579600195e+05  0.00e+00 4.41e+01  4.706147e-03  8.080305e-02  1.988834e+03
+   5 1.5944093669e+03 -1.56e-02 4.41e-04  3.104996e-03  3.966358e-02  1.403929e+03
+
+After 5 iterations the fit converged.
+final sum of squares of residuals : 1594.41
+rel. change during last iteration : -1.56421e-007
+
+degrees of freedom    (FIT_NDF)                        : 1058
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 1.2276
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.507
+p-value of the Chisq distribution (FIT_P)              : 0
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+Imax            = 0.003105         +/- 1.272e-005   (0.4096%)
+dI              = 0.0396636        +/- 8.397e-005   (0.2117%)
+a               = 1403.93          +/- 3.927        (0.2797%)
+
+correlation matrix of the fit parameters:
+                Imax   dI     a      
+Imax            1.000 
+dI             -0.216  1.000 
+a              -0.600  0.787  1.000 
+
+
+*******************************************************************************
+Mon Apr 18 12:55:46 2016
+
+
+FIT:    data read from '../data/Transmissionen/'.trans u 1:2
+        format = x:z
+        #datapoints = 2046
+        residuals are weighted equally (unit weight)
+
+function used for fitting: I(x)
+	I(x)=intensity
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   intensity    
+   0 6.6472455695e+01  0.00e+00 6.81e-01  6.808211e-01
+   3 3.2211112414e-02 -1.18e-09 6.81e-04  5.006178e-01
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 0.0322111
+rel. change during last iteration : -1.18481e-014
+
+degrees of freedom    (FIT_NDF)                        : 2045
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00396877
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.57512e-005
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+intensity       = 0.500618         +/- 8.774e-005   (0.01753%)
+
+
+*******************************************************************************
+Mon Apr 18 12:55:46 2016
+
+
+FIT:    data read from '../data/ohnefoehn/'.data u 1:2:(1/sqrt(12)*word(binw,i)) yerror
+        format = x:z:s
+        x range restricted to [0.00270000 : 0.00800000]
+        #datapoints = 1061
+function used for fitting: f(x)
+	f(x)=Imax-dI*exp(-a*(x-x0))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   Imax          dI            a            
+   0 2.0091551876e+04  0.00e+00 2.76e+01  3.104996e-03  3.966358e-02  1.403929e+03
+   4 1.2310466765e+03 -5.28e-03 2.76e-03  2.903912e-03  3.158300e-02  1.187876e+03
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 1231.05
+rel. change during last iteration : -5.28113e-008
+
+degrees of freedom    (FIT_NDF)                        : 1058
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 1.07868
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.16356
+p-value of the Chisq distribution (FIT_P)              : 0.000166179
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+Imax            = 0.00290391       +/- 1.237e-005   (0.426%)
+dI              = 0.031583         +/- 6.255e-005   (0.1981%)
+a               = 1187.88          +/- 3.46         (0.2912%)
+
+correlation matrix of the fit parameters:
+                Imax   dI     a      
+Imax            1.000 
+dI             -0.218  1.000 
+a              -0.664  0.748  1.000 
+
+
+*******************************************************************************
+Mon Apr 18 12:55:46 2016
+
+
+FIT:    data read from '../data/Transmissionen/'.trans u 1:2
+        format = x:z
+        #datapoints = 2046
+        residuals are weighted equally (unit weight)
+
+function used for fitting: I(x)
+	I(x)=intensity
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   intensity    
+   0 5.4279478866e+00  0.00e+00 5.01e-01  5.006178e-01
+   3 4.8428543500e-03 -6.27e-10 5.01e-04  5.521017e-01
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 0.00484285
+rel. change during last iteration : -6.26855e-015
+
+degrees of freedom    (FIT_NDF)                        : 2045
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00153888
+variance of residuals (reduced chisquare) = WSSR/ndf   : 2.36814e-006
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+intensity       = 0.552102         +/- 3.402e-005   (0.006162%)
+
+
+*******************************************************************************
+Mon Apr 18 12:55:46 2016
+
+
+FIT:    data read from '../data/ohnefoehn/'.data u 1:2:(1/sqrt(12)*word(binw,i)) yerror
+        format = x:z:s
+        x range restricted to [0.00270000 : 0.00800000]
+        #datapoints = 1061
+function used for fitting: f(x)
+	f(x)=Imax-dI*exp(-a*(x-x0))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   Imax          dI            a            
+   0 1.4661668863e+05  0.00e+00 2.46e+01  2.903912e-03  3.158300e-02  1.187876e+03
+   3 3.0142817345e+03 -3.87e-01 2.46e-02  4.521912e-03  4.562043e-02  1.164303e+03
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 3014.28
+rel. change during last iteration : -3.86757e-006
+
+degrees of freedom    (FIT_NDF)                        : 1058
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 1.68791
+variance of residuals (reduced chisquare) = WSSR/ndf   : 2.84904
+p-value of the Chisq distribution (FIT_P)              : 0
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+Imax            = 0.00452191       +/- 1.963e-005   (0.4342%)
+dI              = 0.0456204        +/- 9.604e-005   (0.2105%)
+a               = 1164.3           +/- 3.655        (0.3139%)
+
+correlation matrix of the fit parameters:
+                Imax   dI     a      
+Imax            1.000 
+dI             -0.218  1.000 
+a              -0.672  0.743  1.000 
+
+
+*******************************************************************************
+Mon Apr 18 12:55:46 2016
+
+
+FIT:    data read from '../data/Transmissionen/'.trans u 1:2
+        format = x:z
+        #datapoints = 2046
+        residuals are weighted equally (unit weight)
+
+function used for fitting: I(x)
+	I(x)=intensity
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   intensity    
+   0 4.2396756082e+01  0.00e+00 5.52e-01  5.521017e-01
+   3 3.1499511241e-03 -7.65e-09 5.52e-04  4.081564e-01
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 0.00314995
+rel. change during last iteration : -7.65493e-014
+
+degrees of freedom    (FIT_NDF)                        : 2045
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.0012411
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.54032e-006
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+intensity       = 0.408156         +/- 2.744e-005   (0.006722%)
+
+
+*******************************************************************************
+Mon Apr 18 12:55:46 2016
+
+
+FIT:    data read from '../data/ohnefoehn/'.data u 1:2:(1/sqrt(12)*word(binw,i)) yerror
+        format = x:z:s
+        x range restricted to [0.00270000 : 0.00800000]
+        #datapoints = 1061
+function used for fitting: f(x)
+	f(x)=Imax-dI*exp(-a*(x-x0))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   Imax          dI            a            
+   0 1.3295796814e+06  0.00e+00 7.24e+01  4.521912e-03  4.562043e-02  1.164303e+03
+   4 8.6100754834e+03 -8.11e-03 7.24e-03  2.440577e-03  2.235407e-02  1.005282e+03
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 8610.08
+rel. change during last iteration : -8.11362e-008
+
+degrees of freedom    (FIT_NDF)                        : 1058
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 2.85273
+variance of residuals (reduced chisquare) = WSSR/ndf   : 8.13807
+p-value of the Chisq distribution (FIT_P)              : 0
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+Imax            = 0.00244058       +/- 1.866e-005   (0.7644%)
+dI              = 0.0223541        +/- 7.087e-005   (0.317%)
+a               = 1005.28          +/- 5.313        (0.5285%)
+
+correlation matrix of the fit parameters:
+                Imax   dI     a      
+Imax            1.000 
+dI             -0.210  1.000 
+a              -0.730  0.697  1.000 
+
+
+*******************************************************************************
+Mon Apr 18 12:55:46 2016
+
+
+FIT:    data read from '../data/Transmissionen/'.trans u 1:2
+        format = x:z
+        #datapoints = 2046
+        residuals are weighted equally (unit weight)
+
+function used for fitting: I(x)
+	I(x)=intensity
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   intensity    
+   0 1.2039687570e+01  0.00e+00 4.08e-01  4.081564e-01
+   3 3.1534326491e-02 -2.20e-10 4.08e-04  4.847664e-01
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 0.0315343
+rel. change during last iteration : -2.20043e-015
+
+degrees of freedom    (FIT_NDF)                        : 2045
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00392686
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.54202e-005
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+intensity       = 0.484766         +/- 8.681e-005   (0.01791%)
+
+
+*******************************************************************************
+Mon Apr 18 12:55:46 2016
+
+
+FIT:    data read from '../data/ohnefoehn/'.data u 1:2:(1/sqrt(12)*word(binw,i)) yerror
+        format = x:z:s
+        x range restricted to [0.00270000 : 0.00800000]
+        #datapoints = 1061
+function used for fitting: f(x)
+	f(x)=Imax-dI*exp(-a*(x-x0))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   Imax          dI            a            
+   0 2.5847492623e+05  0.00e+00 3.89e+01  2.440577e-03  2.235407e-02  1.005282e+03
+   4 7.6909619618e+03 -2.12e-02 3.89e-03  2.862255e-03  2.801852e-02  8.923615e+02
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 7690.96
+rel. change during last iteration : -2.11939e-007
+
+degrees of freedom    (FIT_NDF)                        : 1058
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 2.69617
+variance of residuals (reduced chisquare) = WSSR/ndf   : 7.26934
+p-value of the Chisq distribution (FIT_P)              : 0
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+Imax            = 0.00286226       +/- 1.977e-005   (0.6906%)
+dI              = 0.0280185        +/- 6.027e-005   (0.2151%)
+a               = 892.362          +/- 3.55         (0.3979%)
+
+correlation matrix of the fit parameters:
+                Imax   dI     a      
+Imax            1.000 
+dI             -0.193  1.000 
+a              -0.775  0.649  1.000 
+
+
+*******************************************************************************
+Mon Apr 18 12:55:46 2016
+
+
+FIT:    data read from '../data/Transmissionen/'.trans u 1:2
+        format = x:z
+        #datapoints = 2046
+        residuals are weighted equally (unit weight)
+
+function used for fitting: I(x)
+	I(x)=intensity
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   intensity    
+   0 1.7260513752e+01  0.00e+00 4.85e-01  4.847664e-01
+   3 1.3753681329e-02 -7.19e-10 4.85e-04  3.929541e-01
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 0.0137537
+rel. change during last iteration : -7.18929e-015
+
+degrees of freedom    (FIT_NDF)                        : 2045
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00259336
+variance of residuals (reduced chisquare) = WSSR/ndf   : 6.72552e-006
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+intensity       = 0.392954         +/- 5.733e-005   (0.01459%)
+
+
+*******************************************************************************
+Mon Apr 18 12:55:46 2016
+
+
+FIT:    data read from '../data/ohnefoehn/'.data u 1:2:(1/sqrt(12)*word(binw,i)) yerror
+        format = x:z:s
+        x range restricted to [0.00270000 : 0.00800000]
+        #datapoints = 1061
+function used for fitting: f(x)
+	f(x)=Imax-dI*exp(-a*(x-x0))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   Imax          dI            a            
+   0 6.8052518351e+05  0.00e+00 5.18e+01  2.862255e-03  2.801852e-02  8.923615e+02
+   4 2.1523372501e+03 -7.64e-01 5.18e-03  1.858665e-03  1.332507e-02  6.354435e+02
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 2152.34
+rel. change during last iteration : -7.63748e-006
+
+degrees of freedom    (FIT_NDF)                        : 1058
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 1.4263
+variance of residuals (reduced chisquare) = WSSR/ndf   : 2.03435
+p-value of the Chisq distribution (FIT_P)              : 0
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+Imax            = 0.00185866       +/- 1.592e-005   (0.8564%)
+dI              = 0.0133251        +/- 2.418e-005   (0.1814%)
+a               = 635.443          +/- 3.074        (0.4837%)
+
+correlation matrix of the fit parameters:
+                Imax   dI     a      
+Imax            1.000 
+dI             -0.014  1.000 
+a              -0.880  0.387  1.000 
+
+
+*******************************************************************************
+Mon Apr 18 12:55:47 2016
+
+
+FIT:    data read from '../data/Transmissionen/'.trans u 1:2
+        format = x:z
+        #datapoints = 2046
+        residuals are weighted equally (unit weight)
+
+function used for fitting: I(x)
+	I(x)=intensity
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   intensity    
+   0 1.0313369012e+02  0.00e+00 3.93e-01  3.929541e-01
+   3 7.1454780059e-03 -8.22e-09 3.93e-04  1.684457e-01
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 0.00714548
+rel. change during last iteration : -8.21784e-014
+
+degrees of freedom    (FIT_NDF)                        : 2045
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00186926
+variance of residuals (reduced chisquare) = WSSR/ndf   : 3.49412e-006
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+intensity       = 0.168446         +/- 4.133e-005   (0.02453%)
+
+
+*******************************************************************************
+Mon Apr 18 12:55:47 2016
+
+
+FIT:    data read from '../data/ohnefoehn/'.data u 1:2:(1/sqrt(12)*word(binw,i)) yerror
+        format = x:z:s
+        x range restricted to [0.00270000 : 0.00800000]
+        #datapoints = 1061
+function used for fitting: f(x)
+	f(x)=Imax-dI*exp(-a*(x-x0))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   Imax          dI            a            
+   0 8.7883950280e+03  0.00e+00 6.05e+01  1.858665e-03  1.332507e-02  6.354435e+02
+   3 7.6672412487e+03 -6.45e-03 6.05e-02  1.982790e-03  1.353688e-02  6.241609e+02
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 7667.24
+rel. change during last iteration : -6.44639e-008
+
+degrees of freedom    (FIT_NDF)                        : 1058
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 2.69201
+variance of residuals (reduced chisquare) = WSSR/ndf   : 7.24692
+p-value of the Chisq distribution (FIT_P)              : 0
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+Imax            = 0.00198279       +/- 1.541e-005   (0.7773%)
+dI              = 0.0135369        +/- 2.254e-005   (0.1665%)
+a               = 624.161          +/- 2.828        (0.4532%)
+
+correlation matrix of the fit parameters:
+                Imax   dI     a      
+Imax            1.000 
+dI              0.004  1.000 
+a              -0.884  0.364  1.000 
+
+
+*******************************************************************************
+Mon Apr 18 12:55:47 2016
+
+
+FIT:    data read from '../data/Transmissionen/'.trans u 1:2
+        format = x:z
+        #datapoints = 2046
+        residuals are weighted equally (unit weight)
+
+function used for fitting: I(x)
+	I(x)=intensity
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   intensity    
+   0 1.7685058065e-01  0.00e+00 1.68e-01  1.684457e-01
+   2 9.6452942326e-03 -4.14e-01 1.68e-03  1.594057e-01
+
+After 2 iterations the fit converged.
+final sum of squares of residuals : 0.00964529
+rel. change during last iteration : -4.13713e-006
+
+degrees of freedom    (FIT_NDF)                        : 2045
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00217176
+variance of residuals (reduced chisquare) = WSSR/ndf   : 4.71653e-006
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+intensity       = 0.159406         +/- 4.801e-005   (0.03012%)
+
+
+*******************************************************************************
+Mon Apr 18 12:55:47 2016
+
+
+FIT:    data read from '../data/ohnefoehn/'.data u 1:2:(1/sqrt(12)*word(binw,i)) yerror
+        format = x:z:s
+        x range restricted to [0.00270000 : 0.00800000]
+        #datapoints = 1061
+function used for fitting: f(x)
+	f(x)=Imax-dI*exp(-a*(x-x0))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   Imax          dI            a            
+   0 9.4879394693e+05  0.00e+00 6.23e+01  1.982790e-03  1.353688e-02  6.241609e+02
+   4 8.1178545518e+03 -6.35e-02 6.23e-03  1.257064e-03  6.489334e-03  4.882305e+02
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 8117.85
+rel. change during last iteration : -6.35093e-007
+
+degrees of freedom    (FIT_NDF)                        : 1058
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 2.76999
+variance of residuals (reduced chisquare) = WSSR/ndf   : 7.67283
+p-value of the Chisq distribution (FIT_P)              : 0
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+Imax            = 0.00125706       +/- 2.324e-005   (1.849%)
+dI              = 0.00648933       +/- 2.136e-005   (0.3291%)
+a               = 488.231          +/- 5.537        (1.134%)
+
+correlation matrix of the fit parameters:
+                Imax   dI     a      
+Imax            1.000 
+dI              0.364  1.000 
+a              -0.931 -0.072  1.000 
+
+
+*******************************************************************************
+Mon Apr 18 12:55:47 2016
+
+
+FIT:    data read from '../data/Transmissionen/'.trans u 1:2
+        format = x:z
+        #datapoints = 2046
+        residuals are weighted equally (unit weight)
+
+function used for fitting: I(x)
+	I(x)=intensity
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   intensity    
+   0 1.8181514519e+01  0.00e+00 1.59e-01  1.594057e-01
+   3 1.6475088954e-02 -6.11e-10 1.59e-04  6.518084e-02
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 0.0164751
+rel. change during last iteration : -6.10704e-015
+
+degrees of freedom    (FIT_NDF)                        : 2045
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00283836
+variance of residuals (reduced chisquare) = WSSR/ndf   : 8.05628e-006
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+intensity       = 0.0651808        +/- 6.275e-005   (0.09627%)
+
+
+*******************************************************************************
+Mon Apr 18 12:55:47 2016
+
+
+FIT:    data read from '../data/ohnefoehn/'.data u 1:2:(1/sqrt(12)*word(binw,i)) yerror
+        format = x:z:s
+        x range restricted to [0.00270000 : 0.00800000]
+        #datapoints = 1061
+function used for fitting: f(x)
+	f(x)=Imax-dI*exp(-a*(x-x0))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   Imax          dI            a            
+   0 1.7873384607e+05  0.00e+00 8.63e+01  1.257064e-03  6.489334e-03  4.882305e+02
+   3 4.7136594679e+04 -3.06e-02 8.63e-02  1.129279e-03  5.710829e-03  5.063554e+02
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 47136.6
+rel. change during last iteration : -3.06488e-007
+
+degrees of freedom    (FIT_NDF)                        : 1058
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 6.67477
+variance of residuals (reduced chisquare) = WSSR/ndf   : 44.5525
+p-value of the Chisq distribution (FIT_P)              : 0
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+Imax            = 0.00112928       +/- 2.11e-005    (1.869%)
+dI              = 0.00571083       +/- 2.053e-005   (0.3594%)
+a               = 506.355          +/- 6.123        (1.209%)
+
+correlation matrix of the fit parameters:
+                Imax   dI     a      
+Imax            1.000 
+dI              0.299  1.000 
+a              -0.925  0.006  1.000 
+
+
+*******************************************************************************
+Mon Apr 18 12:55:47 2016
+
+
+FIT:    data read from '../results/relaxation/ohnefoehn/fitresults.txt' u 2:3:4 yerror
+        format = x:z:s
+        x range restricted to [0.00000 : 0.900000]
+        #datapoints = 10
+function used for fitting: g(x)
+	g(x)=grad*x+1/Trelax
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   grad          Trelax       
+   0 3.6019141009e+05  0.00e+00 4.87e+01  1.000000e+00  3.700000e-03
+  11 1.1708674356e+04 -7.68e-02 4.87e-08  2.205465e+03  5.109554e-03
+
+After 11 iterations the fit converged.
+final sum of squares of residuals : 11708.7
+rel. change during last iteration : -7.68113e-007
+
+degrees of freedom    (FIT_NDF)                        : 8
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 38.2568
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1463.58
+p-value of the Chisq distribution (FIT_P)              : 0
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+grad            = 2205.47          +/- 320.5        (14.53%)
+Trelax          = 0.00510955       +/- 0.003039     (59.47%)
+
+correlation matrix of the fit parameters:
+                grad   Trelax 
+grad            1.000 
+Trelax          0.913  1.000 
+
+
+*******************************************************************************
+Mon Apr 18 12:57:53 2016
+
+
+FIT:    data read from '../data/Transmissionen/'.word(translist,Ntrans) u 1:2
+        format = x:z
+        #datapoints = 2046
+        residuals are weighted equally (unit weight)
+
+function used for fitting: NL(x)
+	NL(x)=nolaser
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   nolaser      
+   0 2.3129275520e+03  0.00e+00 1.00e+00  1.000000e+00
+   3 1.1650033236e-02 -1.13e-07 1.00e-03 -6.322972e-02
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 0.01165
+rel. change during last iteration : -1.13166e-012
+
+degrees of freedom    (FIT_NDF)                        : 2045
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.0023868
+variance of residuals (reduced chisquare) = WSSR/ndf   : 5.69684e-006
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+nolaser         = -0.0632297       +/- 5.277e-005   (0.08345%)
+
+
+*******************************************************************************
+Mon Apr 18 12:57:53 2016
+
+
+FIT:    data read from '../data/Transmissionen/'.word(translist,1) u 1:2
+        format = x:z
+        #datapoints = 2046
+        residuals are weighted equally (unit weight)
+
+function used for fitting: NF(x)
+	NF(x)=nofilter
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   nofilter     
+   0 3.2848710000e+02  0.00e+00 1.00e+00  1.000000e+00
+   3 1.4155669599e-02 -1.32e-08 1.00e-03  1.400679e+00
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 0.0141557
+rel. change during last iteration : -1.3235e-013
+
+degrees of freedom    (FIT_NDF)                        : 2045
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00263099
+variance of residuals (reduced chisquare) = WSSR/ndf   : 6.92209e-006
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+nofilter        = 1.40068          +/- 5.817e-005   (0.004153%)
+
+
+*******************************************************************************
+Mon Apr 18 12:57:53 2016
+
+
+FIT:    data read from '../data/ohnefoehn/'.data u 1:2:(1/sqrt(12)*word(binw,i)) yerror
+        format = x:z:s
+        x range restricted to [0.00270000 : 0.00800000]
+        #datapoints = 1061
+function used for fitting: f(x)
+	f(x)=Imax-dI*exp(-a*(x-x0))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   Imax          dI            a            
+   0 6.9491721798e+06  0.00e+00 9.10e+01  2.000000e-02  3.000000e-01  1.200000e+03
+   6 1.3670851232e+03 -2.00e-01 9.10e-05  4.986727e-03  1.014852e-01  2.283447e+03
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 1367.09
+rel. change during last iteration : -2.0027e-006
+
+degrees of freedom    (FIT_NDF)                        : 1058
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 1.13672
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.29214
+p-value of the Chisq distribution (FIT_P)              : 3.37102e-010
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+Imax            = 0.00498673       +/- 2.461e-005   (0.4936%)
+dI              = 0.101485         +/- 0.000342     (0.337%)
+a               = 2283.45          +/- 7.832        (0.343%)
+
+correlation matrix of the fit parameters:
+                Imax   dI     a      
+Imax            1.000 
+dI             -0.204  1.000 
+a              -0.444  0.867  1.000 
+
+
+*******************************************************************************
+Mon Apr 18 12:57:53 2016
+
+
+FIT:    data read from '../data/Transmissionen/'.trans u 1:2
+        format = x:z
+        #datapoints = 2046
+        residuals are weighted equally (unit weight)
+
+function used for fitting: I(x)
+	I(x)=intensity
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   intensity    
+   0 2.4669200000e+01  0.00e+00 1.00e+00  1.000000e+00
+   3 9.3053763441e-03 -1.51e-09 1.00e-03  1.109785e+00
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 0.00930538
+rel. change during last iteration : -1.51002e-014
+
+degrees of freedom    (FIT_NDF)                        : 2045
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00213314
+variance of residuals (reduced chisquare) = WSSR/ndf   : 4.55031e-006
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+intensity       = 1.10978          +/- 4.716e-005   (0.004249%)
+
+
+*******************************************************************************
+Mon Apr 18 12:57:53 2016
+
+
+FIT:    data read from '../data/ohnefoehn/'.data u 1:2:(1/sqrt(12)*word(binw,i)) yerror
+        format = x:z:s
+        x range restricted to [0.00270000 : 0.00800000]
+        #datapoints = 1061
+function used for fitting: f(x)
+	f(x)=Imax-dI*exp(-a*(x-x0))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   Imax          dI            a            
+   0 8.2715204196e+03  0.00e+00 1.99e+01  4.986727e-03  1.014852e-01  2.283447e+03
+   4 1.0529377303e+03 -6.55e-02 1.99e-03  4.706147e-03  8.080305e-02  1.988834e+03
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 1052.94
+rel. change during last iteration : -6.55366e-007
+
+degrees of freedom    (FIT_NDF)                        : 1058
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.997605
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.995215
+p-value of the Chisq distribution (FIT_P)              : 0.538131
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+Imax            = 0.00470615       +/- 2.243e-005   (0.4767%)
+dI              = 0.080803         +/- 0.0002518    (0.3117%)
+a               = 1988.83          +/- 6.774        (0.3406%)
+
+correlation matrix of the fit parameters:
+                Imax   dI     a      
+Imax            1.000 
+dI             -0.207  1.000 
+a              -0.483  0.848  1.000 
+
+
+*******************************************************************************
+Mon Apr 18 12:57:53 2016
+
+
+FIT:    data read from '../data/Transmissionen/'.trans u 1:2
+        format = x:z
+        #datapoints = 2046
+        residuals are weighted equally (unit weight)
+
+function used for fitting: I(x)
+	I(x)=intensity
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   intensity    
+   0 3.7649658520e+02  0.00e+00 1.11e+00  1.109785e+00
+   3 1.2188527859e-02 -1.76e-08 1.11e-03  6.808211e-01
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 0.0121885
+rel. change during last iteration : -1.76197e-013
+
+degrees of freedom    (FIT_NDF)                        : 2045
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00244134
+variance of residuals (reduced chisquare) = WSSR/ndf   : 5.96016e-006
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+intensity       = 0.680821         +/- 5.397e-005   (0.007928%)
+
+
+*******************************************************************************
+Mon Apr 18 12:57:53 2016
+
+
+FIT:    data read from '../data/ohnefoehn/'.data u 1:2:(1/sqrt(12)*word(binw,i)) yerror
+        format = x:z:s
+        x range restricted to [0.00270000 : 0.00800000]
+        #datapoints = 1061
+function used for fitting: f(x)
+	f(x)=Imax-dI*exp(-a*(x-x0))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   Imax          dI            a            
+   0 3.6579600195e+05  0.00e+00 4.41e+01  4.706147e-03  8.080305e-02  1.988834e+03
+   5 1.5944093669e+03 -1.56e-02 4.41e-04  3.104996e-03  3.966358e-02  1.403929e+03
+
+After 5 iterations the fit converged.
+final sum of squares of residuals : 1594.41
+rel. change during last iteration : -1.56421e-007
+
+degrees of freedom    (FIT_NDF)                        : 1058
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 1.2276
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.507
+p-value of the Chisq distribution (FIT_P)              : 0
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+Imax            = 0.003105         +/- 1.272e-005   (0.4096%)
+dI              = 0.0396636        +/- 8.397e-005   (0.2117%)
+a               = 1403.93          +/- 3.927        (0.2797%)
+
+correlation matrix of the fit parameters:
+                Imax   dI     a      
+Imax            1.000 
+dI             -0.216  1.000 
+a              -0.600  0.787  1.000 
+
+
+*******************************************************************************
+Mon Apr 18 12:57:54 2016
+
+
+FIT:    data read from '../data/Transmissionen/'.trans u 1:2
+        format = x:z
+        #datapoints = 2046
+        residuals are weighted equally (unit weight)
+
+function used for fitting: I(x)
+	I(x)=intensity
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   intensity    
+   0 6.6472455695e+01  0.00e+00 6.81e-01  6.808211e-01
+   3 3.2211112414e-02 -1.18e-09 6.81e-04  5.006178e-01
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 0.0322111
+rel. change during last iteration : -1.18481e-014
+
+degrees of freedom    (FIT_NDF)                        : 2045
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00396877
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.57512e-005
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+intensity       = 0.500618         +/- 8.774e-005   (0.01753%)
+
+
+*******************************************************************************
+Mon Apr 18 12:57:54 2016
+
+
+FIT:    data read from '../data/ohnefoehn/'.data u 1:2:(1/sqrt(12)*word(binw,i)) yerror
+        format = x:z:s
+        x range restricted to [0.00270000 : 0.00800000]
+        #datapoints = 1061
+function used for fitting: f(x)
+	f(x)=Imax-dI*exp(-a*(x-x0))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   Imax          dI            a            
+   0 2.0091551876e+04  0.00e+00 2.76e+01  3.104996e-03  3.966358e-02  1.403929e+03
+   4 1.2310466765e+03 -5.28e-03 2.76e-03  2.903912e-03  3.158300e-02  1.187876e+03
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 1231.05
+rel. change during last iteration : -5.28113e-008
+
+degrees of freedom    (FIT_NDF)                        : 1058
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 1.07868
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.16356
+p-value of the Chisq distribution (FIT_P)              : 0.000166179
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+Imax            = 0.00290391       +/- 1.237e-005   (0.426%)
+dI              = 0.031583         +/- 6.255e-005   (0.1981%)
+a               = 1187.88          +/- 3.46         (0.2912%)
+
+correlation matrix of the fit parameters:
+                Imax   dI     a      
+Imax            1.000 
+dI             -0.218  1.000 
+a              -0.664  0.748  1.000 
+
+
+*******************************************************************************
+Mon Apr 18 12:57:54 2016
+
+
+FIT:    data read from '../data/Transmissionen/'.trans u 1:2
+        format = x:z
+        #datapoints = 2046
+        residuals are weighted equally (unit weight)
+
+function used for fitting: I(x)
+	I(x)=intensity
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   intensity    
+   0 5.4279478866e+00  0.00e+00 5.01e-01  5.006178e-01
+   3 4.8428543500e-03 -6.27e-10 5.01e-04  5.521017e-01
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 0.00484285
+rel. change during last iteration : -6.26855e-015
+
+degrees of freedom    (FIT_NDF)                        : 2045
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00153888
+variance of residuals (reduced chisquare) = WSSR/ndf   : 2.36814e-006
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+intensity       = 0.552102         +/- 3.402e-005   (0.006162%)
+
+
+*******************************************************************************
+Mon Apr 18 12:57:54 2016
+
+
+FIT:    data read from '../data/ohnefoehn/'.data u 1:2:(1/sqrt(12)*word(binw,i)) yerror
+        format = x:z:s
+        x range restricted to [0.00270000 : 0.00800000]
+        #datapoints = 1061
+function used for fitting: f(x)
+	f(x)=Imax-dI*exp(-a*(x-x0))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   Imax          dI            a            
+   0 1.4661668863e+05  0.00e+00 2.46e+01  2.903912e-03  3.158300e-02  1.187876e+03
+   3 3.0142817345e+03 -3.87e-01 2.46e-02  4.521912e-03  4.562043e-02  1.164303e+03
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 3014.28
+rel. change during last iteration : -3.86757e-006
+
+degrees of freedom    (FIT_NDF)                        : 1058
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 1.68791
+variance of residuals (reduced chisquare) = WSSR/ndf   : 2.84904
+p-value of the Chisq distribution (FIT_P)              : 0
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+Imax            = 0.00452191       +/- 1.963e-005   (0.4342%)
+dI              = 0.0456204        +/- 9.604e-005   (0.2105%)
+a               = 1164.3           +/- 3.655        (0.3139%)
+
+correlation matrix of the fit parameters:
+                Imax   dI     a      
+Imax            1.000 
+dI             -0.218  1.000 
+a              -0.672  0.743  1.000 
+
+
+*******************************************************************************
+Mon Apr 18 12:57:54 2016
+
+
+FIT:    data read from '../data/Transmissionen/'.trans u 1:2
+        format = x:z
+        #datapoints = 2046
+        residuals are weighted equally (unit weight)
+
+function used for fitting: I(x)
+	I(x)=intensity
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   intensity    
+   0 4.2396756082e+01  0.00e+00 5.52e-01  5.521017e-01
+   3 3.1499511241e-03 -7.65e-09 5.52e-04  4.081564e-01
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 0.00314995
+rel. change during last iteration : -7.65493e-014
+
+degrees of freedom    (FIT_NDF)                        : 2045
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.0012411
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.54032e-006
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+intensity       = 0.408156         +/- 2.744e-005   (0.006722%)
+
+
+*******************************************************************************
+Mon Apr 18 12:57:54 2016
+
+
+FIT:    data read from '../data/ohnefoehn/'.data u 1:2:(1/sqrt(12)*word(binw,i)) yerror
+        format = x:z:s
+        x range restricted to [0.00270000 : 0.00800000]
+        #datapoints = 1061
+function used for fitting: f(x)
+	f(x)=Imax-dI*exp(-a*(x-x0))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   Imax          dI            a            
+   0 1.3295796814e+06  0.00e+00 7.24e+01  4.521912e-03  4.562043e-02  1.164303e+03
+   4 8.6100754834e+03 -8.11e-03 7.24e-03  2.440577e-03  2.235407e-02  1.005282e+03
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 8610.08
+rel. change during last iteration : -8.11362e-008
+
+degrees of freedom    (FIT_NDF)                        : 1058
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 2.85273
+variance of residuals (reduced chisquare) = WSSR/ndf   : 8.13807
+p-value of the Chisq distribution (FIT_P)              : 0
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+Imax            = 0.00244058       +/- 1.866e-005   (0.7644%)
+dI              = 0.0223541        +/- 7.087e-005   (0.317%)
+a               = 1005.28          +/- 5.313        (0.5285%)
+
+correlation matrix of the fit parameters:
+                Imax   dI     a      
+Imax            1.000 
+dI             -0.210  1.000 
+a              -0.730  0.697  1.000 
+
+
+*******************************************************************************
+Mon Apr 18 12:57:54 2016
+
+
+FIT:    data read from '../data/Transmissionen/'.trans u 1:2
+        format = x:z
+        #datapoints = 2046
+        residuals are weighted equally (unit weight)
+
+function used for fitting: I(x)
+	I(x)=intensity
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   intensity    
+   0 1.2039687570e+01  0.00e+00 4.08e-01  4.081564e-01
+   3 3.1534326491e-02 -2.20e-10 4.08e-04  4.847664e-01
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 0.0315343
+rel. change during last iteration : -2.20043e-015
+
+degrees of freedom    (FIT_NDF)                        : 2045
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00392686
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.54202e-005
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+intensity       = 0.484766         +/- 8.681e-005   (0.01791%)
+
+
+*******************************************************************************
+Mon Apr 18 12:57:54 2016
+
+
+FIT:    data read from '../data/ohnefoehn/'.data u 1:2:(1/sqrt(12)*word(binw,i)) yerror
+        format = x:z:s
+        x range restricted to [0.00270000 : 0.00800000]
+        #datapoints = 1061
+function used for fitting: f(x)
+	f(x)=Imax-dI*exp(-a*(x-x0))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   Imax          dI            a            
+   0 2.5847492623e+05  0.00e+00 3.89e+01  2.440577e-03  2.235407e-02  1.005282e+03
+   4 7.6909619618e+03 -2.12e-02 3.89e-03  2.862255e-03  2.801852e-02  8.923615e+02
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 7690.96
+rel. change during last iteration : -2.11939e-007
+
+degrees of freedom    (FIT_NDF)                        : 1058
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 2.69617
+variance of residuals (reduced chisquare) = WSSR/ndf   : 7.26934
+p-value of the Chisq distribution (FIT_P)              : 0
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+Imax            = 0.00286226       +/- 1.977e-005   (0.6906%)
+dI              = 0.0280185        +/- 6.027e-005   (0.2151%)
+a               = 892.362          +/- 3.55         (0.3979%)
+
+correlation matrix of the fit parameters:
+                Imax   dI     a      
+Imax            1.000 
+dI             -0.193  1.000 
+a              -0.775  0.649  1.000 
+
+
+*******************************************************************************
+Mon Apr 18 12:57:54 2016
+
+
+FIT:    data read from '../data/Transmissionen/'.trans u 1:2
+        format = x:z
+        #datapoints = 2046
+        residuals are weighted equally (unit weight)
+
+function used for fitting: I(x)
+	I(x)=intensity
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   intensity    
+   0 1.7260513752e+01  0.00e+00 4.85e-01  4.847664e-01
+   3 1.3753681329e-02 -7.19e-10 4.85e-04  3.929541e-01
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 0.0137537
+rel. change during last iteration : -7.18929e-015
+
+degrees of freedom    (FIT_NDF)                        : 2045
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00259336
+variance of residuals (reduced chisquare) = WSSR/ndf   : 6.72552e-006
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+intensity       = 0.392954         +/- 5.733e-005   (0.01459%)
+
+
+*******************************************************************************
+Mon Apr 18 12:57:54 2016
+
+
+FIT:    data read from '../data/ohnefoehn/'.data u 1:2:(1/sqrt(12)*word(binw,i)) yerror
+        format = x:z:s
+        x range restricted to [0.00270000 : 0.00800000]
+        #datapoints = 1061
+function used for fitting: f(x)
+	f(x)=Imax-dI*exp(-a*(x-x0))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   Imax          dI            a            
+   0 6.8052518351e+05  0.00e+00 5.18e+01  2.862255e-03  2.801852e-02  8.923615e+02
+   4 2.1523372501e+03 -7.64e-01 5.18e-03  1.858665e-03  1.332507e-02  6.354435e+02
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 2152.34
+rel. change during last iteration : -7.63748e-006
+
+degrees of freedom    (FIT_NDF)                        : 1058
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 1.4263
+variance of residuals (reduced chisquare) = WSSR/ndf   : 2.03435
+p-value of the Chisq distribution (FIT_P)              : 0
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+Imax            = 0.00185866       +/- 1.592e-005   (0.8564%)
+dI              = 0.0133251        +/- 2.418e-005   (0.1814%)
+a               = 635.443          +/- 3.074        (0.4837%)
+
+correlation matrix of the fit parameters:
+                Imax   dI     a      
+Imax            1.000 
+dI             -0.014  1.000 
+a              -0.880  0.387  1.000 
+
+
+*******************************************************************************
+Mon Apr 18 12:57:55 2016
+
+
+FIT:    data read from '../data/Transmissionen/'.trans u 1:2
+        format = x:z
+        #datapoints = 2046
+        residuals are weighted equally (unit weight)
+
+function used for fitting: I(x)
+	I(x)=intensity
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   intensity    
+   0 1.0313369012e+02  0.00e+00 3.93e-01  3.929541e-01
+   3 7.1454780059e-03 -8.22e-09 3.93e-04  1.684457e-01
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 0.00714548
+rel. change during last iteration : -8.21784e-014
+
+degrees of freedom    (FIT_NDF)                        : 2045
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00186926
+variance of residuals (reduced chisquare) = WSSR/ndf   : 3.49412e-006
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+intensity       = 0.168446         +/- 4.133e-005   (0.02453%)
+
+
+*******************************************************************************
+Mon Apr 18 12:57:55 2016
+
+
+FIT:    data read from '../data/ohnefoehn/'.data u 1:2:(1/sqrt(12)*word(binw,i)) yerror
+        format = x:z:s
+        x range restricted to [0.00270000 : 0.00800000]
+        #datapoints = 1061
+function used for fitting: f(x)
+	f(x)=Imax-dI*exp(-a*(x-x0))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   Imax          dI            a            
+   0 8.7883950280e+03  0.00e+00 6.05e+01  1.858665e-03  1.332507e-02  6.354435e+02
+   3 7.6672412487e+03 -6.45e-03 6.05e-02  1.982790e-03  1.353688e-02  6.241609e+02
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 7667.24
+rel. change during last iteration : -6.44639e-008
+
+degrees of freedom    (FIT_NDF)                        : 1058
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 2.69201
+variance of residuals (reduced chisquare) = WSSR/ndf   : 7.24692
+p-value of the Chisq distribution (FIT_P)              : 0
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+Imax            = 0.00198279       +/- 1.541e-005   (0.7773%)
+dI              = 0.0135369        +/- 2.254e-005   (0.1665%)
+a               = 624.161          +/- 2.828        (0.4532%)
+
+correlation matrix of the fit parameters:
+                Imax   dI     a      
+Imax            1.000 
+dI              0.004  1.000 
+a              -0.884  0.364  1.000 
+
+
+*******************************************************************************
+Mon Apr 18 12:57:55 2016
+
+
+FIT:    data read from '../data/Transmissionen/'.trans u 1:2
+        format = x:z
+        #datapoints = 2046
+        residuals are weighted equally (unit weight)
+
+function used for fitting: I(x)
+	I(x)=intensity
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   intensity    
+   0 1.7685058065e-01  0.00e+00 1.68e-01  1.684457e-01
+   2 9.6452942326e-03 -4.14e-01 1.68e-03  1.594057e-01
+
+After 2 iterations the fit converged.
+final sum of squares of residuals : 0.00964529
+rel. change during last iteration : -4.13713e-006
+
+degrees of freedom    (FIT_NDF)                        : 2045
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00217176
+variance of residuals (reduced chisquare) = WSSR/ndf   : 4.71653e-006
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+intensity       = 0.159406         +/- 4.801e-005   (0.03012%)
+
+
+*******************************************************************************
+Mon Apr 18 12:57:55 2016
+
+
+FIT:    data read from '../data/ohnefoehn/'.data u 1:2:(1/sqrt(12)*word(binw,i)) yerror
+        format = x:z:s
+        x range restricted to [0.00270000 : 0.00800000]
+        #datapoints = 1061
+function used for fitting: f(x)
+	f(x)=Imax-dI*exp(-a*(x-x0))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   Imax          dI            a            
+   0 9.4879394693e+05  0.00e+00 6.23e+01  1.982790e-03  1.353688e-02  6.241609e+02
+   4 8.1178545518e+03 -6.35e-02 6.23e-03  1.257064e-03  6.489334e-03  4.882305e+02
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 8117.85
+rel. change during last iteration : -6.35093e-007
+
+degrees of freedom    (FIT_NDF)                        : 1058
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 2.76999
+variance of residuals (reduced chisquare) = WSSR/ndf   : 7.67283
+p-value of the Chisq distribution (FIT_P)              : 0
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+Imax            = 0.00125706       +/- 2.324e-005   (1.849%)
+dI              = 0.00648933       +/- 2.136e-005   (0.3291%)
+a               = 488.231          +/- 5.537        (1.134%)
+
+correlation matrix of the fit parameters:
+                Imax   dI     a      
+Imax            1.000 
+dI              0.364  1.000 
+a              -0.931 -0.072  1.000 
+
+
+*******************************************************************************
+Mon Apr 18 12:57:55 2016
+
+
+FIT:    data read from '../data/Transmissionen/'.trans u 1:2
+        format = x:z
+        #datapoints = 2046
+        residuals are weighted equally (unit weight)
+
+function used for fitting: I(x)
+	I(x)=intensity
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   intensity    
+   0 1.8181514519e+01  0.00e+00 1.59e-01  1.594057e-01
+   3 1.6475088954e-02 -6.11e-10 1.59e-04  6.518084e-02
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 0.0164751
+rel. change during last iteration : -6.10704e-015
+
+degrees of freedom    (FIT_NDF)                        : 2045
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00283836
+variance of residuals (reduced chisquare) = WSSR/ndf   : 8.05628e-006
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+intensity       = 0.0651808        +/- 6.275e-005   (0.09627%)
+
+
+*******************************************************************************
+Mon Apr 18 12:57:55 2016
+
+
+FIT:    data read from '../data/ohnefoehn/'.data u 1:2:(1/sqrt(12)*word(binw,i)) yerror
+        format = x:z:s
+        x range restricted to [0.00270000 : 0.00800000]
+        #datapoints = 1061
+function used for fitting: f(x)
+	f(x)=Imax-dI*exp(-a*(x-x0))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   Imax          dI            a            
+   0 1.7873384607e+05  0.00e+00 8.63e+01  1.257064e-03  6.489334e-03  4.882305e+02
+   3 4.7136594679e+04 -3.06e-02 8.63e-02  1.129279e-03  5.710829e-03  5.063554e+02
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 47136.6
+rel. change during last iteration : -3.06488e-007
+
+degrees of freedom    (FIT_NDF)                        : 1058
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 6.67477
+variance of residuals (reduced chisquare) = WSSR/ndf   : 44.5525
+p-value of the Chisq distribution (FIT_P)              : 0
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+Imax            = 0.00112928       +/- 2.11e-005    (1.869%)
+dI              = 0.00571083       +/- 2.053e-005   (0.3594%)
+a               = 506.355          +/- 6.123        (1.209%)
+
+correlation matrix of the fit parameters:
+                Imax   dI     a      
+Imax            1.000 
+dI              0.299  1.000 
+a              -0.925  0.006  1.000 
+
+
+*******************************************************************************
+Mon Apr 18 12:57:55 2016
+
+
+FIT:    data read from '../results/relaxation/ohnefoehn/fitresults.txt' u 2:3:4 yerror
+        format = x:z:s
+        x range restricted to [0.00000 : 0.900000]
+        #datapoints = 10
+function used for fitting: g(x)
+	g(x)=grad*x+1/Trelax
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   grad          Trelax       
+   0 3.6019141009e+05  0.00e+00 4.87e+01  1.000000e+00  3.700000e-03
+  11 1.1708674356e+04 -7.68e-02 4.87e-08  2.205465e+03  5.109554e-03
+
+After 11 iterations the fit converged.
+final sum of squares of residuals : 11708.7
+rel. change during last iteration : -7.68113e-007
+
+degrees of freedom    (FIT_NDF)                        : 8
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 38.2568
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1463.58
+p-value of the Chisq distribution (FIT_P)              : 0
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+grad            = 2205.47          +/- 320.5        (14.53%)
+Trelax          = 0.00510955       +/- 0.003039     (59.47%)
+
+correlation matrix of the fit parameters:
+                grad   Trelax 
+grad            1.000 
+Trelax          0.913  1.000 
+
+
+*******************************************************************************
+Mon Apr 18 12:57:57 2016
+
+
+FIT:    data read from '../data/Transmissionen/'.word(translist,Ntrans) u 1:2
+        format = x:z
+        #datapoints = 2046
+        residuals are weighted equally (unit weight)
+
+function used for fitting: NL(x)
+	NL(x)=nolaser
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   nolaser      
+   0 2.3129275520e+03  0.00e+00 1.00e+00  1.000000e+00
+   3 1.1650033236e-02 -1.13e-07 1.00e-03 -6.322972e-02
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 0.01165
+rel. change during last iteration : -1.13166e-012
+
+degrees of freedom    (FIT_NDF)                        : 2045
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.0023868
+variance of residuals (reduced chisquare) = WSSR/ndf   : 5.69684e-006
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+nolaser         = -0.0632297       +/- 5.277e-005   (0.08345%)
+
+
+*******************************************************************************
+Mon Apr 18 12:57:57 2016
+
+
+FIT:    data read from '../data/Transmissionen/'.word(translist,1) u 1:2
+        format = x:z
+        #datapoints = 2046
+        residuals are weighted equally (unit weight)
+
+function used for fitting: NF(x)
+	NF(x)=nofilter
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   nofilter     
+   0 3.2848710000e+02  0.00e+00 1.00e+00  1.000000e+00
+   3 1.4155669599e-02 -1.32e-08 1.00e-03  1.400679e+00
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 0.0141557
+rel. change during last iteration : -1.3235e-013
+
+degrees of freedom    (FIT_NDF)                        : 2045
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00263099
+variance of residuals (reduced chisquare) = WSSR/ndf   : 6.92209e-006
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+nofilter        = 1.40068          +/- 5.817e-005   (0.004153%)
+
+
+*******************************************************************************
+Mon Apr 18 12:57:57 2016
+
+
+FIT:    data read from '../data/Daten/'.data u 1:2:(1/sqrt(12)*word(binw,i)) yerror
+        format = x:z:s
+        x range restricted to [0.00550000 : 0.0120000]
+        #datapoints = 651
+function used for fitting: f(x)
+	f(x)=Imax-dI*exp(-a*(x-x0))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   Imax          dI            a            
+   0 3.0922933298e+05  0.00e+00 6.85e+01  2.000000e-02  3.000000e-01  1.200000e+03
+   5 5.1338673439e+03  0.00e+00 6.85e+05  2.956099e-02  3.157789e-01  9.194457e+02
+
+After 5 iterations the fit converged.
+final sum of squares of residuals : 5133.87
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 648
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 2.81472
+variance of residuals (reduced chisquare) = WSSR/ndf   : 7.92263
+p-value of the Chisq distribution (FIT_P)              : 0
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+Imax            = 0.029561         +/- 0.0001069    (0.3617%)
+dI              = 0.315779         +/- 0.000803     (0.2543%)
+a               = 919.446          +/- 2.78         (0.3024%)
+
+correlation matrix of the fit parameters:
+                Imax   dI     a      
+Imax            1.000 
+dI             -0.358  1.000 
+a              -0.684  0.848  1.000 
+
+
+*******************************************************************************
+Mon Apr 18 12:57:57 2016
+
+
+FIT:    data read from '../data/Transmissionen/'.trans u 1:2
+        format = x:z
+        #datapoints = 2046
+        residuals are weighted equally (unit weight)
+
+function used for fitting: I(x)
+	I(x)=intensity
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   intensity    
+   0 2.4669200000e+01  0.00e+00 1.00e+00  1.000000e+00
+   3 9.3053763441e-03 -1.51e-09 1.00e-03  1.109785e+00
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 0.00930538
+rel. change during last iteration : -1.51002e-014
+
+degrees of freedom    (FIT_NDF)                        : 2045
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00213314
+variance of residuals (reduced chisquare) = WSSR/ndf   : 4.55031e-006
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+intensity       = 1.10978          +/- 4.716e-005   (0.004249%)
+
+
+*******************************************************************************
+Mon Apr 18 12:57:57 2016
+
+
+FIT:    data read from '../data/Daten/'.data u 1:2:(1/sqrt(12)*word(binw,i)) yerror
+        format = x:z:s
+        x range restricted to [0.00550000 : 0.0120000]
+        #datapoints = 651
+function used for fitting: f(x)
+	f(x)=Imax-dI*exp(-a*(x-x0))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   Imax          dI            a            
+   0 3.0164823553e+05  0.00e+00 9.01e+01  2.956099e-02  3.157789e-01  9.194457e+02
+   4 3.9498280431e+03 -2.57e-01 9.01e-03  2.303058e-02  2.594792e-01  1.029571e+03
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 3949.83
+rel. change during last iteration : -2.56631e-006
+
+degrees of freedom    (FIT_NDF)                        : 648
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 2.46889
+variance of residuals (reduced chisquare) = WSSR/ndf   : 6.09541
+p-value of the Chisq distribution (FIT_P)              : 0
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+Imax            = 0.0230306        +/- 8.677e-005   (0.3767%)
+dI              = 0.259479         +/- 0.0008191    (0.3157%)
+a               = 1029.57          +/- 3.523        (0.3422%)
+
+correlation matrix of the fit parameters:
+                Imax   dI     a      
+Imax            1.000 
+dI             -0.348  1.000 
+a              -0.640  0.868  1.000 
+
+
+*******************************************************************************
+Mon Apr 18 12:57:57 2016
+
+
+FIT:    data read from '../data/Transmissionen/'.trans u 1:2
+        format = x:z
+        #datapoints = 2046
+        residuals are weighted equally (unit weight)
+
+function used for fitting: I(x)
+	I(x)=intensity
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   intensity    
+   0 3.7649658520e+02  0.00e+00 1.11e+00  1.109785e+00
+   3 1.2188527859e-02 -1.76e-08 1.11e-03  6.808211e-01
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 0.0121885
+rel. change during last iteration : -1.76197e-013
+
+degrees of freedom    (FIT_NDF)                        : 2045
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00244134
+variance of residuals (reduced chisquare) = WSSR/ndf   : 5.96016e-006
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+intensity       = 0.680821         +/- 5.397e-005   (0.007928%)
+
+
+*******************************************************************************
+Mon Apr 18 12:57:57 2016
+
+
+FIT:    data read from '../data/Daten/'.data u 1:2:(1/sqrt(12)*word(binw,i)) yerror
+        format = x:z:s
+        x range restricted to [0.00550000 : 0.0120000]
+        #datapoints = 651
+function used for fitting: f(x)
+	f(x)=Imax-dI*exp(-a*(x-x0))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   Imax          dI            a            
+   0 3.3655438495e+06  0.00e+00 1.70e+02  2.303058e-02  2.594792e-01  1.029571e+03
+   5 3.9842844659e+03 -1.14e-11 1.70e+05  1.282266e-02  1.189816e-01  8.048176e+02
+
+After 5 iterations the fit converged.
+final sum of squares of residuals : 3984.28
+rel. change during last iteration : -1.14135e-016
+
+degrees of freedom    (FIT_NDF)                        : 648
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 2.47963
+variance of residuals (reduced chisquare) = WSSR/ndf   : 6.14859
+p-value of the Chisq distribution (FIT_P)              : 0
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+Imax            = 0.0128227        +/- 4.207e-005   (0.3281%)
+dI              = 0.118982         +/- 0.0002395    (0.2013%)
+a               = 804.818          +/- 2.171        (0.2698%)
+
+correlation matrix of the fit parameters:
+                Imax   dI     a      
+Imax            1.000 
+dI             -0.366  1.000 
+a              -0.737  0.820  1.000 
+
+
+*******************************************************************************
+Mon Apr 18 12:57:58 2016
+
+
+FIT:    data read from '../data/Transmissionen/'.trans u 1:2
+        format = x:z
+        #datapoints = 2046
+        residuals are weighted equally (unit weight)
+
+function used for fitting: I(x)
+	I(x)=intensity
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   intensity    
+   0 6.6472455695e+01  0.00e+00 6.81e-01  6.808211e-01
+   3 3.2211112414e-02 -1.18e-09 6.81e-04  5.006178e-01
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 0.0322111
+rel. change during last iteration : -1.18481e-014
+
+degrees of freedom    (FIT_NDF)                        : 2045
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00396877
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.57512e-005
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+intensity       = 0.500618         +/- 8.774e-005   (0.01753%)
+
+
+*******************************************************************************
+Mon Apr 18 12:57:58 2016
+
+
+FIT:    data read from '../data/Daten/'.data u 1:2:(1/sqrt(12)*word(binw,i)) yerror
+        format = x:z:s
+        x range restricted to [0.00550000 : 0.0120000]
+        #datapoints = 651
+function used for fitting: f(x)
+	f(x)=Imax-dI*exp(-a*(x-x0))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   Imax          dI            a            
+   0 2.1895306841e+05  0.00e+00 9.41e+01  1.282266e-02  1.189816e-01  8.048176e+02
+   4 2.6926130464e+03 -7.96e-03 9.41e-03  1.103764e-02  8.863224e-02  7.293148e+02
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 2692.61
+rel. change during last iteration : -7.95532e-008
+
+degrees of freedom    (FIT_NDF)                        : 648
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 2.03845
+variance of residuals (reduced chisquare) = WSSR/ndf   : 4.15527
+p-value of the Chisq distribution (FIT_P)              : 0
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+Imax            = 0.0110376        +/- 3.804e-005   (0.3447%)
+dI              = 0.0886322        +/- 0.000175     (0.1975%)
+a               = 729.315          +/- 2.129        (0.2919%)
+
+correlation matrix of the fit parameters:
+                Imax   dI     a      
+Imax            1.000 
+dI             -0.366  1.000 
+a              -0.774  0.793  1.000 
+
+
+*******************************************************************************
+Mon Apr 18 12:57:58 2016
+
+
+FIT:    data read from '../data/Transmissionen/'.trans u 1:2
+        format = x:z
+        #datapoints = 2046
+        residuals are weighted equally (unit weight)
+
+function used for fitting: I(x)
+	I(x)=intensity
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   intensity    
+   0 5.4279478866e+00  0.00e+00 5.01e-01  5.006178e-01
+   3 4.8428543500e-03 -6.27e-10 5.01e-04  5.521017e-01
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 0.00484285
+rel. change during last iteration : -6.26855e-015
+
+degrees of freedom    (FIT_NDF)                        : 2045
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00153888
+variance of residuals (reduced chisquare) = WSSR/ndf   : 2.36814e-006
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+intensity       = 0.552102         +/- 3.402e-005   (0.006162%)
+
+
+*******************************************************************************
+Mon Apr 18 12:57:58 2016
+
+
+FIT:    data read from '../data/Daten/'.data u 1:2:(1/sqrt(12)*word(binw,i)) yerror
+        format = x:z:s
+        x range restricted to [0.00550000 : 0.0120000]
+        #datapoints = 651
+function used for fitting: f(x)
+	f(x)=Imax-dI*exp(-a*(x-x0))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   Imax          dI            a            
+   0 9.9441469436e+04  0.00e+00 7.58e+01  1.103764e-02  8.863224e-02  7.293148e+02
+   4 2.3925902494e+03 -6.51e-04 7.58e+01  9.339931e-03  7.707639e-02  7.874536e+02
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 2392.59
+rel. change during last iteration : -6.51399e-009
+
+degrees of freedom    (FIT_NDF)                        : 648
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 1.92153
+variance of residuals (reduced chisquare) = WSSR/ndf   : 3.69227
+p-value of the Chisq distribution (FIT_P)              : 0
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+Imax            = 0.00933993       +/- 3.326e-005   (0.3561%)
+dI              = 0.0770764        +/- 0.0001807    (0.2345%)
+a               = 787.454          +/- 2.527        (0.3209%)
+
+correlation matrix of the fit parameters:
+                Imax   dI     a      
+Imax            1.000 
+dI             -0.366  1.000 
+a              -0.745  0.814  1.000 
+
+
+*******************************************************************************
+Mon Apr 18 12:57:58 2016
+
+
+FIT:    data read from '../data/Transmissionen/'.trans u 1:2
+        format = x:z
+        #datapoints = 2046
+        residuals are weighted equally (unit weight)
+
+function used for fitting: I(x)
+	I(x)=intensity
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   intensity    
+   0 4.2396756082e+01  0.00e+00 5.52e-01  5.521017e-01
+   3 3.1499511241e-03 -7.65e-09 5.52e-04  4.081564e-01
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 0.00314995
+rel. change during last iteration : -7.65493e-014
+
+degrees of freedom    (FIT_NDF)                        : 2045
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.0012411
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.54032e-006
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+intensity       = 0.408156         +/- 2.744e-005   (0.006722%)
+
+
+*******************************************************************************
+Mon Apr 18 12:57:58 2016
+
+
+FIT:    data read from '../data/Daten/'.data u 1:2:(1/sqrt(12)*word(binw,i)) yerror
+        format = x:z:s
+        x range restricted to [0.00550000 : 0.0120000]
+        #datapoints = 651
+function used for fitting: f(x)
+	f(x)=Imax-dI*exp(-a*(x-x0))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   Imax          dI            a            
+   0 1.6260461116e+06  0.00e+00 1.25e+02  9.339931e-03  7.707639e-02  7.874536e+02
+   5 4.8472483824e+03  0.00e+00 1.25e+05  6.124417e-03  3.710718e-02  5.717780e+02
+
+After 5 iterations the fit converged.
+final sum of squares of residuals : 4847.25
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 648
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 2.73502
+variance of residuals (reduced chisquare) = WSSR/ndf   : 7.48032
+p-value of the Chisq distribution (FIT_P)              : 0
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+Imax            = 0.00612442       +/- 3.4e-005     (0.5551%)
+dI              = 0.0371072        +/- 8.887e-005   (0.2395%)
+a               = 571.778          +/- 2.699        (0.472%)
+
+correlation matrix of the fit parameters:
+                Imax   dI     a      
+Imax            1.000 
+dI             -0.321  1.000 
+a              -0.853  0.692  1.000 
+
+
+*******************************************************************************
+Mon Apr 18 12:57:58 2016
+
+
+FIT:    data read from '../data/Transmissionen/'.trans u 1:2
+        format = x:z
+        #datapoints = 2046
+        residuals are weighted equally (unit weight)
+
+function used for fitting: I(x)
+	I(x)=intensity
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   intensity    
+   0 1.2039687570e+01  0.00e+00 4.08e-01  4.081564e-01
+   3 3.1534326491e-02 -2.20e-10 4.08e-04  4.847664e-01
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 0.0315343
+rel. change during last iteration : -2.20043e-015
+
+degrees of freedom    (FIT_NDF)                        : 2045
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00392686
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.54202e-005
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+intensity       = 0.484766         +/- 8.681e-005   (0.01791%)
+
+
+*******************************************************************************
+Mon Apr 18 12:57:58 2016
+
+
+FIT:    data read from '../data/Daten/'.data u 1:2:(1/sqrt(12)*word(binw,i)) yerror
+        format = x:z:s
+        x range restricted to [0.00550000 : 0.0120000]
+        #datapoints = 651
+function used for fitting: f(x)
+	f(x)=Imax-dI*exp(-a*(x-x0))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   Imax          dI            a            
+   0 4.6434277181e+05  0.00e+00 7.61e+01  6.124417e-03  3.710718e-02  5.717780e+02
+   4 9.2299164570e+03 -7.80e-02 7.61e-03  6.343660e-03  5.966202e-02  7.722384e+02
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 9229.92
+rel. change during last iteration : -7.80429e-007
+
+degrees of freedom    (FIT_NDF)                        : 648
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 3.77408
+variance of residuals (reduced chisquare) = WSSR/ndf   : 14.2437
+p-value of the Chisq distribution (FIT_P)              : 0
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+Imax            = 0.00634366       +/- 3.327e-005   (0.5245%)
+dI              = 0.059662         +/- 0.0001734    (0.2906%)
+a               = 772.238          +/- 3.131        (0.4054%)
+
+correlation matrix of the fit parameters:
+                Imax   dI     a      
+Imax            1.000 
+dI             -0.366  1.000 
+a              -0.752  0.809  1.000 
+
+
+*******************************************************************************
+Mon Apr 18 12:57:58 2016
+
+
+FIT:    data read from '../data/Transmissionen/'.trans u 1:2
+        format = x:z
+        #datapoints = 2046
+        residuals are weighted equally (unit weight)
+
+function used for fitting: I(x)
+	I(x)=intensity
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   intensity    
+   0 1.7260513752e+01  0.00e+00 4.85e-01  4.847664e-01
+   3 1.3753681329e-02 -7.19e-10 4.85e-04  3.929541e-01
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 0.0137537
+rel. change during last iteration : -7.18929e-015
+
+degrees of freedom    (FIT_NDF)                        : 2045
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00259336
+variance of residuals (reduced chisquare) = WSSR/ndf   : 6.72552e-006
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+intensity       = 0.392954         +/- 5.733e-005   (0.01459%)
+
+
+*******************************************************************************
+Mon Apr 18 12:57:59 2016
+
+
+FIT:    data read from '../data/Daten/'.data u 1:2:(1/sqrt(12)*word(binw,i)) yerror
+        format = x:z:s
+        x range restricted to [0.00550000 : 0.0120000]
+        #datapoints = 651
+function used for fitting: f(x)
+	f(x)=Imax-dI*exp(-a*(x-x0))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   Imax          dI            a            
+   0 2.6139450272e+05  0.00e+00 9.67e+01  6.343660e-03  5.966202e-02  7.722384e+02
+   4 5.3411448244e+03 -1.16e-02 9.67e-03  5.687221e-03  4.473259e-02  7.130076e+02
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 5341.14
+rel. change during last iteration : -1.16082e-007
+
+degrees of freedom    (FIT_NDF)                        : 648
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 2.87098
+variance of residuals (reduced chisquare) = WSSR/ndf   : 8.24251
+p-value of the Chisq distribution (FIT_P)              : 0
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+Imax            = 0.00568722       +/- 2.743e-005   (0.4823%)
+dI              = 0.0447326        +/- 0.00012      (0.2683%)
+a               = 713.008          +/- 2.897        (0.4063%)
+
+correlation matrix of the fit parameters:
+                Imax   dI     a      
+Imax            1.000 
+dI             -0.364  1.000 
+a              -0.782  0.786  1.000 
+
+
+*******************************************************************************
+Mon Apr 18 12:57:59 2016
+
+
+FIT:    data read from '../data/Transmissionen/'.trans u 1:2
+        format = x:z
+        #datapoints = 2046
+        residuals are weighted equally (unit weight)
+
+function used for fitting: I(x)
+	I(x)=intensity
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   intensity    
+   0 1.0313369012e+02  0.00e+00 3.93e-01  3.929541e-01
+   3 7.1454780059e-03 -8.22e-09 3.93e-04  1.684457e-01
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 0.00714548
+rel. change during last iteration : -8.21784e-014
+
+degrees of freedom    (FIT_NDF)                        : 2045
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00186926
+variance of residuals (reduced chisquare) = WSSR/ndf   : 3.49412e-006
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+intensity       = 0.168446         +/- 4.133e-005   (0.02453%)
+
+
+*******************************************************************************
+Mon Apr 18 12:57:59 2016
+
+
+FIT:    data read from '../data/Daten/'.data u 1:2:(1/sqrt(12)*word(binw,i)) yerror
+        format = x:z:s
+        x range restricted to [0.00550000 : 0.0120000]
+        #datapoints = 651
+function used for fitting: f(x)
+	f(x)=Imax-dI*exp(-a*(x-x0))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   Imax          dI            a            
+   0 3.2095261154e+06  0.00e+00 1.56e+02  5.687221e-03  4.473259e-02  7.130076e+02
+   5 6.9214552496e+03 -8.71e-07 1.56e+03  3.660362e-03  1.928278e-02  5.060184e+02
+
+After 5 iterations the fit converged.
+final sum of squares of residuals : 6921.46
+rel. change during last iteration : -8.71276e-012
+
+degrees of freedom    (FIT_NDF)                        : 648
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 3.26822
+variance of residuals (reduced chisquare) = WSSR/ndf   : 10.6813
+p-value of the Chisq distribution (FIT_P)              : 0
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+Imax            = 0.00366036       +/- 2.407e-005   (0.6575%)
+dI              = 0.0192828        +/- 4.635e-005   (0.2404%)
+a               = 506.018          +/- 2.843        (0.5618%)
+
+correlation matrix of the fit parameters:
+                Imax   dI     a      
+Imax            1.000 
+dI             -0.256  1.000 
+a              -0.885  0.604  1.000 
+
+
+*******************************************************************************
+Mon Apr 18 12:57:59 2016
+
+
+FIT:    data read from '../data/Transmissionen/'.trans u 1:2
+        format = x:z
+        #datapoints = 2046
+        residuals are weighted equally (unit weight)
+
+function used for fitting: I(x)
+	I(x)=intensity
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   intensity    
+   0 1.7685058065e-01  0.00e+00 1.68e-01  1.684457e-01
+   2 9.6452942326e-03 -4.14e-01 1.68e-03  1.594057e-01
+
+After 2 iterations the fit converged.
+final sum of squares of residuals : 0.00964529
+rel. change during last iteration : -4.13713e-006
+
+degrees of freedom    (FIT_NDF)                        : 2045
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00217176
+variance of residuals (reduced chisquare) = WSSR/ndf   : 4.71653e-006
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+intensity       = 0.159406         +/- 4.801e-005   (0.03012%)
+
+
+*******************************************************************************
+Mon Apr 18 12:57:59 2016
+
+
+FIT:    data read from '../data/Daten/'.data u 1:2:(1/sqrt(12)*word(binw,i)) yerror
+        format = x:z:s
+        x range restricted to [0.00550000 : 0.0120000]
+        #datapoints = 651
+function used for fitting: f(x)
+	f(x)=Imax-dI*exp(-a*(x-x0))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   Imax          dI            a            
+   0 8.5117451899e+04  0.00e+00 8.63e+01  3.660362e-03  1.928278e-02  5.060184e+02
+   3 9.8797165617e+03 -1.87e-02 8.63e-02  2.839863e-03  1.625180e-02  5.075139e+02
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 9879.72
+rel. change during last iteration : -1.86694e-007
+
+degrees of freedom    (FIT_NDF)                        : 648
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 3.90467
+variance of residuals (reduced chisquare) = WSSR/ndf   : 15.2465
+p-value of the Chisq distribution (FIT_P)              : 0
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+Imax            = 0.00283986       +/- 2.863e-005   (1.008%)
+dI              = 0.0162518        +/- 5.555e-005   (0.3418%)
+a               = 507.514          +/- 4.037        (0.7955%)
+
+correlation matrix of the fit parameters:
+                Imax   dI     a      
+Imax            1.000 
+dI             -0.258  1.000 
+a              -0.885  0.606  1.000 
+
+
+*******************************************************************************
+Mon Apr 18 12:57:59 2016
+
+
+FIT:    data read from '../data/Transmissionen/'.trans u 1:2
+        format = x:z
+        #datapoints = 2046
+        residuals are weighted equally (unit weight)
+
+function used for fitting: I(x)
+	I(x)=intensity
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   intensity    
+   0 1.8181514519e+01  0.00e+00 1.59e-01  1.594057e-01
+   3 1.6475088954e-02 -6.11e-10 1.59e-04  6.518084e-02
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 0.0164751
+rel. change during last iteration : -6.10704e-015
+
+degrees of freedom    (FIT_NDF)                        : 2045
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00283836
+variance of residuals (reduced chisquare) = WSSR/ndf   : 8.05628e-006
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+intensity       = 0.0651808        +/- 6.275e-005   (0.09627%)
+
+
+*******************************************************************************
+Mon Apr 18 12:57:59 2016
+
+
+FIT:    data read from '../data/Daten/'.data u 1:2:(1/sqrt(12)*word(binw,i)) yerror
+        format = x:z:s
+        x range restricted to [0.00550000 : 0.0120000]
+        #datapoints = 651
+function used for fitting: f(x)
+	f(x)=Imax-dI*exp(-a*(x-x0))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   Imax          dI            a            
+   0 4.9471855219e+06  0.00e+00 1.79e+02  2.839863e-03  1.625180e-02  5.075139e+02
+   4 3.0764448464e+04 -1.34e-04 1.79e+02  1.422962e-03  6.264152e-03  4.051481e+02
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 30764.4
+rel. change during last iteration : -1.33956e-009
+
+degrees of freedom    (FIT_NDF)                        : 648
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 6.89028
+variance of residuals (reduced chisquare) = WSSR/ndf   : 47.476
+p-value of the Chisq distribution (FIT_P)              : 0
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+Imax            = 0.00142296       +/- 2.865e-005   (2.014%)
+dI              = 0.00626415       +/- 3.143e-005   (0.5018%)
+a               = 405.148          +/- 6.609        (1.631%)
+
+correlation matrix of the fit parameters:
+                Imax   dI     a      
+Imax            1.000 
+dI              0.007  1.000 
+a              -0.928  0.302  1.000 
+
+
+*******************************************************************************
+Mon Apr 18 12:57:59 2016
+
+
+FIT:    data read from '../data/Transmissionen/'.trans u 1:2
+        format = x:z
+        #datapoints = 2046
+        residuals are weighted equally (unit weight)
+
+function used for fitting: I(x)
+	I(x)=intensity
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   intensity    
+   0 4.5329955034e-01  0.00e+00 6.52e-02  6.518084e-02
+   3 2.5588739003e-03 -1.02e-10 6.52e-05  8.002346e-02
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 0.00255887
+rel. change during last iteration : -1.01689e-015
+
+degrees of freedom    (FIT_NDF)                        : 2045
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00111861
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.25128e-006
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+intensity       = 0.0800235        +/- 2.473e-005   (0.0309%)
+
+
+*******************************************************************************
+Mon Apr 18 12:57:59 2016
+
+
+FIT:    data read from '../data/Daten/'.data u 1:2:(1/sqrt(12)*word(binw,i)) yerror
+        format = x:z:s
+        x range restricted to [0.00550000 : 0.0120000]
+        #datapoints = 651
+function used for fitting: f(x)
+	f(x)=Imax-dI*exp(-a*(x-x0))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   Imax          dI            a            
+   0 6.4538764421e+04  0.00e+00 8.05e+01  1.422962e-03  6.264152e-03  4.051481e+02
+   3 2.1245014361e+04 -6.79e-02 8.05e-02  1.610683e-03  7.172667e-03  4.140560e+02
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 21245
+rel. change during last iteration : -6.79299e-007
+
+degrees of freedom    (FIT_NDF)                        : 648
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 5.72586
+variance of residuals (reduced chisquare) = WSSR/ndf   : 32.7855
+p-value of the Chisq distribution (FIT_P)              : 0
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+Imax            = 0.00161068       +/- 2.298e-005   (1.427%)
+dI              = 0.00717267       +/- 2.657e-005   (0.3704%)
+a               = 414.056          +/- 4.835        (1.168%)
+
+correlation matrix of the fit parameters:
+                Imax   dI     a      
+Imax            1.000 
+dI             -0.029  1.000 
+a              -0.925  0.343  1.000 
+
+
+*******************************************************************************
+Mon Apr 18 12:58:00 2016
+
+
+FIT:    data read from '../data/Transmissionen/'.trans u 1:2
+        format = x:z
+        #datapoints = 2046
+        residuals are weighted equally (unit weight)
+
+function used for fitting: I(x)
+	I(x)=intensity
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   intensity    
+   0 3.2440091026e+00  0.00e+00 8.00e-02  8.002346e-02
+   3 7.4238748778e-03 -2.45e-10 8.00e-05  4.025024e-02
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 0.00742387
+rel. change during last iteration : -2.45352e-015
+
+degrees of freedom    (FIT_NDF)                        : 2045
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00190532
+variance of residuals (reduced chisquare) = WSSR/ndf   : 3.63026e-006
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+intensity       = 0.0402502        +/- 4.212e-005   (0.1047%)
+
+
+*******************************************************************************
+Mon Apr 18 12:58:00 2016
+
+
+FIT:    data read from '../data/Daten/'.data u 1:2:(1/sqrt(12)*word(binw,i)) yerror
+        format = x:z:s
+        x range restricted to [0.00550000 : 0.0120000]
+        #datapoints = 651
+function used for fitting: f(x)
+	f(x)=Imax-dI*exp(-a*(x-x0))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   Imax          dI            a            
+   0 1.5572791591e+06  0.00e+00 1.82e+02  1.610683e-03  7.172667e-03  4.140560e+02
+   3 1.1687285503e+05 -8.64e-01 1.82e-01  9.060333e-04  4.576581e-03  4.210621e+02
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 116873
+rel. change during last iteration : -8.63763e-006
+
+degrees of freedom    (FIT_NDF)                        : 648
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 13.4298
+variance of residuals (reduced chisquare) = WSSR/ndf   : 180.359
+p-value of the Chisq distribution (FIT_P)              : 0
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+Imax            = 0.000906033      +/- 2.623e-005   (2.895%)
+dI              = 0.00457658       +/- 3.16e-005    (0.6904%)
+a               = 421.062          +/- 8.947        (2.125%)
+
+correlation matrix of the fit parameters:
+                Imax   dI     a      
+Imax            1.000 
+dI             -0.056  1.000 
+a              -0.922  0.372  1.000 
+
+
+*******************************************************************************
+Mon Apr 18 12:58:00 2016
+
+
+FIT:    data read from '../data/Transmissionen/'.trans u 1:2
+        format = x:z
+        #datapoints = 2046
+        residuals are weighted equally (unit weight)
+
+function used for fitting: I(x)
+	I(x)=intensity
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   intensity    
+   0 1.6912716325e-01  0.00e+00 4.03e-02  4.025024e-02
+   2 1.3851026393e-02 -2.68e-01 4.03e-04  4.896188e-02
+
+After 2 iterations the fit converged.
+final sum of squares of residuals : 0.013851
+rel. change during last iteration : -2.67539e-006
+
+degrees of freedom    (FIT_NDF)                        : 2045
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00260252
+variance of residuals (reduced chisquare) = WSSR/ndf   : 6.77312e-006
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+intensity       = 0.0489619        +/- 5.754e-005   (0.1175%)
+
+
+*******************************************************************************
+Mon Apr 18 12:58:00 2016
+
+
+FIT:    data read from '../data/Daten/'.data u 1:2:(1/sqrt(12)*word(binw,i)) yerror
+        format = x:z:s
+        x range restricted to [0.00550000 : 0.0120000]
+        #datapoints = 651
+function used for fitting: f(x)
+	f(x)=Imax-dI*exp(-a*(x-x0))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   Imax          dI            a            
+   0 9.7591656418e+04  0.00e+00 1.13e+02  9.060333e-04  4.576581e-03  4.210621e+02
+   3 5.5037191869e+04 -8.99e-05 1.13e-01  9.948343e-04  4.859504e-03  3.985680e+02
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 55037.2
+rel. change during last iteration : -8.98658e-010
+
+degrees of freedom    (FIT_NDF)                        : 648
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 9.21596
+variance of residuals (reduced chisquare) = WSSR/ndf   : 84.9339
+p-value of the Chisq distribution (FIT_P)              : 0
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+Imax            = 0.000994834      +/- 1.969e-005   (1.979%)
+dI              = 0.0048595        +/- 2.078e-005   (0.4276%)
+a               = 398.568          +/- 5.664        (1.421%)
+
+correlation matrix of the fit parameters:
+                Imax   dI     a      
+Imax            1.000 
+dI              0.036  1.000 
+a              -0.931  0.269  1.000 
+
+
+*******************************************************************************
+Mon Apr 18 12:58:00 2016
+
+
+FIT:    data read from '../data/Transmissionen/'.trans u 1:2
+        format = x:z
+        #datapoints = 2046
+        residuals are weighted equally (unit weight)
+
+function used for fitting: I(x)
+	I(x)=intensity
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   intensity    
+   0 1.4083092998e+00  0.00e+00 4.90e-02  4.896188e-02
+   3 1.5837466276e-02 -4.38e-11 4.90e-05  2.287390e-02
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 0.0158375
+rel. change during last iteration : -4.38132e-016
+
+degrees of freedom    (FIT_NDF)                        : 2045
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00278289
+variance of residuals (reduced chisquare) = WSSR/ndf   : 7.74448e-006
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+intensity       = 0.0228739        +/- 6.152e-005   (0.269%)
+
+
+*******************************************************************************
+Mon Apr 18 12:58:00 2016
+
+
+FIT:    data read from '../data/Daten/'.data u 1:2:(1/sqrt(12)*word(binw,i)) yerror
+        format = x:z:s
+        x range restricted to [0.00550000 : 0.0120000]
+        #datapoints = 651
+function used for fitting: f(x)
+	f(x)=Imax-dI*exp(-a*(x-x0))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   Imax          dI            a            
+   0 1.3777818820e+06  0.00e+00 1.24e+02  9.948343e-04  4.859504e-03  3.985680e+02
+   3 6.5763388287e+04 -1.47e-02 1.24e-01  5.693868e-04  2.603328e-03  3.906390e+02
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 65763.4
+rel. change during last iteration : -1.47269e-007
+
+degrees of freedom    (FIT_NDF)                        : 648
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 10.0741
+variance of residuals (reduced chisquare) = WSSR/ndf   : 101.487
+p-value of the Chisq distribution (FIT_P)              : 0
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+Imax            = 0.000569387      +/- 2.225e-005   (3.908%)
+dI              = 0.00260333       +/- 2.243e-005   (0.8614%)
+a               = 390.639          +/- 11.48        (2.939%)
+
+correlation matrix of the fit parameters:
+                Imax   dI     a      
+Imax            1.000 
+dI              0.074  1.000 
+a              -0.934  0.226  1.000 
+
+
+*******************************************************************************
+Mon Apr 18 12:58:00 2016
+
+
+FIT:    data read from '../data/Transmissionen/'.trans u 1:2
+        format = x:z
+        #datapoints = 2046
+        residuals are weighted equally (unit weight)
+
+function used for fitting: I(x)
+	I(x)=intensity
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   intensity    
+   0 3.2424351906e-01  0.00e+00 2.29e-02  2.287390e-02
+   2 3.0195237537e-02 -2.32e-01 2.29e-04  1.088563e-02
+
+After 2 iterations the fit converged.
+final sum of squares of residuals : 0.0301952
+rel. change during last iteration : -2.32404e-006
+
+degrees of freedom    (FIT_NDF)                        : 2045
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00384258
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.47654e-005
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+intensity       = 0.0108856        +/- 8.495e-005   (0.7804%)
+
+
+*******************************************************************************
+Mon Apr 18 12:58:00 2016
+
+
+FIT:    data read from '../data/Daten/'.data u 1:2:(1/sqrt(12)*word(binw,i)) yerror
+        format = x:z:s
+        x range restricted to [0.00550000 : 0.0120000]
+        #datapoints = 651
+function used for fitting: f(x)
+	f(x)=Imax-dI*exp(-a*(x-x0))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   Imax          dI            a            
+   0 2.2629042394e+05  0.00e+00 6.75e+01  5.693868e-04  2.603328e-03  3.906390e+02
+   4 9.2995115174e+04 -1.26e-04 6.75e-03  7.813183e-04  2.189056e-03  2.878801e+02
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 92995.1
+rel. change during last iteration : -1.26252e-009
+
+degrees of freedom    (FIT_NDF)                        : 648
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 11.9796
+variance of residuals (reduced chisquare) = WSSR/ndf   : 143.511
+p-value of the Chisq distribution (FIT_P)              : 0
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+Imax            = 0.000781318      +/- 4.515e-005   (5.778%)
+dI              = 0.00218906       +/- 3.13e-005    (1.43%)
+a               = 287.88           +/- 15.47        (5.375%)
+
+correlation matrix of the fit parameters:
+                Imax   dI     a      
+Imax            1.000 
+dI              0.715  1.000 
+a              -0.966 -0.542  1.000 
+
+
+*******************************************************************************
+Mon Apr 18 12:58:00 2016
+
+
+FIT:    data read from '../data/Transmissionen/'.trans u 1:2
+        format = x:z
+        #datapoints = 2046
+        residuals are weighted equally (unit weight)
+
+function used for fitting: I(x)
+	I(x)=intensity
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   intensity    
+   0 3.5705825066e-01  0.00e+00 1.09e-02  1.088563e-02
+   3 4.5437184751e-03 -5.73e-11 1.09e-05  2.401173e-02
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 0.00454372
+rel. change during last iteration : -5.72677e-016
+
+degrees of freedom    (FIT_NDF)                        : 2045
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00149059
+variance of residuals (reduced chisquare) = WSSR/ndf   : 2.22187e-006
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+intensity       = 0.0240117        +/- 3.295e-005   (0.1372%)
+
+
+*******************************************************************************
+Mon Apr 18 12:58:01 2016
+
+
+FIT:    data read from '../data/Daten/'.data u 1:2:(1/sqrt(12)*word(binw,i)) yerror
+        format = x:z:s
+        x range restricted to [0.00550000 : 0.0120000]
+        #datapoints = 651
+function used for fitting: f(x)
+	f(x)=Imax-dI*exp(-a*(x-x0))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   Imax          dI            a            
+   0 2.5108040911e+05  0.00e+00 7.14e+01  7.813183e-04  2.189056e-03  2.878801e+02
+   4 9.7343295859e+04 -1.31e-07 7.14e+01  8.805038e-04  2.937795e-03  3.300940e+02
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 97343.3
+rel. change during last iteration : -1.30819e-012
+
+degrees of freedom    (FIT_NDF)                        : 648
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 12.2565
+variance of residuals (reduced chisquare) = WSSR/ndf   : 150.221
+p-value of the Chisq distribution (FIT_P)              : 0
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+Imax            = 0.000880504      +/- 3.614e-005   (4.105%)
+dI              = 0.0029378        +/- 2.713e-005   (0.9235%)
+a               = 330.094          +/- 11.91        (3.609%)
+
+correlation matrix of the fit parameters:
+                Imax   dI     a      
+Imax            1.000 
+dI              0.447  1.000 
+a              -0.954 -0.206  1.000 
+
+
+*******************************************************************************
+Mon Apr 18 12:58:01 2016
+
+
+FIT:    data read from '../data/Transmissionen/'.trans u 1:2
+        format = x:z
+        #datapoints = 2046
+        residuals are weighted equally (unit weight)
+
+function used for fitting: I(x)
+	I(x)=intensity
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   intensity    
+   0 3.4043866276e+00  0.00e+00 2.40e-02  2.401173e-02
+   3 1.0664445748e-02 -1.79e-10 2.40e-05 -1.671554e-02
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 0.0106644
+rel. change during last iteration : -1.78931e-015
+
+degrees of freedom    (FIT_NDF)                        : 2045
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00228361
+variance of residuals (reduced chisquare) = WSSR/ndf   : 5.21489e-006
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+intensity       = -0.0167155       +/- 5.049e-005   (0.302%)
+
+
+*******************************************************************************
+Mon Apr 18 12:58:01 2016
+
+
+FIT:    data read from '../data/Daten/'.data u 1:2:(1/sqrt(12)*word(binw,i)) yerror
+        format = x:z:s
+        x range restricted to [0.00550000 : 0.0120000]
+        #datapoints = 651
+function used for fitting: f(x)
+	f(x)=Imax-dI*exp(-a*(x-x0))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   Imax          dI            a            
+   0 9.9891356422e+05  0.00e+00 8.72e+01  8.805038e-04  2.937795e-03  3.300940e+02
+   4 4.0294023548e+04 -1.61e-03 8.72e-03  4.742727e-04  1.043381e-03  2.679460e+02
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 40294
+rel. change during last iteration : -1.61484e-008
+
+degrees of freedom    (FIT_NDF)                        : 648
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 7.88556
+variance of residuals (reduced chisquare) = WSSR/ndf   : 62.1821
+p-value of the Chisq distribution (FIT_P)              : 0
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+Imax            = 0.000474273      +/- 3.39e-005    (7.147%)
+dI              = 0.00104338       +/- 2.363e-005   (2.264%)
+a               = 267.946          +/- 21.41        (7.991%)
+
+correlation matrix of the fit parameters:
+                Imax   dI     a      
+Imax            1.000 
+dI              0.810  1.000 
+a              -0.971 -0.671  1.000 
+
+
+*******************************************************************************
+Mon Apr 18 12:58:01 2016
+
+
+FIT:    data read from '../data/Transmissionen/'.trans u 1:2
+        format = x:z
+        #datapoints = 2046
+        residuals are weighted equally (unit weight)
+
+function used for fitting: I(x)
+	I(x)=intensity
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   intensity    
+   0 3.1692377713e-01  0.00e+00 1.67e-02 -1.671554e-02
+   2 3.2199194526e-02 -2.11e-01 1.67e-04 -2.851222e-02
+
+After 2 iterations the fit converged.
+final sum of squares of residuals : 0.0321992
+rel. change during last iteration : -2.1103e-006
+
+degrees of freedom    (FIT_NDF)                        : 2045
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00396804
+variance of residuals (reduced chisquare) = WSSR/ndf   : 1.57453e-005
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+intensity       = -0.0285122       +/- 8.772e-005   (0.3077%)
+
+
+*******************************************************************************
+Mon Apr 18 12:58:01 2016
+
+
+FIT:    data read from '../data/Daten/'.data u 1:2:(1/sqrt(12)*word(binw,i)) yerror
+        format = x:z:s
+        x range restricted to [0.00550000 : 0.0120000]
+        #datapoints = 651
+function used for fitting: f(x)
+	f(x)=Imax-dI*exp(-a*(x-x0))
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   Imax          dI            a            
+   0 1.4286457927e+05  0.00e+00 3.77e+01  4.742727e-04  1.043381e-03  2.679460e+02
+   4 3.4065286185e+04 -4.47e-05 3.77e-03  2.288482e-04  3.477765e-04  2.839508e+02
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 34065.3
+rel. change during last iteration : -4.4707e-010
+
+degrees of freedom    (FIT_NDF)                        : 648
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 7.25051
+variance of residuals (reduced chisquare) = WSSR/ndf   : 52.5699
+p-value of the Chisq distribution (FIT_P)              : 0
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+Imax            = 0.000228848      +/- 2.802e-005   (12.24%)
+dI              = 0.000347777      +/- 1.941e-005   (5.58%)
+a               = 283.951          +/- 58.95        (20.76%)
+
+correlation matrix of the fit parameters:
+                Imax   dI     a      
+Imax            1.000 
+dI              0.736  1.000 
+a              -0.967 -0.569  1.000 
+
+
+*******************************************************************************
+Mon Apr 18 12:58:01 2016
+
+
+FIT:    data read from '../results/relaxation/fitresults.txt' u 2:3:4 yerror
+        format = x:z:s
+        x range restricted to [0.00000 : 0.900000]
+        #datapoints = 18
+function used for fitting: g(x)
+	g(x)=grad*x+1/Trelax
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   grad          Trelax       
+   0 2.6908720989e+05  0.00e+00 5.22e+01  1.000000e+00  3.700000e-03
+  10 2.9906363028e+03 -5.63e-06 5.22e-07  8.895420e+02  2.705808e-03
+
+After 10 iterations the fit converged.
+final sum of squares of residuals : 2990.64
+rel. change during last iteration : -5.63034e-011
+
+degrees of freedom    (FIT_NDF)                        : 16
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 13.6717
+variance of residuals (reduced chisquare) = WSSR/ndf   : 186.915
+p-value of the Chisq distribution (FIT_P)              : 0
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+grad            = 889.542          +/- 68.85        (7.74%)
+Trelax          = 0.00270581       +/- 0.0002006    (7.414%)
+
+correlation matrix of the fit parameters:
+                grad   Trelax 
+grad            1.000 
+Trelax          0.902  1.000 
