@@ -5,6 +5,7 @@
 #terminal options and styling
 set terminal svg size 1024,576 fname 'Verdana' fsize 12
 set border linewidth 1.5
+set bars 0.4
 set style line 1 linecolor rgb '#0060ad' linetype 1 linewidth 3
 fittitle='Exponential fit'
 pointtitle='Data points'
