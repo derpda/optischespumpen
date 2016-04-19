@@ -245,5 +245,13 @@ ModelManifest.xml
 .fake/
 
 #unsere
-*.db
-*.wmf
+**/*.db
+**/*.wmf
+**/*.aux
+**/*.bbl
+**/*.blg
+**/*.lof
+**/*.log
+**/*.out
+**/*.toc
+**/*.gz
