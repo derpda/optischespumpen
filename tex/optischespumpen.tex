@@ -1,0 +1,40 @@
+\documentclass[11pt, paper=a4]{scrartcl}
+
+% CONFIG
+\newcommand{\exptitle}{Optical pumping}       % long name of experiment 
+\newcommand{\exptitleshort}{} % short name of experiment
+\newcommand{\expdate}{11.04.2016}           % date of experiment
+\newcommand{\exptutor}{Dominik Schomas}
+
+\input{Vorspann}
+
+
+\pagenumbering{Roman}
+\setcounter{page}{1}
+
+
+\input{abstract}
+\tableofcontents
+
+\newpage
+\listoffigures
+\thispagestyle{empty}
+
+\newpage
+\hypersetup{pageanchor=false} %stop page numbering (hyperref) to prevent for double page numers
+
+\clearpage
+\pagenumbering{arabic}
+\setcounter{page}{1}
+
+\input{physicalprinciples}
+
+\input{analysis}
+
+
+\newpage
+\bibliographystyle{plain}
+\bibliography{refs}
+
+
+\end{document}

@@ -13,6 +13,10 @@ pointtitle='Data points'
 set key right bottom
 set key box lt 2 lw 2 lc rgb "#000000"
 
+#axes label options
+set xlabel "Time [s]"
+set ylabel "Photodiode signal [V]"
+
 
 #prepare fit parameter output
 set fit errorvariables
@@ -97,5 +101,6 @@ set output '../results/relaxation/linear_fit.svg'
 g(x)=grad*x+1/Trelax
 Trelax=0.0037
 fit [0:0.9] g(x) '../results/relaxation/fitresults.txt' u 2:3:4 yerror via grad,Trelax
-plot '../results/relaxation/fitresults.txt' u 2:3:4 w yerrorbars, g(x)
+plot '../results/relaxation/fitresults.txt' u 2:3:4 w yerrorbars title "Results from exponential fits"\
+	, g(x)
 
