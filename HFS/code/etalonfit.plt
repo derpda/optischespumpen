@@ -1,8 +1,17 @@
-################################################## plot settings
+################################################## Settings	
 reset
-set bars 0.3
-set terminal svg size 1920,1080 fname 'Verdana' fsize 10
+#terminal options and styling
+set terminal svg size 1024,576 fname 'Verdana' fsize 12
+set border linewidth 1.5
+set style line 1 linecolor rgb '#0060ad' linetype 1 linewidth 3
+pointtitle="Data points"
+set fit errorvariables
+set bars 0.4
 set output '../results/etalon_fit.svg'
+
+#key options
+set key right bottom
+set key box lt 2 lw 2 lc rgb "#000000"
 
 ################################################## fit functions
 f1(x)=a1*exp(-(x-x01)**2/(2*s1**2))+c1
