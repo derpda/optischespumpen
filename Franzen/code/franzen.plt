@@ -70,6 +70,8 @@ fit [0.0003:0.006] fit(x) '../data/main/'.file u 1:2 via A,B,U,mu,sig,lam
 plot [0.002:0.008]'../data/main/'.file u 1:2 pt 1 ps 1 lc rgb '#dd181f',\
 	 [0.003:0.005] fit(x) w lines ls 1
 print file[:voltage],"\t",B,"\t",B_err
+system("inkscape -D -z --file=../results/".file[:voltage]."_test.svg --export-pdf=../results/".file[:voltage].".pdf")
+system('DEL "..\\results\\03.90_test.svg"')
 
 
 
@@ -398,5 +400,9 @@ print file[:voltage],"\t",B,"\t",B_err
 
 ################################################## Print end results					 #####################################################
 
-set output '../results/fitresults.svg'
+
+
+set terminal eps size 10.4cm,6.35cm 
+
+set output '../results/fitresults.tex'
 plot [3:15] '../results/fitresults.txt' u 1:2:3 w yerrorbars pt 1 ps 1 lc rgb '#dd181f'
