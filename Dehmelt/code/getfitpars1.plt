@@ -3,10 +3,11 @@
 ################################################## Settings							 #####################################################
 
 #terminal options and styling
-set terminal svg size 1024,576 fname 'Verdana' fsize 12
+set terminal svg size 1024,576 fname 'Verdana' fsize 14
 set border linewidth 1.5
 set bars 0.4
 set style line 1 linecolor rgb '#0060ad' linetype 1 linewidth 3
+set tics font ",14"
 fittitle='Exponential fit'
 pointtitle='Data points'
 
@@ -104,4 +105,3 @@ Trelax=0.0037
 fit [0:0.9] g(x) '../results/relaxation/fitresults.txt' u 2:3:4 yerror via grad,Trelax
 plot '../results/relaxation/fitresults.txt' u 2:3:4 w yerrorbars title "Results from exponential fits"\
 	, g(x)
-

@@ -13,6 +13,9 @@ set output '../results/etalon_fit.svg'
 set key right bottom
 set key box lt 2 lw 2 lc rgb "#000000"
 
+set xlabel "Time [s]"
+set ylabel "Photo diode voltage [V]"
+
 ################################################## fit functions
 f1(x)=a1*exp(-(x-x01)**2/(2*s1**2))+c1
 f2(x)=a2*exp(-(x-x02)**2/(2*s2**2))+c2
@@ -76,13 +79,13 @@ fit [xl5:xh5] f5(x) "../data/etalon3b.tab" u 1:2:(0.8*10**-3/sqrt(12)) yerror \
 	via x05,s5,a5,c5
 #fit [0.0001:0.00191] h(x) "../data/etalon3b.tab" \
 	#u 1:2:(0.8*10**-3/sqrt(12)) yerror via x01,x02,x03,x04,x05,a1,a2,a3,a4,a5,s1,s2,s3,s4,s5,b,c
-plot "../data/etalon3b.tab" u 1:2:(0.8*10**-3/sqrt(12))\
- w yerrorbars lt rgb "#7F7F7F" pt 0 ps 1,\
-	[xl1:xh1] f1(x) lt rgb "#800000",\
-	[xl2:xh2] f2(x) lt rgb "#800000",\
-	[xl3:xh3] f3(x) lt rgb "#800000",\
-	[xl4:xh4] f4(x) lt rgb "#800000",\
-	[xl5:xh5] f5(x) lt rgb "#800000"
+plot [0:0.002]"../data/etalon3b.tab" u 1:2:(0.8*10**-3/sqrt(12))\
+ w yerrorbars pt 0 ps 0.6 lc rgb '#dd181f' title "Data points",\
+	[xl1:xh1] f1(x) lw 2.5 title '1. Peak g_1(t)',\
+	[xl2:xh2] f2(x) lw 2.5 title "2. Peak g_2(t)",\
+	[xl3:xh3] f3(x) lw 2.5 title "3. Peak g_3(t)",\
+	[xl4:xh4] f4(x) lw 2.5 title "4. Peak g_4(t)",\
+	[xl5:xh5] f5(x) lw 2.5 title "5. Peak g_5(t)"
 
 #################################################### Summe aller
 #plot "../data/etalon3b.tab" u 1:2:(0.8*10**-3/sqrt(12))\

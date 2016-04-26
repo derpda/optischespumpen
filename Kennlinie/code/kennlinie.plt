@@ -4,10 +4,11 @@
 ################################################## Settings							 #####################################################
 
 #terminal options and styling
-set terminal svg size 1024,576 fname 'Verdana' fsize 12
+set terminal svg size 1024,576 fname 'Verdana' fsize 18
 set border linewidth 1.5
 pointtitle="Data points"
 set fit errorvariables
+set tics font ",18"
 
 #key options
 set key right bottom

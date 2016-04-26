@@ -2,17 +2,22 @@
 ################################################## Settings	
 reset
 #terminal options and styling
-set terminal svg size 1024,576 fname 'Verdana' fsize 12
+set terminal svg size 1024,576 fname 'Verdana' fsize 18
 set border linewidth 1.5
 set style line 1 linecolor rgb '#0060ad' linetype 1 linewidth 3
 pointtitle="Data points"
 set fit errorvariables
 set bars 0.4
+set tics font ",18"
 set output "../results/HFS_fit.svg"
 
 #key options
 set key right bottom
 set key box lt 2 lw 2 lc rgb "#000000"
+
+set xlabel "Time [s]"
+set ylabel "Photo diode voltage [V]"
+
 
 #prepare fit parameter output
 system('DEL "..\\results\\fitresults.txt"')
@@ -75,5 +80,8 @@ print "4","\t",x04,"\t",x04_err
 print "5","\t",x05,"\t",x05_err
 print "6","\t",x06,"\t",x06_err
 ################################################## plot
-plot "../data/HFSspektrum3_add.tab" u 1:2:(0.04e-01/sqrt(12)) w yerrorbars\
-	lt rgb "#7F7F7F" pt 0 ps 1, [xl1:xh1] f1(x), [xl2:xh2] f2(x),[xl3:xh3] f3(x)
+plot [0:0.0005]"../data/HFSspektrum3_add.tab" u 1:2:(0.04e-01/sqrt(12)) w yerrorbars\
+	pt 0 ps 0.6 lc rgb '#dd181f' title "Data points",\
+	 [xl1:xh1] f1(x) lw 2.5 title '1. and 2. Peak g_1(t)',\
+	 [xl2:xh2] f2(x) lw 2.5 title '3. Peak g_2(t)',\
+	 [xl3:xh3] f3(x) lw 2.5 title '4., 5. and 6. Peak g_3(t)'

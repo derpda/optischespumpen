@@ -77,12 +77,12 @@
      id="namedview314"
      showgrid="false"
      inkscape:zoom="0.96674755"
-     inkscape:cx="647.31453"
-     inkscape:cy="288.3511"
+     inkscape:cx="503.3914"
+     inkscape:cy="242.84614"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
-     inkscape:current-layer="g288" />
+     inkscape:current-layer="gnuplot_canvas-8" />
   <title
      id="title4">Gnuplot</title>
   <desc
@@ -243,39 +243,6 @@
        fill="none"
        color="white" />
     <g
-       id="g43"
-       style=""
-       stroke-linejoin="miter"
-       stroke-linecap="butt"
-       stroke-width="1.50"
-       stroke="currentColor"
-       fill="none"
-       color="black">
-      <path
-         d="M71.9,518.4 L80.9,518.4 M999.0,518.4 L990.0,518.4  "
-         id="path45"
-         style=""
-         stroke="black" />
-      <g
-         transform="translate(63.6,522.9)"
-         font-size="12.00"
-         id="g47"
-         style=""
-         text-anchor="end"
-         font-family="Verdana"
-         stroke="none"
-         fill="black">
-        <text
-           id="text49"
-           style="">
-          <tspan
-             id="tspan51"
-             style=""
-             font-family="Verdana">-0.2</tspan>
-        </text>
-      </g>
-    </g>
-    <g
        id="g53"
        style=""
        stroke-linejoin="miter"
@@ -305,633 +272,6 @@
              id="tspan61"
              style=""
              font-family="Verdana"> 0</tspan>
-        </text>
-      </g>
-    </g>
-    <g
-       id="g63"
-       style=""
-       stroke-linejoin="miter"
-       stroke-linecap="butt"
-       stroke-width="1.50"
-       stroke="currentColor"
-       fill="none"
-       color="black">
-      <path
-         d="M71.9,418.1 L80.9,418.1 M999.0,418.1 L990.0,418.1  "
-         id="path65"
-         style=""
-         stroke="black" />
-      <g
-         transform="translate(63.6,422.6)"
-         font-size="12.00"
-         id="g67"
-         style=""
-         text-anchor="end"
-         font-family="Verdana"
-         stroke="none"
-         fill="black">
-        <text
-           id="text69"
-           style="">
-          <tspan
-             id="tspan71"
-             style=""
-             font-family="Verdana"> 0.2</tspan>
-        </text>
-      </g>
-    </g>
-    <g
-       id="g73"
-       style=""
-       stroke-linejoin="miter"
-       stroke-linecap="butt"
-       stroke-width="1.50"
-       stroke="currentColor"
-       fill="none"
-       color="black">
-      <path
-         d="M71.9,367.9 L80.9,367.9 M999.0,367.9 L990.0,367.9  "
-         id="path75"
-         style=""
-         stroke="black" />
-      <g
-         transform="translate(63.6,372.4)"
-         font-size="12.00"
-         id="g77"
-         style=""
-         text-anchor="end"
-         font-family="Verdana"
-         stroke="none"
-         fill="black">
-        <text
-           id="text79"
-           style="">
-          <tspan
-             id="tspan81"
-             style=""
-             font-family="Verdana"> 0.4</tspan>
-        </text>
-      </g>
-    </g>
-    <g
-       id="g83"
-       style=""
-       stroke-linejoin="miter"
-       stroke-linecap="butt"
-       stroke-width="1.50"
-       stroke="currentColor"
-       fill="none"
-       color="black">
-      <path
-         d="M71.9,317.7 L80.9,317.7 M999.0,317.7 L990.0,317.7  "
-         id="path85"
-         style=""
-         stroke="black" />
-      <g
-         transform="translate(63.6,322.2)"
-         font-size="12.00"
-         id="g87"
-         style=""
-         text-anchor="end"
-         font-family="Verdana"
-         stroke="none"
-         fill="black">
-        <text
-           id="text89"
-           style="">
-          <tspan
-             id="tspan91"
-             style=""
-             font-family="Verdana"> 0.6</tspan>
-        </text>
-      </g>
-    </g>
-    <g
-       id="g93"
-       style=""
-       stroke-linejoin="miter"
-       stroke-linecap="butt"
-       stroke-width="1.50"
-       stroke="currentColor"
-       fill="none"
-       color="black">
-      <path
-         d="M71.9,267.5 L80.9,267.5 M999.0,267.5 L990.0,267.5  "
-         id="path95"
-         style=""
-         stroke="black" />
-      <g
-         transform="translate(63.6,272.0)"
-         font-size="12.00"
-         id="g97"
-         style=""
-         text-anchor="end"
-         font-family="Verdana"
-         stroke="none"
-         fill="black">
-        <text
-           id="text99"
-           style="">
-          <tspan
-             id="tspan101"
-             style=""
-             font-family="Verdana"> 0.8</tspan>
-        </text>
-      </g>
-    </g>
-    <g
-       id="g103"
-       style=""
-       stroke-linejoin="miter"
-       stroke-linecap="butt"
-       stroke-width="1.50"
-       stroke="currentColor"
-       fill="none"
-       color="black">
-      <path
-         d="M71.9,217.4 L80.9,217.4 M999.0,217.4 L990.0,217.4  "
-         id="path105"
-         style=""
-         stroke="black" />
-      <g
-         transform="translate(63.6,221.9)"
-         font-size="12.00"
-         id="g107"
-         style=""
-         text-anchor="end"
-         font-family="Verdana"
-         stroke="none"
-         fill="black">
-        <text
-           id="text109"
-           style="">
-          <tspan
-             id="tspan111"
-             style=""
-             font-family="Verdana"> 1</tspan>
-        </text>
-      </g>
-    </g>
-    <g
-       id="g113"
-       style=""
-       stroke-linejoin="miter"
-       stroke-linecap="butt"
-       stroke-width="1.50"
-       stroke="currentColor"
-       fill="none"
-       color="black">
-      <path
-         d="M71.9,167.2 L80.9,167.2 M999.0,167.2 L990.0,167.2  "
-         id="path115"
-         style=""
-         stroke="black" />
-      <g
-         transform="translate(63.6,171.7)"
-         font-size="12.00"
-         id="g117"
-         style=""
-         text-anchor="end"
-         font-family="Verdana"
-         stroke="none"
-         fill="black">
-        <text
-           id="text119"
-           style="">
-          <tspan
-             id="tspan121"
-             style=""
-             font-family="Verdana"> 1.2</tspan>
-        </text>
-      </g>
-    </g>
-    <g
-       id="g123"
-       style=""
-       stroke-linejoin="miter"
-       stroke-linecap="butt"
-       stroke-width="1.50"
-       stroke="currentColor"
-       fill="none"
-       color="black">
-      <path
-         d="M71.9,117.0 L80.9,117.0 M999.0,117.0 L990.0,117.0  "
-         id="path125"
-         style=""
-         stroke="black" />
-      <g
-         transform="translate(63.6,121.5)"
-         font-size="12.00"
-         id="g127"
-         style=""
-         text-anchor="end"
-         font-family="Verdana"
-         stroke="none"
-         fill="black">
-        <text
-           id="text129"
-           style="">
-          <tspan
-             id="tspan131"
-             style=""
-             font-family="Verdana"> 1.4</tspan>
-        </text>
-      </g>
-    </g>
-    <g
-       id="g133"
-       style=""
-       stroke-linejoin="miter"
-       stroke-linecap="butt"
-       stroke-width="1.50"
-       stroke="currentColor"
-       fill="none"
-       color="black">
-      <path
-         d="M71.9,66.9 L80.9,66.9 M999.0,66.9 L990.0,66.9  "
-         id="path135"
-         style=""
-         stroke="black" />
-      <g
-         transform="translate(63.6,71.4)"
-         font-size="12.00"
-         id="g137"
-         style=""
-         text-anchor="end"
-         font-family="Verdana"
-         stroke="none"
-         fill="black">
-        <text
-           id="text139"
-           style="">
-          <tspan
-             id="tspan141"
-             style=""
-             font-family="Verdana"> 1.6</tspan>
-        </text>
-      </g>
-    </g>
-    <g
-       id="g143"
-       style=""
-       stroke-linejoin="miter"
-       stroke-linecap="butt"
-       stroke-width="1.50"
-       stroke="currentColor"
-       fill="none"
-       color="black">
-      <path
-         d="M71.9,16.7 L80.9,16.7 M999.0,16.7 L990.0,16.7  "
-         id="path145"
-         style=""
-         stroke="black" />
-      <g
-         transform="translate(63.6,21.2)"
-         font-size="12.00"
-         id="g147"
-         style=""
-         text-anchor="end"
-         font-family="Verdana"
-         stroke="none"
-         fill="black">
-        <text
-           id="text149"
-           style="">
-          <tspan
-             id="tspan151"
-             style=""
-             font-family="Verdana"> 1.8</tspan>
-        </text>
-      </g>
-    </g>
-    <g
-       id="g153"
-       style=""
-       stroke-linejoin="miter"
-       stroke-linecap="butt"
-       stroke-width="1.50"
-       stroke="currentColor"
-       fill="none"
-       color="black">
-      <path
-         d="M71.9,518.4 L71.9,509.4 M71.9,16.7 L71.9,25.7  "
-         id="path155"
-         style=""
-         stroke="black" />
-      <g
-         transform="translate(71.9,540.9)"
-         font-size="12.00"
-         id="g157"
-         style=""
-         text-anchor="middle"
-         font-family="Verdana"
-         stroke="none"
-         fill="black">
-        <text
-           id="text159"
-           style="">
-          <tspan
-             id="tspan161"
-             style=""
-             font-family="Verdana"> 0</tspan>
-        </text>
-      </g>
-    </g>
-    <g
-       id="g163"
-       style=""
-       stroke-linejoin="miter"
-       stroke-linecap="butt"
-       stroke-width="1.50"
-       stroke="currentColor"
-       fill="none"
-       color="black">
-      <path
-         d="M174.9,518.4 L174.9,509.4 M174.9,16.7 L174.9,25.7  "
-         id="path165"
-         style=""
-         stroke="black" />
-      <g
-         transform="translate(174.9,540.9)"
-         font-size="12.00"
-         id="g167"
-         style=""
-         text-anchor="middle"
-         font-family="Verdana"
-         stroke="none"
-         fill="black">
-        <text
-           id="text169"
-           style="">
-          <tspan
-             id="tspan171"
-             style=""
-             font-family="Verdana"> 10</tspan>
-        </text>
-      </g>
-    </g>
-    <g
-       id="g173"
-       style=""
-       stroke-linejoin="miter"
-       stroke-linecap="butt"
-       stroke-width="1.50"
-       stroke="currentColor"
-       fill="none"
-       color="black">
-      <path
-         d="M277.9,518.4 L277.9,509.4 M277.9,16.7 L277.9,25.7  "
-         id="path175"
-         style=""
-         stroke="black" />
-      <g
-         transform="translate(277.9,540.9)"
-         font-size="12.00"
-         id="g177"
-         style=""
-         text-anchor="middle"
-         font-family="Verdana"
-         stroke="none"
-         fill="black">
-        <text
-           id="text179"
-           style="">
-          <tspan
-             id="tspan181"
-             style=""
-             font-family="Verdana"> 20</tspan>
-        </text>
-      </g>
-    </g>
-    <g
-       id="g183"
-       style=""
-       stroke-linejoin="miter"
-       stroke-linecap="butt"
-       stroke-width="1.50"
-       stroke="currentColor"
-       fill="none"
-       color="black">
-      <path
-         d="M380.9,518.4 L380.9,509.4 M380.9,16.7 L380.9,25.7  "
-         id="path185"
-         style=""
-         stroke="black" />
-      <g
-         transform="translate(380.9,540.9)"
-         font-size="12.00"
-         id="g187"
-         style=""
-         text-anchor="middle"
-         font-family="Verdana"
-         stroke="none"
-         fill="black">
-        <text
-           id="text189"
-           style="">
-          <tspan
-             id="tspan191"
-             style=""
-             font-family="Verdana"> 30</tspan>
-        </text>
-      </g>
-    </g>
-    <g
-       id="g193"
-       style=""
-       stroke-linejoin="miter"
-       stroke-linecap="butt"
-       stroke-width="1.50"
-       stroke="currentColor"
-       fill="none"
-       color="black">
-      <path
-         d="M483.9,518.4 L483.9,509.4 M483.9,16.7 L483.9,25.7  "
-         id="path195"
-         style=""
-         stroke="black" />
-      <g
-         transform="translate(483.9,540.9)"
-         font-size="12.00"
-         id="g197"
-         style=""
-         text-anchor="middle"
-         font-family="Verdana"
-         stroke="none"
-         fill="black">
-        <text
-           id="text199"
-           style="">
-          <tspan
-             id="tspan201"
-             style=""
-             font-family="Verdana"> 40</tspan>
-        </text>
-      </g>
-    </g>
-    <g
-       id="g203"
-       style=""
-       stroke-linejoin="miter"
-       stroke-linecap="butt"
-       stroke-width="1.50"
-       stroke="currentColor"
-       fill="none"
-       color="black">
-      <path
-         d="M587.0,518.4 L587.0,509.4 M587.0,16.7 L587.0,25.7  "
-         id="path205"
-         style=""
-         stroke="black" />
-      <g
-         transform="translate(587.0,540.9)"
-         font-size="12.00"
-         id="g207"
-         style=""
-         text-anchor="middle"
-         font-family="Verdana"
-         stroke="none"
-         fill="black">
-        <text
-           id="text209"
-           style="">
-          <tspan
-             id="tspan211"
-             style=""
-             font-family="Verdana"> 50</tspan>
-        </text>
-      </g>
-    </g>
-    <g
-       id="g213"
-       style=""
-       stroke-linejoin="miter"
-       stroke-linecap="butt"
-       stroke-width="1.50"
-       stroke="currentColor"
-       fill="none"
-       color="black">
-      <path
-         d="M690.0,518.4 L690.0,509.4 M690.0,16.7 L690.0,25.7  "
-         id="path215"
-         style=""
-         stroke="black" />
-      <g
-         transform="translate(690.0,540.9)"
-         font-size="12.00"
-         id="g217"
-         style=""
-         text-anchor="middle"
-         font-family="Verdana"
-         stroke="none"
-         fill="black">
-        <text
-           id="text219"
-           style="">
-          <tspan
-             id="tspan221"
-             style=""
-             font-family="Verdana"> 60</tspan>
-        </text>
-      </g>
-    </g>
-    <g
-       id="g223"
-       style=""
-       stroke-linejoin="miter"
-       stroke-linecap="butt"
-       stroke-width="1.50"
-       stroke="currentColor"
-       fill="none"
-       color="black">
-      <path
-         d="M793.0,518.4 L793.0,509.4 M793.0,16.7 L793.0,25.7  "
-         id="path225"
-         style=""
-         stroke="black" />
-      <g
-         transform="translate(793.0,540.9)"
-         font-size="12.00"
-         id="g227"
-         style=""
-         text-anchor="middle"
-         font-family="Verdana"
-         stroke="none"
-         fill="black">
-        <text
-           id="text229"
-           style="">
-          <tspan
-             id="tspan231"
-             style=""
-             font-family="Verdana"> 70</tspan>
-        </text>
-      </g>
-    </g>
-    <g
-       id="g233"
-       style=""
-       stroke-linejoin="miter"
-       stroke-linecap="butt"
-       stroke-width="1.50"
-       stroke="currentColor"
-       fill="none"
-       color="black">
-      <path
-         d="M896.0,518.4 L896.0,509.4 M896.0,16.7 L896.0,25.7  "
-         id="path235"
-         style=""
-         stroke="black" />
-      <g
-         transform="translate(896.0,540.9)"
-         font-size="12.00"
-         id="g237"
-         style=""
-         text-anchor="middle"
-         font-family="Verdana"
-         stroke="none"
-         fill="black">
-        <text
-           id="text239"
-           style="">
-          <tspan
-             id="tspan241"
-             style=""
-             font-family="Verdana"> 80</tspan>
-        </text>
-      </g>
-    </g>
-    <g
-       id="g243"
-       style="stroke-width:1.5;stroke-miterlimit:4;stroke-dasharray:none"
-       stroke-linejoin="miter"
-       stroke-linecap="butt"
-       stroke-width="1.50"
-       stroke="currentColor"
-       fill="none"
-       color="black">
-      <path
-         d="M999.0,518.4 L999.0,509.4 M999.0,16.7 L999.0,25.7  "
-         id="path245"
-         style="stroke-width:1.5;stroke-miterlimit:4;stroke-dasharray:none"
-         stroke="black" />
-      <g
-         transform="translate(999.0,540.9)"
-         font-size="12.00"
-         id="g247"
-         style="stroke-width:1.5;stroke-miterlimit:4;stroke-dasharray:none"
-         text-anchor="middle"
-         font-family="Verdana"
-         stroke="none"
-         fill="black">
-        <text
-           id="text249"
-           style="stroke-width:1.5;stroke-miterlimit:4;stroke-dasharray:none">
-          <tspan
-             id="tspan251"
-             style="stroke-width:1.5;stroke-miterlimit:4;stroke-dasharray:none"
-             font-family="Verdana"> 90</tspan>
         </text>
       </g>
     </g>
@@ -1129,19 +469,692 @@
     <g
        id="g288"
        style="color:#000000;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       transform="translate(0.82998047,0)">
+       transform="translate(88.798564,315.07901)">
       <g
-         transform="translate(930.8656,502.83121)"
-         font-size="12.00"
-         id="g290"
-         style="font-size:12px;font-family:Verdana;text-anchor:end;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">
-        <text
-           id="text292"
-           style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">
-          <tspan
-             id="tspan294"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;font-family:Verdana;-inkscape-font-specification:Verdana;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">Data points</tspan>
-        </text>
+         id="gnuplot_canvas-8"
+         transform="translate(-88.727535,-315.05299)">
+        <rect
+           style="fill:none"
+           x="0"
+           y="0"
+           width="1024"
+           height="576"
+           id="rect9-7" />
+        <defs
+           id="defs11-8">
+          <circle
+             style="stroke-width:0.5"
+             cy="0"
+             cx="0"
+             id="gpDot-8"
+             r="0.5" />
+          <path
+             style="stroke:currentColor;stroke-width:0.222"
+             inkscape:connector-curvature="0"
+             id="gpPt0-9"
+             d="M -1,0 1,0 M 0,-1 0,1" />
+          <path
+             style="stroke:currentColor;stroke-width:0.222"
+             inkscape:connector-curvature="0"
+             id="gpPt1-2"
+             d="M -1,-1 1,1 M 1,-1 -1,1" />
+          <path
+             style="stroke:currentColor;stroke-width:0.222"
+             inkscape:connector-curvature="0"
+             id="gpPt2-3"
+             d="M -1,0 1,0 M 0,-1 0,1 m -1,-2 2,2 m -2,0 2,-2" />
+          <rect
+             style="stroke:currentColor;stroke-width:0.222"
+             id="gpPt3-3"
+             x="-1"
+             y="-1"
+             width="2"
+             height="2" />
+          <rect
+             style="fill:currentColor;stroke:currentColor;stroke-width:0.222"
+             id="gpPt4-8"
+             x="-1"
+             y="-1"
+             width="2"
+             height="2" />
+          <circle
+             style="stroke:currentColor;stroke-width:0.222"
+             id="gpPt5-7"
+             cx="0"
+             cy="0"
+             r="1" />
+          <use
+             height="100%"
+             width="100%"
+             y="0"
+             x="0"
+             style="fill:currentColor;stroke:none"
+             xlink:href="#gpPt5-7"
+             id="gpPt6-5" />
+          <path
+             style="stroke:currentColor;stroke-width:0.222"
+             inkscape:connector-curvature="0"
+             id="gpPt7-3"
+             d="m 0,-1.33 -1.33,2 2.66,0 z" />
+          <use
+             height="100%"
+             width="100%"
+             y="0"
+             x="0"
+             style="fill:currentColor;stroke:none"
+             xlink:href="#gpPt7-3"
+             id="gpPt8-4" />
+          <use
+             height="100%"
+             width="100%"
+             y="0"
+             x="0"
+             style="stroke:currentColor"
+             xlink:href="#gpPt7-3"
+             id="gpPt9-9"
+             transform="scale(-1,-1)" />
+          <use
+             height="100%"
+             width="100%"
+             y="0"
+             x="0"
+             style="fill:currentColor;stroke:none"
+             xlink:href="#gpPt9-9"
+             id="gpPt10-8" />
+          <use
+             height="100%"
+             width="100%"
+             y="0"
+             x="0"
+             style="stroke:currentColor"
+             xlink:href="#gpPt3-3"
+             id="gpPt11-3"
+             transform="matrix(0.70710678,0.70710678,-0.70710678,0.70710678,0,0)" />
+          <use
+             height="100%"
+             width="100%"
+             y="0"
+             x="0"
+             style="fill:currentColor;stroke:none"
+             xlink:href="#gpPt11-3"
+             id="gpPt12-9" />
+          <path
+             style="stroke:currentColor;stroke-width:0.222"
+             inkscape:connector-curvature="0"
+             id="gpPt13-7"
+             d="M 0,1.33 1.265,0.411 0.782,-1.067 -0.782,-1.076 -1.265,0.411 Z" />
+          <use
+             height="100%"
+             width="100%"
+             y="0"
+             x="0"
+             style="fill:currentColor;stroke:none"
+             xlink:href="#gpPt13-7"
+             id="gpPt14-9" />
+          <filter
+             id="textbox-4"
+             filterUnits="objectBoundingBox"
+             x="0"
+             y="0"
+             height="1"
+             width="1">
+            <feFlood
+               flood-color="white"
+               flood-opacity="1"
+               result="bgnd"
+               id="feFlood30-9" />
+            <feComposite
+               in="SourceGraphic"
+               in2="bgnd"
+               operator="atop"
+               id="feComposite32-7" />
+          </filter>
+          <filter
+             id="greybox-3"
+             filterUnits="objectBoundingBox"
+             x="0"
+             y="0"
+             height="1"
+             width="1">
+            <feFlood
+               flood-color="lightgrey"
+               flood-opacity="1"
+               result="grey"
+               id="feFlood35-0" />
+            <feComposite
+               in="SourceGraphic"
+               in2="grey"
+               operator="atop"
+               id="feComposite37-4" />
+          </filter>
+        </defs>
+        <g
+           style="color:#ffffff;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter"
+           id="g39-3" />
+        <g
+           style="color:#ffffff;fill:none;stroke:currentColor;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:miter"
+           id="g41-5" />
+        <g
+           style="color:#000000;fill:none;stroke:currentColor;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:miter"
+           id="g43-8">
+          <path
+             style="stroke:#000000"
+             inkscape:connector-curvature="0"
+             d="m 71.9,518.4 9,0 m 918.1,0 -9,0"
+             id="path45-9" />
+          <g
+             style="font-size:14px;font-family:Verdana;text-anchor:end;fill:#000000;stroke:none"
+             transform="translate(63.6,523.6)"
+             font-size="14.00"
+             id="g47-6">
+            <text
+               id="text49-4">
+              <tspan
+                 style="font-family:Verdana"
+                 id="tspan51-5">-0.2</tspan>
+            </text>
+          </g>
+        </g>
+        <g
+           style="color:#000000;fill:none;stroke:currentColor;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:miter"
+           id="g53-5">
+          <path
+             style="stroke:#000000"
+             inkscape:connector-curvature="0"
+             d="m 71.9,468.2 9,0 m 918.1,0 -9,0"
+             id="path55-6" />
+          <g
+             style="font-size:14px;font-family:Verdana;text-anchor:end;fill:#000000;stroke:none"
+             transform="translate(63.6,473.4)"
+             font-size="14.00"
+             id="g57-6">
+            <text
+               id="text59-8">
+              <tspan
+                 style="font-family:Verdana"
+                 id="tspan61-9">0</tspan>
+            </text>
+          </g>
+        </g>
+        <g
+           style="color:#000000;fill:none;stroke:currentColor;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:miter"
+           id="g63-7">
+          <path
+             style="stroke:#000000"
+             inkscape:connector-curvature="0"
+             d="m 71.9,418.1 9,0 m 918.1,0 -9,0"
+             id="path65-4" />
+          <g
+             style="font-size:14px;font-family:Verdana;text-anchor:end;fill:#000000;stroke:none"
+             transform="translate(63.6,423.3)"
+             font-size="14.00"
+             id="g67-2">
+            <text
+               id="text69-3">
+              <tspan
+                 style="font-family:Verdana"
+                 id="tspan71-8">0.2</tspan>
+            </text>
+          </g>
+        </g>
+        <g
+           style="color:#000000;fill:none;stroke:currentColor;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:miter"
+           id="g73-1">
+          <path
+             style="stroke:#000000"
+             inkscape:connector-curvature="0"
+             d="m 71.9,367.9 9,0 m 918.1,0 -9,0"
+             id="path75-7" />
+          <g
+             style="font-size:14px;font-family:Verdana;text-anchor:end;fill:#000000;stroke:none"
+             transform="translate(63.6,373.1)"
+             font-size="14.00"
+             id="g77-6">
+            <text
+               id="text79-1">
+              <tspan
+                 style="font-family:Verdana"
+                 id="tspan81-8">0.4</tspan>
+            </text>
+          </g>
+        </g>
+        <g
+           style="color:#000000;fill:none;stroke:currentColor;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:miter"
+           id="g83-1">
+          <path
+             style="stroke:#000000"
+             inkscape:connector-curvature="0"
+             d="m 71.9,317.7 9,0 m 918.1,0 -9,0"
+             id="path85-0" />
+          <g
+             style="font-size:14px;font-family:Verdana;text-anchor:end;fill:#000000;stroke:none"
+             transform="translate(63.6,322.9)"
+             font-size="14.00"
+             id="g87-5">
+            <text
+               id="text89-9">
+              <tspan
+                 style="font-family:Verdana"
+                 id="tspan91-7">0.6</tspan>
+            </text>
+          </g>
+        </g>
+        <g
+           style="color:#000000;fill:none;stroke:currentColor;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:miter"
+           id="g93-3">
+          <path
+             style="stroke:#000000"
+             inkscape:connector-curvature="0"
+             d="m 71.9,267.5 9,0 m 918.1,0 -9,0"
+             id="path95-6" />
+          <g
+             style="font-size:14px;font-family:Verdana;text-anchor:end;fill:#000000;stroke:none"
+             transform="translate(63.6,272.7)"
+             font-size="14.00"
+             id="g97-1">
+            <text
+               id="text99-7">
+              <tspan
+                 style="font-family:Verdana"
+                 id="tspan101-2">0.8</tspan>
+            </text>
+          </g>
+        </g>
+        <g
+           style="color:#000000;fill:none;stroke:currentColor;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:miter"
+           id="g103-3">
+          <path
+             style="stroke:#000000"
+             inkscape:connector-curvature="0"
+             d="m 71.9,217.4 9,0 m 918.1,0 -9,0"
+             id="path105-2" />
+          <g
+             style="font-size:14px;font-family:Verdana;text-anchor:end;fill:#000000;stroke:none"
+             transform="translate(63.6,222.6)"
+             font-size="14.00"
+             id="g107-8">
+            <text
+               id="text109-9">
+              <tspan
+                 style="font-family:Verdana"
+                 id="tspan111-3">1</tspan>
+            </text>
+          </g>
+        </g>
+        <g
+           style="color:#000000;fill:none;stroke:currentColor;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:miter"
+           id="g113-2">
+          <path
+             style="stroke:#000000"
+             inkscape:connector-curvature="0"
+             d="m 71.9,167.2 9,0 m 918.1,0 -9,0"
+             id="path115-0" />
+          <g
+             style="font-size:14px;font-family:Verdana;text-anchor:end;fill:#000000;stroke:none"
+             transform="translate(63.6,172.4)"
+             font-size="14.00"
+             id="g117-8">
+            <text
+               id="text119-0">
+              <tspan
+                 style="font-family:Verdana"
+                 id="tspan121-8">1.2</tspan>
+            </text>
+          </g>
+        </g>
+        <g
+           style="color:#000000;fill:none;stroke:currentColor;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:miter"
+           id="g123-3">
+          <path
+             style="stroke:#000000"
+             inkscape:connector-curvature="0"
+             d="m 71.9,117 9,0 m 918.1,0 -9,0"
+             id="path125-8" />
+          <g
+             style="font-size:14px;font-family:Verdana;text-anchor:end;fill:#000000;stroke:none"
+             transform="translate(63.6,122.2)"
+             font-size="14.00"
+             id="g127-7">
+            <text
+               id="text129-2">
+              <tspan
+                 style="font-family:Verdana"
+                 id="tspan131-1">1.4</tspan>
+            </text>
+          </g>
+        </g>
+        <g
+           style="color:#000000;fill:none;stroke:currentColor;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:miter"
+           id="g133-1">
+          <path
+             style="stroke:#000000"
+             inkscape:connector-curvature="0"
+             d="m 71.9,66.9 9,0 m 918.1,0 -9,0"
+             id="path135-1" />
+          <g
+             style="font-size:14px;font-family:Verdana;text-anchor:end;fill:#000000;stroke:none"
+             transform="translate(63.6,72.1)"
+             font-size="14.00"
+             id="g137-5">
+            <text
+               id="text139-0">
+              <tspan
+                 style="font-family:Verdana"
+                 id="tspan141-8">1.6</tspan>
+            </text>
+          </g>
+        </g>
+        <g
+           style="color:#000000;fill:none;stroke:currentColor;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:miter"
+           id="g143-0">
+          <path
+             style="stroke:#000000"
+             inkscape:connector-curvature="0"
+             d="m 71.9,16.7 9,0 m 918.1,0 -9,0"
+             id="path145-4" />
+          <g
+             style="font-size:14px;font-family:Verdana;text-anchor:end;fill:#000000;stroke:none"
+             transform="translate(63.6,21.9)"
+             font-size="14.00"
+             id="g147-1">
+            <text
+               id="text149-3">
+              <tspan
+                 style="font-family:Verdana"
+                 id="tspan151-0">1.8</tspan>
+            </text>
+          </g>
+        </g>
+        <g
+           style="color:#000000;fill:none;stroke:currentColor;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:miter"
+           id="g153-9">
+          <path
+             style="stroke:#000000"
+             inkscape:connector-curvature="0"
+             d="m 71.9,518.4 0,-9 m 0,-492.7 0,9"
+             id="path155-1" />
+          <g
+             style="font-size:14px;font-family:Verdana;text-anchor:middle;fill:#000000;stroke:none"
+             transform="translate(71.9,541.6)"
+             font-size="14.00"
+             id="g157-3">
+            <text
+               id="text159-5">
+              <tspan
+                 style="font-family:Verdana"
+                 id="tspan161-8">0</tspan>
+            </text>
+          </g>
+        </g>
+        <g
+           style="color:#000000;fill:none;stroke:currentColor;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:miter"
+           id="g163-7">
+          <path
+             style="stroke:#000000"
+             inkscape:connector-curvature="0"
+             d="m 174.9,518.4 0,-9 m 0,-492.7 0,9"
+             id="path165-5" />
+          <g
+             style="font-size:14px;font-family:Verdana;text-anchor:middle;fill:#000000;stroke:none"
+             transform="translate(174.9,541.6)"
+             font-size="14.00"
+             id="g167-1">
+            <text
+               id="text169-1">
+              <tspan
+                 style="font-family:Verdana"
+                 id="tspan171-5">10</tspan>
+            </text>
+          </g>
+        </g>
+        <g
+           style="color:#000000;fill:none;stroke:currentColor;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:miter"
+           id="g173-3">
+          <path
+             style="stroke:#000000"
+             inkscape:connector-curvature="0"
+             d="m 277.9,518.4 0,-9 m 0,-492.7 0,9"
+             id="path175-0" />
+          <g
+             style="font-size:14px;font-family:Verdana;text-anchor:middle;fill:#000000;stroke:none"
+             transform="translate(277.9,541.6)"
+             font-size="14.00"
+             id="g177-2">
+            <text
+               id="text179-9">
+              <tspan
+                 style="font-family:Verdana"
+                 id="tspan181-6">20</tspan>
+            </text>
+          </g>
+        </g>
+        <g
+           style="color:#000000;fill:none;stroke:currentColor;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:miter"
+           id="g183-6">
+          <path
+             style="stroke:#000000"
+             inkscape:connector-curvature="0"
+             d="m 380.9,518.4 0,-9 m 0,-492.7 0,9"
+             id="path185-6" />
+          <g
+             style="font-size:14px;font-family:Verdana;text-anchor:middle;fill:#000000;stroke:none"
+             transform="translate(380.9,541.6)"
+             font-size="14.00"
+             id="g187-3">
+            <text
+               id="text189-9">
+              <tspan
+                 style="font-family:Verdana"
+                 id="tspan191-6">30</tspan>
+            </text>
+          </g>
+        </g>
+        <g
+           style="color:#000000;fill:none;stroke:currentColor;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:miter"
+           id="g193-8">
+          <path
+             style="stroke:#000000"
+             inkscape:connector-curvature="0"
+             d="m 483.9,518.4 0,-9 m 0,-492.7 0,9"
+             id="path195-3" />
+          <g
+             style="font-size:14px;font-family:Verdana;text-anchor:middle;fill:#000000;stroke:none"
+             transform="translate(483.9,541.6)"
+             font-size="14.00"
+             id="g197-0">
+            <text
+               id="text199-4">
+              <tspan
+                 style="font-family:Verdana"
+                 id="tspan201-5">40</tspan>
+            </text>
+          </g>
+        </g>
+        <g
+           style="color:#000000;fill:none;stroke:currentColor;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:miter"
+           id="g203-1">
+          <path
+             style="stroke:#000000"
+             inkscape:connector-curvature="0"
+             d="m 587,518.4 0,-9 m 0,-492.7 0,9"
+             id="path205-3" />
+          <g
+             style="font-size:14px;font-family:Verdana;text-anchor:middle;fill:#000000;stroke:none"
+             transform="translate(587,541.6)"
+             font-size="14.00"
+             id="g207-1">
+            <text
+               id="text209-1">
+              <tspan
+                 style="font-family:Verdana"
+                 id="tspan211-3">50</tspan>
+            </text>
+          </g>
+        </g>
+        <g
+           style="color:#000000;fill:none;stroke:currentColor;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:miter"
+           id="g213-8">
+          <path
+             style="stroke:#000000"
+             inkscape:connector-curvature="0"
+             d="m 690,518.4 0,-9 m 0,-492.7 0,9"
+             id="path215-5" />
+          <g
+             style="font-size:14px;font-family:Verdana;text-anchor:middle;fill:#000000;stroke:none"
+             transform="translate(690,541.6)"
+             font-size="14.00"
+             id="g217-4">
+            <text
+               id="text219-1">
+              <tspan
+                 style="font-family:Verdana"
+                 id="tspan221-7">60</tspan>
+            </text>
+          </g>
+        </g>
+        <g
+           style="color:#000000;fill:none;stroke:currentColor;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:miter"
+           id="g223-2">
+          <path
+             style="stroke:#000000"
+             inkscape:connector-curvature="0"
+             d="m 793,518.4 0,-9 m 0,-492.7 0,9"
+             id="path225-9" />
+          <g
+             style="font-size:14px;font-family:Verdana;text-anchor:middle;fill:#000000;stroke:none"
+             transform="translate(793,541.6)"
+             font-size="14.00"
+             id="g227-5">
+            <text
+               id="text229-3">
+              <tspan
+                 style="font-family:Verdana"
+                 id="tspan231-2">70</tspan>
+            </text>
+          </g>
+        </g>
+        <g
+           style="color:#000000;fill:none;stroke:currentColor;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:miter"
+           id="g233-3">
+          <path
+             style="stroke:#000000"
+             inkscape:connector-curvature="0"
+             d="m 896,518.4 0,-9 m 0,-492.7 0,9"
+             id="path235-1" />
+          <g
+             style="font-size:14px;font-family:Verdana;text-anchor:middle;fill:#000000;stroke:none"
+             transform="translate(896,541.6)"
+             font-size="14.00"
+             id="g237-9">
+            <text
+               id="text239-5">
+              <tspan
+                 style="font-family:Verdana"
+                 id="tspan241-1">80</tspan>
+            </text>
+          </g>
+        </g>
+        <g
+           style="color:#000000;fill:none;stroke:currentColor;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:miter"
+           id="g243-9">
+          <path
+             style="stroke:#000000"
+             inkscape:connector-curvature="0"
+             d="m 999,518.4 0,-9 m 0,-492.7 0,9"
+             id="path245-3" />
+          <g
+             style="font-size:14px;font-family:Verdana;text-anchor:middle;fill:#000000;stroke:none"
+             transform="translate(999,541.6)"
+             font-size="14.00"
+             id="g247-8">
+            <text
+               id="text249-9">
+              <tspan
+                 style="font-family:Verdana"
+                 id="tspan251-3">90</tspan>
+            </text>
+          </g>
+        </g>
+        <g
+           style="color:#000000;fill:none;stroke:currentColor;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:miter"
+           id="g253-4" />
+        <g
+           style="color:#000000;fill:none;stroke:currentColor;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:miter"
+           id="g255-9">
+          <path
+             style="stroke:#000000"
+             inkscape:connector-curvature="0"
+             d="m 71.9,16.7 0,501.7 927.1,0 0,-501.7 -927.1,0 z"
+             id="path257-0" />
+        </g>
+        <g
+           style="color:#000000;fill:none;stroke:currentColor;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:miter"
+           id="g275-9" />
+        <g
+           style="color:#000000;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter"
+           id="g277-7" />
+        <g
+           id="gnuplot_plot_1-9">
+          <title
+             id="title284-3">Data points</title>
+          <g
+             style="color:#ffffff;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter"
+             id="g286-4" />
+          <g
+             style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter"
+             id="g288-6">
+            <g
+               style="font-size:12px;font-family:Verdana;text-anchor:end;fill:#000000;stroke:none"
+               transform="translate(931.9,504.9)"
+               font-size="12.00"
+               id="g290-2">
+              <text
+                 id="text292-1">
+                <tspan
+                   style="font-family:Verdana"
+                   id="tspan294-0">Data points</tspan>
+              </text>
+            </g>
+          </g>
+          <g
+             style="color:#000000;fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter"
+             id="g296-7">
+            <path
+               style="stroke:#dd181f"
+               inkscape:connector-curvature="0"
+               d="m 940.2,500.4 42.2,0 m -42.2,-4.5 0,9 m 42.2,-9 0,9 m -910.5,-26 0,-2.9 m 0,2.9 4.5,0 m -4.5,-2.9 4.5,0 m 98.5,2.2 0,-2.9 m -4.5,2.9 9,0 m -9,-2.9 9,0 m 98.5,2.9 0,-2.9 m -4.5,2.9 9,0 m -9,-2.9 9,0 m 98.5,2.3 0,-2.9 m -4.5,2.9 9,0 m -9,-2.9 9,0 m 98.5,0.6 0,-2.9 m -4.5,2.9 9,0 m -9,-2.9 9,0 m 98.6,0.8 0,-2.9 m -4.5,2.9 9,0 m -9,-2.9 9,0 m 21.2,-6.1 0,-2.9 m -4.5,2.9 9,0 m -9,-2.9 9,0 m 21.3,-35.3 0,-2.9 m -4.5,2.9 9,0 m -9,-2.9 9,0 m 5.8,-12.6 0,-2.9 m -4.5,2.9 9,0 m -9,-2.9 9,0 m 5.8,-12.4 0,-2.9 m -4.5,2.9 9,0 m -9,-2.9 9,0 m 5.8,-12 0,-2.9 m -4.5,2.9 9,0 m -9,-2.9 9,0 m 5.8,-11.3 0,-2.9 m -4.5,2.9 9,0 m -9,-2.9 9,0 m 5.8,-11.7 0,-2.9 m -4.5,2.9 9,0 m -9,-2.9 9,0 m 5.8,-11.3 0,-2.9 m -4.5,2.9 9,0 m -9,-2.9 9,0 m 5.8,-12.8 0,-2.9 m -4.5,2.9 9,0 m -9,-2.9 9,0 m 5.8,-9.9 0,-2.9 m -4.5,2.9 9,0 m -9,-2.9 9,0 m 5.8,-12.5 0,-2.9 m -4.5,2.9 9,0 m -9,-2.9 9,0 m 5.8,-10.9 0,-2.9 m -4.5,2.9 9,0 m -9,-2.9 9,0 m 5.8,-12.6 0,-2.9 m -4.5,2.9 9,0 m -9,-2.9 9,0 m 5.8,-10.5 0,-2.9 m -4.5,2.9 9,0 m -9,-2.9 9,0 m 5.8,-9.7 0,-2.9 m -4.5,2.9 9,0 m -9,-2.9 9,0 m 5.8,-10.5 0,-2.9 m -4.5,2.9 9,0 m -9,-2.9 9,0 m 5.8,-10.4 0,-2.9 m -4.5,2.9 9,0 m -9,-2.9 9,0 m 5.8,-12.8 0,-2.9 m -4.5,2.9 9,0 m -9,-2.9 9,0 m 5.8,-9.3 0,-2.9 m -4.5,2.9 9,0 m -9,-2.9 9,0 m 5.8,-9.1 0,-2.9 m -4.5,2.9 9,0 m -9,-2.9 9,0 m 5.8,-8 0,-2.9 m -4.5,2.9 9,0 m -9,-2.9 9,0 m 5.8,-4.7 0,-2.9 m -4.5,2.9 9,0 m -9,-2.9 9,0 m 5.8,-11.6 0,-2.9 m -4.5,2.9 9,0 m -9,-2.9 9,0 m 5.8,-2.5 0,-2.8 m -4.5,2.8 9,0 m -9,-2.8 9,0 m 5.8,13.8 0,-2.9 m -4.5,2.9 9,0 m -9,-2.9 9,0 m 5.8,-4.1 0,-2.9 m -4.5,2.9 9,0 m -9,-2.9 9,0 m 5.8,-8.2 0,-2.9 m -4.5,2.9 9,0 m -9,-2.9 9,0 m 5.8,15.3 0,-2.9 m -4.5,2.9 9,0 m -9,-2.9 9,0 m 5.8,-36.8 0,-2.9 m -4.5,2.9 9,0 m -9,-2.9 9,0 m 5.8,-13.2 0,-2.8 m -4.5,2.8 9,0 m -9,-2.8 9,0 m 5.8,-7.7 0,-2.9 m -4.5,2.9 9,0 m -9,-2.9 9,0 m 5.8,-9.3 0,-2.9 m -4.5,2.9 9,0 m -9,-2.9 9,0 m 5.8,-10.7 0,-2.9 m -4.5,2.9 9,0 m -9,-2.9 9,0 m 5.8,4.8 0,-2.8 m -4.5,2.8 9,0 m -9,-2.8 9,0"
+               id="path298-6" />
+            <use
+               height="100%"
+               width="100%"
+               style="color:#dd181f"
+               xlink:href="#gpDot-8"
+               x="961.29999"
+               y="500.39999"
+               id="use300-1" />
+          </g>
+        </g>
+        <g
+           style="color:#ffffff;fill:none;stroke:#dd181f;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter"
+           id="g302-3" />
+        <g
+           style="color:#000000;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter"
+           id="g304-7" />
+        <g
+           style="color:#000000;fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:miter"
+           id="g306-5" />
+        <g
+           style="color:#000000;fill:none;stroke:currentColor;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:miter"
+           id="g308-4">
+          <path
+             style="stroke:#000000"
+             inkscape:connector-curvature="0"
+             d="m 71.9,16.7 0,501.7 927.1,0 0,-501.7 -927.1,0 z"
+             id="path310-9" />
+        </g>
+        <g
+           style="color:#000000;fill:none;stroke:currentColor;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:miter"
+           id="g312-7" />
       </g>
     </g>
     <text
