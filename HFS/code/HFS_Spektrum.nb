@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[    361842,       6426]
-NotebookOptionsPosition[    358013,       6290]
-NotebookOutlinePosition[    358388,       6306]
-CellTagsIndexPosition[    358345,       6303]
+NotebookDataLength[    362530,       6444]
+NotebookOptionsPosition[    358585,       6304]
+NotebookOutlinePosition[    358960,       6320]
+CellTagsIndexPosition[    358917,       6317]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -6282,14 +6282,28 @@ Cell[BoxData["7.827450224615573`*^-8"], "Output",
 Cell[BoxData[
  RowBox[{"\[IndentingNewLine]", "\[IndentingNewLine]", "\[IndentingNewLine]", 
   "\[IndentingNewLine]"}]], "Input",
- CellChangeTimes->{{3.670688893908209*^9, 3.6706888943414917`*^9}}]
+ CellChangeTimes->{{3.670688893908209*^9, 3.6706888943414917`*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"4.58", "+", "1.48"}]], "Input",
+ CellChangeTimes->{{3.670688904518174*^9, 3.6706889220182734`*^9}, {
+  3.670688953707444*^9, 3.6706889871795287`*^9}, {3.670689053682709*^9, 
+  3.670689070005513*^9}, {3.670689296356264*^9, 3.670689301027161*^9}}],
+
+Cell[BoxData["6.0600000000000005`"], "Output",
+ CellChangeTimes->{{3.67068890813472*^9, 3.670688922379365*^9}, {
+  3.6706889539728656`*^9, 3.670688987735766*^9}, {3.6706890557102966`*^9, 
+  3.6706890703119154`*^9}, {3.6706892973369246`*^9, 3.670689301302903*^9}}]
+}, Open  ]]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]]
 },
 WindowSize->{766, 812},
-WindowMargins->{{-7, Automatic}, {Automatic, 0}},
+WindowMargins->{{Automatic, -7}, {Automatic, 0}},
 Magnification:>1.2 Inherited,
 FrontEndVersion->"10.4 for Microsoft Windows (64-bit) (February 25, 2016)",
 StyleDefinitions->"Default.nb"
@@ -6423,7 +6437,11 @@ Cell[CellGroupData[{
 Cell[357121, 6260, 461, 14, 36, "Input"],
 Cell[357585, 6276, 164, 2, 36, "Output"]
 }, Open  ]],
-Cell[357764, 6281, 197, 3, 129, "Input"]
+Cell[357764, 6281, 197, 3, 129, "Input"],
+Cell[CellGroupData[{
+Cell[357986, 6288, 269, 4, 36, "Input"],
+Cell[358258, 6294, 263, 3, 36, "Output"]
+}, Open  ]]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]]
