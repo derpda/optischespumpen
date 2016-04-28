@@ -3,10 +3,10 @@
 ################################################## Settings							 #####################################################
 
 #terminal options and styling
-set terminal svg size 1024,576 fname 'Verdana' fsize 12
+set terminal svg size 1024,576 fname 'Verdana' fsize 18
 set border linewidth 1.5
 set bars 0.4
-set tics font ",14"
+set tics font ",18"
 set style line 1 linecolor rgb '#0060ad' linetype 1 linewidth 3
 fittitle='Exponential fit'
 pointtitle='Data points'
@@ -25,7 +25,7 @@ set fit errorvariables
 system('DEL "..\\results\\relaxation\\fitresults.txt"')
 set print '../results/relaxation/ohnefoehn/fitresults.txt'
 print "Results of exponential fits on the Dehmelt relaxation data.\n"
-print "dataset \t Relative intensity \tInverse relaxation time \t error"
+print "dataset \t Relative intensity \t error \t\t\tInverse relaxation time \t error"
 padstring="          "
 
 
@@ -40,10 +40,11 @@ NL(x)=nolaser
 NF(x)=nofilter
 
 #get nolaser and nofilter values
-fit NL(x) '../data/Transmissionen/'.word(translist,Ntrans) u 1:2 via nolaser
-fit NF(x) '../data/Transmissionen/'.word(translist,1) u 1:2 via nofilter
-
-
+fit NL(x) '../data/Transmissionen/'.word(translist,Ntrans) u 1:2:(1/sqrt(12)*0.008) yerror via nolaser
+fit NF(x) '../data/Transmissionen/'.word(translist,1) u 1:2:(1/sqrt(12)*0.01) yerror via nofilter
+nolaser_err=(0.004+1/sqrt(12)*0.008)
+nofilter_err=(0.005+1/sqrt(12)*0.01)
+binwtrans="0.01 0.01 0.008 0.008 0.008 0.008 0.008 0.008 0.008 0.008 0.008"
 
 ################################################## Fit functions and error lists	#####################################################
 
@@ -78,10 +79,20 @@ do for [i = 1:Ndata] {
 
 	#get intensity
 	if (i == 1) {
+		rI=1
+		intensity=nofilter
+		intensity_err=(word(binwtrans,i)/2+1/sqrt(12)*word(binwtrans,i))
+		srI= sqrt((1/(nofilter-nolaser))**2*intensity_err**2 + \
+				((intensity-nolaser)*nofilter_err)**2/((nofilter-nolaser)**4)+\
+				( (intensity-nolaser)/((nofilter-nolaser)**2) -1/(nofilter-nolaser))**2*nolaser_err**2  )
 		rI = "1.000000000000000"
 	}else {
 		fit I(x) '../data/Transmissionen/'.trans u 1:2 via intensity
+		intensity_err=(word(binwtrans,i)/2+1/sqrt(12)*word(binwtrans,i))
 		rI=(intensity - nolaser)/(nofilter - nolaser)
+		srI=sqrt((1/(nofilter-nolaser))**2*intensity_err**2 + \
+				((intensity-nolaser)*nofilter_err)**2/((nofilter-nolaser)**4)+\
+				( (intensity-nolaser)/((nofilter-nolaser)**2) -1/(nofilter-nolaser))**2*nolaser_err**2  )
 	}
 
 	#fit and plot
@@ -92,17 +103,27 @@ do for [i = 1:Ndata] {
 		[0.0027:] f(x) title fittitle w lines ls 1
 
 	#output fit results to file
-	print data[:len],padstring[:13-len],"\t",rI,"\t",a," \t",a_err
+	print data[:len],padstring[:13-len],"\t",rI,"\t",srI,"\t",a," \t",a_err,"\t",intensity,"\t",intensity_err
 }
 
-
-
 ################################################## Make final plot					#####################################################
+
+#axes label options
+set xlabel "Relative intensity"
+set ylabel "Inverse orientation time [1/s]"
+
 
 set output '../results/relaxation/ohnefoehn/linear_fit.svg'
 g(x)=grad*x+1/Trelax
 Trelax=0.0037
-fit [0:0.9] g(x) '../results/relaxation/ohnefoehn/fitresults.txt' u 2:3:4 yerror via grad,Trelax
-plot '../results/relaxation/ohnefoehn/fitresults.txt' u 2:3:4 w yerrorbars title "Results from exponential fits"\
-	, g(x)
+fit  g(x) '../results/relaxation/ohnefoehn/fitresults.txt' u 2:4:3:5 xyerror via grad,Trelax
+plot [0:1.1]'../results/relaxation/ohnefoehn/fitresults.txt' u 2:4:3:5 w xyerrorbars title "Results from exponential fits"\
+	pt 0 ps 1 lc rgb '#dd181f', [0:1.1] g(x) title "Linear fit" ls 1
 
+
+intensity=nolaser
+intensity_err=nolaser_err
+srInolaser=sqrt((1/(nofilter-nolaser))**2*intensity_err**2 + \
+				((intensity-nolaser)*nofilter_err)**2/((nofilter-nolaser)**4)+\
+				( (intensity-nolaser)/((nofilter-nolaser)**2) -1/(nofilter-nolaser))**2*nolaser_err**2  )
+print "no laser\t 0.0000000\t", srInolaser,"\t - \t - \t", nolaser,"\t",nolaser_err

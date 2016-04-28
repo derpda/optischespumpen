@@ -1,5 +1,3 @@
-\section{Goal of the experiment}
-In this experiment, the process of optical pumping will be used to precisely measure properties of Rubidium atoms such as the hyperfine constant $A$ via absorption measurements. In addition to that, relaxation times of the induced pumped states as well as external magnetic fields will also be measured by observing the effect of magnetic fields, applied through Helmholtz coils, high frequency radio waves and variations in the laser intensity.
 \section{Physical principles}
 \subsection{Hyperfine structure and Zeeman splitting}
 This section is based on the detailed elaborations in \cite{staatsex}.\\
@@ -88,7 +86,7 @@ Overall, the relaxation can be described by the following differential equation
 \left(\frac{dn}{dt}\right)_R=-\frac{n}{T_R}
 \label{eq:relaxationtime}
 \end{equation}
-where $T_R$ is the characteristic relaxation time. A value of $T^{theo}_R=\unit[6.5]{ms}$ is given in \cite{staatsex}. The overall process of polarization orientation is thus the sum of equations \ref{eq:pumpingtime} and \ref{eq:relaxationtime}:
+where $T_R$ is the characteristic relaxation time. A value of $T^{theo}_R=\unit{6.5}{ms}$ is given in \cite{staatsex}. The overall process of polarization orientation is thus the sum of equations \ref{eq:pumpingtime} and \ref{eq:relaxationtime}:
 \begin{equation}
 \left(\frac{dn}{dt}\right)_O=\left(\frac{dn}{dt}\right)_P+\left(\frac{dn}{dt}\right)_R=\frac{N}{T_P}-n\left(\frac{1}{T_P}+\frac{1}{T_R}\right)
 \end{equation}
@@ -99,8 +97,10 @@ n(t)\propto e^{-\frac{t}{\tau}}
 \label{eq:orientationexponential}
 \end{equation}
 
-where $\tau=\frac{1}{T_P}+\frac{1}{T_R}$.
-
+where 
+\begin{equation}
+\tau=\frac{1}{T_P}+\frac{1}{T_R}\label{eq:tauIrelation}
+\end{equation}
 \subsection{Larmor precession of the spin}
 If the ensemble is polarized along a certain magnetic field and one component of said field is suddenly set to zero, the polarization precesses around the remaining field. The precession frequency is
 \begin{equation}
