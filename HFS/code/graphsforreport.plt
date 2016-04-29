@@ -1,10 +1,10 @@
 ################################################## Settings							 #####################################################
 reset
 #terminal options and styling
-set terminal svg size 1024,576 fname 'Verdana' fsize 12
+set terminal svg size 1024,576 fname 'Verdana' fsize 18
 set border linewidth 1.5
 set bars 0.4
-set tics font ",14"
+set tics font ",18"
 set style line 1 linecolor rgb '#0060ad' linetype 1 linewidth 3
 fittitle='Exponential fit'
 pointtitle='Data points'

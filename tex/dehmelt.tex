@@ -3,14 +3,14 @@
 \begin{figure}
 \centering
 \includegraphics[width=1.0\linewidth]{graphics/dehmeltsetup}
-\caption[Set-up relaxation measurements - Dehmelt]{Set-up for the relaxation measurements with the Dehmelt method. A range of neutral fitler was used. \cite{anleitung}}
+\caption[Set-up relaxation measurements - Dehmelt]{Set-up for the relaxation measurements with the Dehmelt method. A range of neutral filters was used. \cite{anleitung}}
 \label{fig:dehmeltsetup}
 \end{figure}
-If the $^{87}$Rb atom were in a pumped state, say $F=2$ and $m_F=2$ for example, and the magnetic field responsible for the Zeeman splitting is suddenly reversed, the system is then pumped into the state $F=2$, $m_F=-2$. The measured intensity, after dropping sharply upon reversing the field, increases exponentially until the system is fully pumped. The speed of this process depends both on the laser intensity and speed of relaxation. If one measures this process for various laser intensities, facilitated with neutral filter (see fig. \ref{fig:dehmeltsetup}), the relaxation time $T_R$ of the system can be extracted as it remains constant. For these measurements, the vertical magnetic field will be compensated by coil 4 while coil 3 induces the reversing magnetic field.
+If the $^{87}$Rb atoms were in a pumped state, say $F=2$ and $m_F=2$ for example, and the magnetic field responsible for the Zeeman splitting is suddenly reversed, the system is then pumped into the state $F=2$, $m_F=-2$. The measured intensity, after dropping sharply upon reversing the field, increases exponentially until the system is fully pumped. The speed of this process depends both on the laser intensity and speed of relaxation. If one measures this process for various laser intensities, facilitated with neutral filters (see fig. \ref{fig:dehmeltsetup}), the relaxation time $T_R$ of the system can be extracted as it remains constant. For these measurements, the vertical magnetic field will be compensated by coil 4 while coil 3 induces the reversing magnetic field.
 
-\subsection{Data Analysis}
+\subsection{Data analysis}
 All measurements were taken at $T=\unit{34.3}{\degree}$ and a laser current of $I_L=\unit{61.6}{mA}$.\\
-As the actual intensity reduction capabilities of the filter were unknown, a calibration measurement of all filters that are later to be used was done. First, a measurement of the intensity without any filter $I_{NF}$ and one of the intensity signal with the laser turned off $I_0$ were taken. The relative intensity of the former is then set as 1, the one of the latter as 0. The relative intensities for the filter $I^{rel}_F$ are calculated from their absolute measured intensities $I_F$ as
+As the actual intensity reduction capabilities of the filters were unknown, a calibration measurement of all filters that are later to be used was done. First, a measurement of the intensity without any filter $I_{NF}$ and one of the intensity signal with the laser turned off, $I_0$, were taken. The relative intensity of the former is then set as 1, the one of the latter as 0. The relative intensities for the filter $I^{rel}_F$ are calculated from their absolute measured intensities $I_F$ as
 \begin{equation}
 I^{rel}_F=\frac{I_F-I_0}{I_{NF}-I_0}
 \end{equation}
@@ -40,22 +40,22 @@ When available, the classification of the filter was used as a name. However, th
 	\label{tb:relintensities}
 \end{table}
 
-For these filters, measurements of the relaxation time were taken. One such example can be seen in figure \ref{fig:dehmletexample}. Equation \ref{eq:orientationexponential} suggests using an exponential fit to describe the data:
+For these filters, measurements of the relaxation times were taken. One such example can be seen in figure \ref{fig:dehmletexample}. Equation \ref{eq:orientationexponential} suggests using an exponential fit to describe the data:
 \begin{equation}
 I(t)=I_{max}-\Delta I\cdot e^{-a\cdot(t-t_0)}
 \end{equation}
-where $I_{max}$ is the intensity in the pumped state, $\Delta I$ the amplitude of the change in intensity and $t_0$ is an offset on the time axis to adjust for the fact that the magnetic field was not inverted at $t=0$. The deciding parameter however is $a=1/\tau$, the inverse of the orientation time of the system. The respective values for $\tau$ are listed in table \ref{tb:relintensities}. The values for $a$ can now be plotted against the relative intensities of the filter they were measured with. The result can be seen in figure \ref{fig:inversetaufit}.
+where $I_{max}$ is the intensity in the pumped state, $\Delta I$ the amplitude of the change in intensity and $t_0$ is an offset on the time axis to adjust for the fact that the magnetic field was not inverted at $t=0$. The deciding parameter however is $a=1/\tau$, the inverse of the orientation time of the system. The respective values for $\tau$ are listed in table \ref{tb:relintensities}. The values for $a$ can now be plotted against the relative intensities of the filters they were measured with. The result can be seen in figure \ref{fig:inversetaufit}.\\
 \begin{figure}
 \centering
 \includegraphics[width=1.0\linewidth]{graphics/dehmletexample}
 \caption[Example of Dehmelt relaxation]{Relaxation data recorded with the neutral filter D0,3.}
 \label{fig:dehmletexample}
 \end{figure}
-Equation \ref{eq:tauIrelation} and the fact the the pumping time is inversely proportional to the intensity, $T_P=\frac{1}{\alpha I}$, calls for a fit of the form
+Equation \ref{eq:tauIrelation} and the fact that the pumping time is inversely proportional to the intensity, $T_P=\frac{1}{\alpha I}$, calls for a fit of the form
 \begin{equation}
 a(I_{rel})=\alpha I_{rel} + \frac{1}{T_R}
 \end{equation}
-The values a far more scattered than the uncertainties would suggest. This is expressed in a large $\chi^2\approx105$ as well as in a large error in the desired variable $T_R=\unit{(4.8\pm1.5)}{ms}$. Due to this large error, it includes the expected result of $T_R^{lit}=\unit{6.5}{ms}$ in its $2\sigma$ interval. One likely reason for the larger than expected fluctuation in inverse orientation times would be temperature fluctuations. These have a strong effect on the laser intensity.\\
+The values are far more scattered than the uncertainties would suggest. This is expressed in a large $\chi^2\approx105$ as well as in a large error in the desired variable $T_R=\unit{(4.8\pm1.5)}{ms}$. Due to this large error, it includes the expected result of $T_R^{lit}=\unit{6.5}{ms}$ in its $2\sigma$ interval. One likely reason for the larger than expected fluctuation in inverse orientation times would be temperature fluctuations. These have a strong effect on the laser intensity.\\
 In the theoretically calculated value, the spin-spin exchange was not taken into account and many calculations were simplified. This might also explain why the measured relaxation time is smaller than predicted.
 \begin{figure}
 \centering

@@ -6,9 +6,9 @@
 	\label{fig:calibration setup}
 \end{figure}
 \subsubsection*{Laser scan-rate}
-A Fabry-Pérot-Interferometer (etalon), which is a set of parallel, almost completely reflecting surfaces facing each other, is used to gauge the diode. The intensity at the photo diode will be drastically dampened unless the laser wavelength allows for constructive interference to occur between the surfaces. The wavelengths at which light passes the interferometer are thus equidistant.\\
+A Fabry-Pérot-Interferometer (etalon), which is a set of parallel, almost completely reflective surfaces facing each other, is used to gauge the diode. The intensity at the photo diode will be drastically dampened unless the laser wavelength allows for constructive interference to occur between the surfaces. The wavelengths at which light passes the interferometer are thus equidistant.\\
 
-The diode current is then modified with a saw-tooth voltage, which is also used to trigger the oscilloscope(see figure \ref{fig:calibration setup}). It is important to measure the scan-rate in a range of diode currents where the intensity response is linear and where the HFS-spectrum is actually visible (see next section). To get a solid calibration, at the very least 3 etalon peaks are necessary. These two factors have to be taken into consideration when choosing the measurement interval.\\ 
+The diode current is then modified with a saw-tooth voltage, which is also used to trigger the oscilloscope(see figure \ref{fig:calibration setup}). It is important to measure the scan-rate in a range of diode currents where the intensity response is linear and where the HFS-spectrum is actually visible (see next section). To get a solid calibration, at the very least 3 etalon peaks are necessary. These two factors have to be taken into consideration when choosing the measurement range.\\ 
 
 Figure \ref{fig:bendincurve} shows a bend in the diode current. Such areas need to be avoided when taking measurements, as they would lead to non-equidistant peaks in the etalon spectrum and unnecessarily complicate data analysis.
 \begin{figure}
@@ -31,14 +31,14 @@ The etalon is removed for this measurement and the exact same current modulation
 \caption[Etalon peaks]{Results of the etalon calibration measurements. The rightmost peak is actually the same as the one on the left of it, as the saw-tooth reaches its peak between the two.}
 \label{fig:etalon_fit}
 \end{figure}
-In figure \ref{fig:etalon_fit}, it has to be noted that the saw-tooth voltage reaches its maximum between the rightmost peak and the one on the left of it, meaning that these two actually belong to the same frequency. The rightmost peak is thus ignored for the calibration.\\
+In figure \ref{fig:etalon_fit}, it has to be noted that the saw-tooth voltage reaches its maximum between the rightmost peak and the one on the left of it, meaning that these two actually belong to the same frequency. The rightmost peak, which is half cut-off in figure \ref{fig:etalon_fit}, is thus ignored for the calibration.\\
 Gauss functions with a constant offset of the form
 \begin{equation}
-	g_i(t)=a_i*e^{-\frac{(t-t_{0,i})^2}{2*\sigma_i^2}}+c_i
+	g_i(t)=a_i\cdot e^{-\frac{(t-t_{0,i})^2}{2\cdot\sigma_i^2}}+c_i
 	\label{eq:gaussfit}
 \end{equation}
 and a linear offset function $l(t)=b*t+c$ were used. 
-The results for the peak positions $t_{0,i}$ can be seen in figure \ref{fig:ethalon_linearfit}. As the linear fit shows, these peaks are equidistant as expected with the time distance between peaks being $b=\unit{(0.379\pm0.003)}{ms}$. The nominal distance between two peaks is $\Delta_{FSR}=\unit{(9924\pm30)}{MHz}$. With these two values, the scan rate $r$ of the laser can be calculated as
+The results for the peak positions $t_{0,i}$ can be seen in figure \ref{fig:ethalon_linearfit}. As the linear fit shows, these peaks are equidistant as expected with the time distance between peaks being $b=\unit{(0.379\pm0.003)}{ms}$. The nominal distance between two peaks is $\Delta_{FSR}=\unit{(9924\pm30)}{MHz}$ \cite{anleitung}. With these two values, the scan rate $r$ of the laser can be calculated as
 \begin{equation}
 	r=\unit{(26.17\pm 0.22)}{\frac{GHz}{ms}}
 \end{equation}
@@ -56,7 +56,7 @@ Gauss functions like those in equation \ref{eq:gaussfit} were used for the indiv
 \begin{equation}
 I_{4-6}(t)=g_4(t)+g_5(t)+g_6(t)+b\cdot t+c
 \end{equation}
-Table \ref{tb:HFSresults} lists the result of the fits as well as the frequency distances $\nu_{i}$ of the i-th peak to the first peak, which was arbitrarily chosen as a point of comparison. The differences between the peaks were compared to those expected (see fig. \ref{fig:hfslevels}) and the transitions were attributed accordingly. The uncertainties of the peak center times stem from the fits.\\
+Table \ref{tb:HFSresults} lists the result of the fits as well as the frequency distances $\nu_{i}$ of the i-th peak to the first peak, which was arbitrarily chosen as a point of comparison. The differences between the peaks were compared to the expected ones (see fig. \ref{fig:hfslevels}) and the transitions were attributed accordingly. The uncertainties of the peak center times stem from the fits.\\
 
 \begin{figure}[htb]
 	\centering
@@ -76,7 +76,7 @@ The other two calculable hyperfine constants are
 	A_{^2S_{\nicefrac{1}{2}}}(^{87}Rb)&=h\cdot\frac{\nu_8-\nu_2}{F+1}=\unit{(14.61\pm0.13)}{\micro\electronvolt}\\
 	A_{^2S_{\nicefrac{1}{2}}}(^{85}Rb)&=h\cdot\frac{\nu_{5/6}-\nu_{3/4}}{F+1}=\unit{(4.50\pm0.08)}{\micro\electronvolt}
 \end{align}
-which both place their respective literature values $A_{^2S_{\nicefrac{1}{2}}}(^{87}Rb)=\unit{14.13}{\micro\electronvolt}$ and $A_{^2S_{\nicefrac{1}{2}}}(^{85}Rb)=\unit{4.185}{\micro\electronvolt}$ outside of their $3\sigma$ intervals. While the distance between the first and eigth peak of the spectrum is within $1\sigma$ of the expected value, the spectrum in between seems to be somewhat distorted. As we can also not separate the third and forth as well as the fifth and sixth peak, which are both more than 5 times further apart than the largest statistical error that was calculated, one has to assume that either the statistical errors are vastly underestimated or that there is a systematic error that is unaccounted for. Such a systematic error could be a not completely linear current modulation or the effect of the etalon not being placed perfectly perpendicular to the beam.
+which both place their respective literature values $A_{^2S_{\nicefrac{1}{2}}}(^{87}Rb)=\unit{14.13}{\micro\electronvolt}$ and $A_{^2S_{\nicefrac{1}{2}}}(^{85}Rb)=\unit{4.185}{\micro\electronvolt}$ outside of their $3\sigma$ intervals. While the distance between the first and eigth peak of the spectrum is within $1\sigma$ of the expected value, the spectrum in between seems to be somewhat distorted. As the third and forth as well as the fifth and sixth peak could not be resolved, which are both more than 5 times further apart than the largest statistical error that was calculated, one has to assume that either the statistical errors are vastly underestimated or that there is a systematic error that is unaccounted for. Such a systematic error could be a not completely linear diode current modulation or the effect of the etalon not being placed perfectly perpendicular to the beam.
 
 \begin{table}\centering
 	\begin{tabular}{@{}llllllll@{}}

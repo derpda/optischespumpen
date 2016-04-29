@@ -1,7 +1,7 @@
 \section{Physical principles}
 \subsection{Hyperfine structure and Zeeman splitting}
 This section is based on the detailed elaborations in \cite{staatsex}.\\
-The fine structure levels of the atomic spectrum, which splits the basic levels into sub-levels due to spin-orbit interaction, can be shown to be split into even finer levels, whose energetic distances are roughly three orders of magnitude smaller than those of the fine structure. This is called the 'hyperfine structure' and is mainly caused by the interaction of the nuclear magnetic dipole and quadrupole moment and the magnetic field of the shell electrons. Its structure for the two Rubidium isotopes that are used in this experiment can be seen in figure \ref{fig:hyperfinestructure}.\\
+The fine structure levels of the atomic spectrum, which splits the basic levels into sub-levels due to spin-orbit interaction, can be shown to be split into even finer levels, whose energetic distances are roughly three orders of magnitude smaller than those of the fine structure. This is called the \emph{hyperfine structure} and is mainly caused by the interaction of the nuclear magnetic dipole and quadrupole moments and the magnetic field of the shell electrons. Its structure for the two Rubidium isotopes that are used in this experiment can be seen in figure \ref{fig:hyperfinestructure}.\\
 
 As the nucleus is charged and, expressed as the nuclear spin $\vec{I}$, has angular momentum, it also has a magnetic moment, which is $\vec{\mu}_I=\frac{g_I\mu_K}{\hbar}\vec{I}$, where $g_I$ is the g-factor of the nucleus and $\mu_K$ is the nuclear magneton. 
 
@@ -40,7 +40,7 @@ This structure for the rubidium isotopes used in this experiment can be seen in 
 \label{fig:hfslevels}
 \end{figure}
 
-These hyperfine levels can in turn be split into $2(F+1)$ sub-levels in the presence of an external magnetic field. The according quantum number is $-F\le m_F\le F$. As long as the magnetic field is weaker than the spin-orbit coupling or, in other terms, $g_J\mu_BB_0\ll A$, this is called the Zeeman effect. The effect for larger fields, where the spin-orbit coupling is disrupted, is called Paschen-Back effect.\\
+These hyperfine levels can in turn be split into $2(F+1)$ sub-levels in the presence of an external magnetic field. The according quantum number is $m_F$ with $-F\le m_F\le F$. As long as the magnetic field is weaker than the spin-orbit coupling, or, in other terms, $g_J\mu_BB_0\ll A$, the effect is called the Zeeman effect. For larger fields, where the spin-orbit coupling is disrupted, it is called Paschen-Back effect.\\
 For the Zeeman effect, the energy difference of the levels is
 \begin{equation}
 \Delta E_{Zeeman}=\frac{g_J}{2(I+\frac{1}{2})}\mu_BB_0
@@ -59,17 +59,17 @@ The selection rules for transitions
 \end{aligned}
 \end{equation}
 
-allow for a convenient way to change that. If only $\sigma^+$-polarized light is used, only transitions with $\Delta m_F=+1$ are caused. Since the following decay is random within the bounds of the transition rules, the laser will pump all electrons into the $^2S_{1/2}$ state with $m_F=+2$, $F=2$ for $^{87}Rb$ and $m_F=+3$, $F=3$ for $^{85}Rb$. Figure \ref{fig:zeemanpumping} illustrates this for two exemplary transitions.\\
-Mathematically, this process can be described as 
+allow for a convenient way to change that. If only $\sigma^+$-polarized light is used, only transitions with $\Delta m_F=+1$ are caused. Since the subsequent decay is random within the bounds of the transition rules, the laser will,in this case, pump all electrons into the $^2S_{1/2}$ state with $m_F=+2$, $F=2$ for $^{87}Rb$ and $m_F=+3$, $F=3$ for $^{85}Rb$. Figure \ref{fig:zeemanpumping} illustrates this for two exemplary transitions.\\
+Mathematically, the time evolution of this process can be described as 
 \begin{equation}
 \left(\frac{dn}{dt}\right)_P=\frac{N-n}{T_P}
 \label{eq:pumpingtime}
 \end{equation}
-where $n$ is difference of the levels in the two-level system, $N$ the overall number of atoms in the system and $T_P$ the characteristic pumping time of the system.
+where $n$ is the population difference of the levels in the two-level system, $N$ the overall number of atoms in the system and $T_P$ the characteristic pumping time of the system.
 \begin{figure}[h]
 \centering
 \includegraphics[width=1.0\linewidth]{graphics/zeemanpumping}
-\caption[Optical pumping]{Optical pumping for $^{87}Rb$. The $\sigma^+$ polarized light can only cause transitions with $\Delta m_F=+1$, thus achieving the desired pumping effect.}
+\caption[Optical pumping schematic]{Optical pumping for $^{87}Rb$. The $\sigma^+$ polarized light can only cause transitions with $\Delta m_F=+1$, thus achieving the desired pumping effect. \cite{anleitung}}
 \label{fig:zeemanpumping}
 \end{figure}
 \subsection{Relaxation processes}
@@ -77,7 +77,7 @@ The desired pumping effect is counteracted mainly by three relaxation effects:
 \paragraph{Diffusion to the wall:}
 Upon hitting the glass containment, the rubidium atoms may lose their polarization. This process is inhibited by a buffer gas, which limits the mean free path of the atoms.
 \paragraph{Collisions with the buffer gas:}
-The rubidium atoms may use their polarization due to collisions with the buffer gas. The cross section of this event depend highly on what kind of gas is used. Best results are achieved with noble gases - in the case of this experiment, krypton was used.
+The rubidium atoms may lose their polarization due to collisions with the buffer gas. The cross section of this event depend highly on what kind of gas is used. Best results are achieved with noble gases - in the case of this experiment, krypton was used.
 \paragraph{Spin exchange}
 When rubidium atoms collide, they may interchange their spins. While the overall polarization is preserved, the decoupling of nuclear and electron spins lead to a faster relaxation time. Much more detailed elaborations can be found in \cite{happer}.\\
 
